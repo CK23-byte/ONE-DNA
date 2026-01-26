@@ -19,12 +19,30 @@
                 <span class="logo-text">ONE-DNA™</span>
             </div>
             <ul class="nav-links">
-                <li><a href="#producten">Producten</a></li>
-                <li><a href="#duurzaamheid">Duurzaamheid</a></li>
-                <li><a href="#changemakers">Changemakers</a></li>
-                <li><a href="#over-ons">Over Ons</a></li>
-                <li><a href="#contact" class="btn btn-primary">Contact</a></li>
+                <li><a href="#producten" data-i18n="nav_products">Producten</a></li>
+                <li><a href="#duurzaamheid" data-i18n="nav_sustainability">Duurzaamheid</a></li>
+                <li><a href="#changemakers" data-i18n="nav_changemakers">Changemakers</a></li>
+                <li><a href="#over-ons" data-i18n="nav_about">Over Ons</a></li>
+                <li><a href="#contact" class="btn btn-primary" data-i18n="nav_contact">Contact</a></li>
             </ul>
+            <div class="lang-dropdown">
+                <button class="lang-toggle" onclick="toggleLangDropdown()">
+                    <span id="currentLang">NL</span>
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor">
+                        <path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="2" fill="none"/>
+                    </svg>
+                </button>
+                <div class="lang-menu">
+                    <button onclick="changeLanguage('nl')">Nederlands</button>
+                    <button onclick="changeLanguage('en')">English</button>
+                    <button onclick="changeLanguage('de')">Deutsch</button>
+                    <button onclick="changeLanguage('sv')">Svenska</button>
+                    <button onclick="changeLanguage('no')">Norsk</button>
+                    <button onclick="changeLanguage('es')">Español</button>
+                    <button onclick="changeLanguage('it')">Italiano</button>
+                    <button onclick="changeLanguage('pt')">Português</button>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -32,14 +50,14 @@
     <section class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1>Kunstgras met <span class="highlight">één DNA</span></h1>
-                <p class="hero-subtitle">
+                <h1 data-i18n="hero_title">Kunstgras met <span class="highlight">één DNA</span></h1>
+                <p class="hero-subtitle" data-i18n="hero_subtitle">
                     Het eerste mono-materiaal kunstgras dat 100% recyclebaar is.
                     Ontworpen voor de toekomst, gebouwd voor vandaag.
                 </p>
                 <div class="hero-cta">
-                    <a href="#producten" class="btn btn-primary btn-lg">Ontdek Producten</a>
-                    <a href="#duurzaamheid" class="btn btn-secondary btn-lg">Meer Over Duurzaamheid</a>
+                    <a href="#producten" class="btn btn-primary btn-lg" data-i18n="hero_cta_products">Ontdek Producten</a>
+                    <a href="#duurzaamheid" class="btn btn-secondary btn-lg" data-i18n="hero_cta_sustainability">Meer Over Duurzaamheid</a>
                 </div>
             </div>
         </div>
@@ -51,18 +69,18 @@
             <div class="usp-grid">
                 <div class="usp-card">
                     <div class="usp-icon">♻️</div>
-                    <h3>100% Recyclebaar</h3>
-                    <p>Volledig gemaakt van één materiaal (PE) voor hoogwaardige recycling.</p>
+                    <h3 data-i18n="usp_recyclable_title">100% Recyclebaar</h3>
+                    <p data-i18n="usp_recyclable_desc">Volledig gemaakt van één materiaal (PE) voor hoogwaardige recycling.</p>
                 </div>
                 <div class="usp-card">
                     <div class="usp-icon">🌱</div>
-                    <h3>Lagere CO2-uitstoot</h3>
-                    <p>Significant minder energieverbruik en emissies dan conventioneel kunstgras.</p>
+                    <h3 data-i18n="usp_co2_title">Lagere CO2-uitstoot</h3>
+                    <p data-i18n="usp_co2_desc">Significant minder energieverbruik en emissies dan conventioneel kunstgras.</p>
                 </div>
                 <div class="usp-card">
                     <div class="usp-icon">🏆</div>
-                    <h3>Gecertificeerde Kwaliteit</h3>
-                    <p>Professionele kwaliteit voor sport, recreatie en landschap.</p>
+                    <h3 data-i18n="usp_quality_title">Gecertificeerde Kwaliteit</h3>
+                    <p data-i18n="usp_quality_desc">Professionele kwaliteit voor sport, recreatie en landschap.</p>
                 </div>
             </div>
         </div>
@@ -71,29 +89,29 @@
     <!-- Products Section -->
     <section id="producten" class="products">
         <div class="container">
-            <h2 class="section-title">Onze Productlijnen</h2>
-            <p class="section-subtitle">Voor elke toepassing de juiste oplossing</p>
+            <h2 class="section-title" data-i18n="products_title">Onze Productlijnen</h2>
+            <p class="section-subtitle" data-i18n="products_subtitle">Voor elke toepassing de juiste oplossing</p>
 
             <div class="products-grid">
                 <div class="product-card">
                     <h3>ONE-DNA™ Play</h3>
-                    <p>Recreatieve speeloppervlakken voor scholen, speeltuinen en parken.</p>
+                    <p data-i18n="product_play_desc">Recreatieve speeloppervlakken voor scholen, speeltuinen en parken.</p>
                 </div>
                 <div class="product-card">
                     <h3>ONE-DNA™ Multisport</h3>
-                    <p>Hoogwaardige sportvelden voor voetbal, hockey en andere sporten.</p>
+                    <p data-i18n="product_multisport_desc">Hoogwaardige sportvelden voor voetbal, hockey en andere sporten.</p>
                 </div>
                 <div class="product-card">
                     <h3>ONE-DNA™ Event & Indoor</h3>
-                    <p>Flexibele oplossingen voor evenementen en binnenruimtes.</p>
+                    <p data-i18n="product_event_desc">Flexibele oplossingen voor evenementen en binnenruimtes.</p>
                 </div>
                 <div class="product-card">
                     <h3>ONE-DNA™ Landscaping</h3>
-                    <p>Esthetische oplossingen voor tuinen en landschapsprojecten.</p>
+                    <p data-i18n="product_landscaping_desc">Esthetische oplossingen voor tuinen en landschapsprojecten.</p>
                 </div>
                 <div class="product-card">
                     <h3>ONE-DNA™ Padel</h3>
-                    <p>Gespecialiseerde ondergrond voor padelbanen.</p>
+                    <p data-i18n="product_padel_desc">Gespecialiseerde ondergrond voor padelbanen.</p>
                 </div>
             </div>
         </div>
@@ -102,27 +120,27 @@
     <!-- Sustainability Section -->
     <section id="duurzaamheid" class="sustainability">
         <div class="container">
-            <h2 class="section-title">Duurzaamheid in ons DNA</h2>
-            <p class="section-subtitle">ONE-DNA™ draagt bij aan de UN Sustainable Development Goals</p>
+            <h2 class="section-title" data-i18n="sustainability_title">Duurzaamheid in ons DNA</h2>
+            <p class="section-subtitle" data-i18n="sustainability_subtitle">ONE-DNA™ draagt bij aan de UN Sustainable Development Goals</p>
 
             <div class="sustainability-grid">
                 <div class="sdg-card">
-                    <h3>Circulariteit</h3>
-                    <p>Volledige recycleerbaarheid zonder kwaliteitsverlies. Geen downcycling, geen verbranding.</p>
+                    <h3 data-i18n="sdg_circularity_title">Circulariteit</h3>
+                    <p data-i18n="sdg_circularity_desc">Volledige recycleerbaarheid zonder kwaliteitsverlies. Geen downcycling, geen verbranding.</p>
                 </div>
                 <div class="sdg-card">
-                    <h3>Resource Efficiency</h3>
-                    <p>Minimale grondstofwinning door hergebruik van materialen in de kringloop.</p>
+                    <h3 data-i18n="sdg_resource_title">Resource Efficiency</h3>
+                    <p data-i18n="sdg_resource_desc">Minimale grondstofwinning door hergebruik van materialen in de kringloop.</p>
                 </div>
                 <div class="sdg-card">
-                    <h3>Emissie Reductie</h3>
-                    <p>Lagere CO2-voetafdruk door efficiënte productie en recycling.</p>
+                    <h3 data-i18n="sdg_emission_title">Emissie Reductie</h3>
+                    <p data-i18n="sdg_emission_desc">Lagere CO2-voetafdruk door efficiënte productie en recycling.</p>
                 </div>
             </div>
 
             <div class="takeback">
-                <h3>Take-Back Programma</h3>
-                <p>Wij nemen uw oude ONE-DNA™ installatie terug voor recycling. Zo sluiten we de cirkel volledig.</p>
+                <h3 data-i18n="takeback_title">Take-Back Programma</h3>
+                <p data-i18n="takeback_desc">Wij nemen uw oude ONE-DNA™ installatie terug voor recycling. Zo sluiten we de cirkel volledig.</p>
             </div>
         </div>
     </section>
@@ -130,8 +148,8 @@
     <!-- Changemakers Section -->
     <section id="changemakers" class="changemakers">
         <div class="container">
-            <h2 class="section-title">Onze Changemakers</h2>
-            <p class="section-subtitle">
+            <h2 class="section-title" data-i18n="changemakers_title">Onze Changemakers</h2>
+            <p class="section-subtitle" data-i18n="changemakers_subtitle">
                 Bedrijven die de urgentie van verandering begrijpen, de koers bepalen en concrete stappen zetten
                 om de kunstgrasmarkt een duurzamere richting te geven.
             </p>
@@ -139,60 +157,60 @@
             <div class="changemakers-stats">
                 <div class="stat-card">
                     <span class="stat-number">49</span>
-                    <span class="stat-label">Changemakers</span>
+                    <span class="stat-label" data-i18n="stat_changemakers">Changemakers</span>
                 </div>
                 <div class="stat-card">
                     <span class="stat-number">47</span>
-                    <span class="stat-label">Inleverpunten</span>
+                    <span class="stat-label" data-i18n="stat_collection">Inleverpunten</span>
                 </div>
                 <div class="stat-card">
                     <span class="stat-number">43</span>
-                    <span class="stat-label">Verkooppunten</span>
+                    <span class="stat-label" data-i18n="stat_sales">Verkooppunten</span>
                 </div>
                 <div class="stat-card">
                     <span class="stat-number">25</span>
-                    <span class="stat-label">Servicepunten</span>
+                    <span class="stat-label" data-i18n="stat_service">Servicepunten</span>
                 </div>
             </div>
 
             <div class="changemakers-grid">
                 <div class="changemaker-card">
                     <h3>The Grass Company</h3>
-                    <span class="changemaker-country">België</span>
+                    <span class="changemaker-country" data-i18n="country_belgium">België</span>
                 </div>
                 <div class="changemaker-card">
                     <h3>LazyLawn®</h3>
-                    <span class="changemaker-country">Verenigd Koninkrijk</span>
+                    <span class="changemaker-country" data-i18n="country_uk">Verenigd Koninkrijk</span>
                 </div>
                 <div class="changemaker-card">
                     <h3>Intercésped</h3>
-                    <span class="changemaker-country">Spanje</span>
+                    <span class="changemaker-country" data-i18n="country_spain">Spanje</span>
                 </div>
                 <div class="changemaker-card">
                     <h3>RasenQueen®</h3>
-                    <span class="changemaker-country">Duitsland</span>
+                    <span class="changemaker-country" data-i18n="country_germany">Duitsland</span>
                 </div>
                 <div class="changemaker-card">
                     <h3>Nordic Surface</h3>
-                    <span class="changemaker-country">Zweden</span>
+                    <span class="changemaker-country" data-i18n="country_sweden">Zweden</span>
                 </div>
                 <div class="changemaker-card">
                     <h3>Lappset Group</h3>
-                    <span class="changemaker-country">Finland</span>
+                    <span class="changemaker-country" data-i18n="country_finland">Finland</span>
                 </div>
                 <div class="changemaker-card">
                     <h3>Vario Fields</h3>
-                    <span class="changemaker-country">Nederland</span>
+                    <span class="changemaker-country" data-i18n="country_netherlands">Nederland</span>
                 </div>
                 <div class="changemaker-card">
                     <h3>Ecovia Turf</h3>
-                    <span class="changemaker-country">Australië</span>
+                    <span class="changemaker-country" data-i18n="country_australia">Australië</span>
                 </div>
             </div>
 
             <div class="changemakers-cta">
-                <p>Word ook een Changemaker en draag bij aan een duurzamere toekomst.</p>
-                <a href="https://one-dna.com/changemakers" target="_blank" rel="noopener" class="btn btn-primary">Bekijk alle Changemakers</a>
+                <p data-i18n="changemakers_cta">Word ook een Changemaker en draag bij aan een duurzamere toekomst.</p>
+                <a href="https://one-dna.com/changemakers" target="_blank" rel="noopener" class="btn btn-primary" data-i18n="changemakers_btn">Bekijk alle Changemakers</a>
             </div>
         </div>
     </section>
@@ -200,13 +218,13 @@
     <!-- About Section -->
     <section id="over-ons" class="about">
         <div class="container">
-            <h2 class="section-title">Over ONE-DNA™</h2>
+            <h2 class="section-title" data-i18n="about_title">Over ONE-DNA™</h2>
             <div class="about-content">
-                <p>
+                <p data-i18n="about_p1">
                     ONE-DNA™ is ontwikkeld door <strong>LimeGreen®</strong>, pionier in duurzaam kunstgras.
                     Onze missie is om de kunstgras-industrie te transformeren naar een volledig circulaire economie.
                 </p>
-                <p>
+                <p data-i18n="about_p2">
                     Door kunstgras te maken van één enkel materiaal - polyethyleen (PE) - maken we
                     hoogwaardige recycling mogelijk. Geen gemengde materialen, geen compromissen.
                 </p>
@@ -217,11 +235,11 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title">Contact</h2>
-            <p class="section-subtitle">Neem contact met ons op voor meer informatie</p>
+            <h2 class="section-title" data-i18n="contact_title">Contact</h2>
+            <p class="section-subtitle" data-i18n="contact_subtitle">Neem contact met ons op voor meer informatie</p>
 
             <div class="contact-info">
-                <p>Bezoek <a href="https://one-dna.com" target="_blank" rel="noopener">one-dna.com</a> voor meer informatie.</p>
+                <p data-i18n="contact_info">Bezoek <a href="https://one-dna.com" target="_blank" rel="noopener">one-dna.com</a> voor meer informatie.</p>
             </div>
         </div>
     </section>
@@ -232,16 +250,18 @@
             <div class="footer-content">
                 <div class="footer-brand">
                     <span class="logo-text">ONE-DNA™</span>
-                    <p>Ontwikkeld door LimeGreen®</p>
+                    <p data-i18n="footer_developed">Ontwikkeld door LimeGreen®</p>
                 </div>
                 <div class="footer-links">
                     <a href="https://one-dna.com" target="_blank" rel="noopener">one-dna.com</a>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 LimeGreen® - Alle rechten voorbehouden</p>
+                <p data-i18n="footer_rights">&copy; 2024 LimeGreen® - Alle rechten voorbehouden</p>
             </div>
         </div>
     </footer>
+
+    <script src="js/translations.js"></script>
 </body>
 </html>
