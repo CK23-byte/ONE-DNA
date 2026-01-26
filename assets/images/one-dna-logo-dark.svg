@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 50">
+  <defs>
+    <style>
+      .logo-text { font-family: 'Montserrat', Arial, sans-serif; font-weight: 800; fill: #2f3f45; }
+      .tm { font-family: 'Montserrat', Arial, sans-serif; font-weight: 600; fill: #2f3f45; }
+    </style>
+  </defs>
+  <text x="0" y="40" class="logo-text" font-size="48" letter-spacing="-2">ONE-DNA</text>
+  <text x="232" y="18" class="tm" font-size="14">™</text>
+</svg>

@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Inzichten over duurzaam kunstgras, EU-regelgeving, CMP en de circulaire economie. Blijf op de hoogte van de laatste ontwikkelingen.">
+    <meta name="keywords" content="ONE-DNA, kunstgras blog, CMP, circulair materialen plan, EU regelgeving, duurzaamheid, EPD, CSRD">
+    <meta name="author" content="LimeGreen®">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://one-dna.cloud/blog.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://one-dna.cloud/blog.html">
+    <meta property="og:title" content="Inzichten | ONE-DNA™ Kenniscentrum">
+    <meta property="og:description" content="Artikelen en analyses over duurzaam kunstgras, EU-regelgeving en circulaire economie.">
+
+    <!-- Language Alternates -->
+    <link rel="alternate" hreflang="nl" href="https://one-dna.cloud/blog.html?lang=nl">
+    <link rel="alternate" hreflang="en" href="https://one-dna.cloud/blog.html?lang=en">
+    <link rel="alternate" hreflang="de" href="https://one-dna.cloud/blog.html?lang=de">
+    <link rel="alternate" hreflang="sv" href="https://one-dna.cloud/blog.html?lang=sv">
+    <link rel="alternate" hreflang="no" href="https://one-dna.cloud/blog.html?lang=no">
+    <link rel="alternate" hreflang="es" href="https://one-dna.cloud/blog.html?lang=es">
+    <link rel="alternate" hreflang="it" href="https://one-dna.cloud/blog.html?lang=it">
+    <link rel="alternate" hreflang="pt" href="https://one-dna.cloud/blog.html?lang=pt">
+
+    <title>Inzichten | ONE-DNA™ Kenniscentrum</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Schema.org for Blog -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "ONE-DNA™ Inzichten",
+        "url": "https://one-dna.cloud/blog.html",
+        "description": "Artikelen over duurzaam kunstgras en EU-regelgeving",
+        "publisher": {
+            "@type": "Organization",
+            "name": "LimeGreen®",
+            "url": "https://www.one-dna.com"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo">
+                <a href="index.html" class="logo-link" title="ONE-DNA™ Home">
+                    <img src="assets/images/one-dna-logo-dark.svg" alt="ONE-DNA™ Logo" class="logo-img">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+                <li><a href="blog.html" class="active" data-i18n="nav_insights">Inzichten</a></li>
+                <li><a href="https://www.one-dna.com/products" target="_blank" rel="noopener" data-i18n="nav_products">Producten</a></li>
+                <li><a href="https://www.one-dna.com/changemakers" target="_blank" rel="noopener" data-i18n="nav_changemakers">Changemakers</a></li>
+                <li><a href="https://www.one-dna.com/contact" target="_blank" rel="noopener" class="btn btn-primary" data-i18n="nav_contact">Contact</a></li>
+            </ul>
+            <div class="lang-dropdown">
+                <button class="lang-toggle" onclick="toggleLangDropdown()" aria-label="Kies taal">
+                    <span id="currentLang">NL</span>
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor" aria-hidden="true">
+                        <path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="2" fill="none"/>
+                    </svg>
+                </button>
+                <div class="lang-menu" role="menu">
+                    <button onclick="changeLanguage('nl')" role="menuitem">Nederlands</button>
+                    <button onclick="changeLanguage('en')" role="menuitem">English</button>
+                    <button onclick="changeLanguage('de')" role="menuitem">Deutsch</button>
+                    <button onclick="changeLanguage('sv')" role="menuitem">Svenska</button>
+                    <button onclick="changeLanguage('no')" role="menuitem">Norsk</button>
+                    <button onclick="changeLanguage('es')" role="menuitem">Español</button>
+                    <button onclick="changeLanguage('it')" role="menuitem">Italiano</button>
+                    <button onclick="changeLanguage('pt')" role="menuitem">Português</button>
+                </div>
+            </div>
+            <button class="mobile-menu-toggle" onclick="toggleMobileMenu()" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 data-i18n="blog_title">Inzichten</h1>
+            <p class="page-subtitle" data-i18n="blog_subtitle">Kennis en analyses over de toekomst van duurzaam kunstgras</p>
+        </div>
+    </section>
+
+    <!-- Article List -->
+    <section class="blog-list">
+        <div class="container">
+            <!-- Article Filter/Categories (for future expansion) -->
+            <div class="blog-filters">
+                <button class="filter-btn active" data-filter="all" data-i18n="filter_all">Alles</button>
+                <button class="filter-btn" data-filter="regulation" data-i18n="filter_regulation">Regelgeving</button>
+                <button class="filter-btn" data-filter="sustainability" data-i18n="filter_sustainability">Duurzaamheid</button>
+                <button class="filter-btn" data-filter="innovation" data-i18n="filter_innovation">Innovatie</button>
+            </div>
+
+            <!-- Articles Grid -->
+            <div class="articles-grid">
+
+                <!-- ARTICLE: CMP -->
+                <article class="article-card" data-category="regulation" id="cmp-card">
+                    <div class="article-meta">
+                        <span class="article-category" data-i18n="cat_regulation">Regelgeving</span>
+                        <time datetime="2025-12-01" data-i18n="article_date_cmp">December 2025</time>
+                    </div>
+                    <h2 class="article-title">
+                        <a href="#cmp" onclick="openArticle('cmp')" data-i18n="article_cmp_title">Het Circulair Materialen Plan: Wat betekent dit voor kunstgras?</a>
+                    </h2>
+                    <p class="article-excerpt" data-i18n="article_cmp_excerpt">
+                        De kunstgras-industrie staat voor een fundamentele verandering. Het Nederlandse CMP en nieuwe EU-regelgeving bepalen de koers. Ontdek wat dit betekent voor uw projecten.
+                    </p>
+                    <a href="#cmp" onclick="openArticle('cmp')" class="article-link" data-i18n="read_more">Lees verder →</a>
+                </article>
+
+                <!--
+                =====================================================
+                TEMPLATE VOOR NIEUWE ARTIKELEN
+                Kopieer dit blok en vul de data-i18n keys in
+                =====================================================
+
+                <article class="article-card" data-category="[regulation|sustainability|innovation]" id="[article-id]-card">
+                    <div class="article-meta">
+                        <span class="article-category" data-i18n="cat_[category]">[Categorie]</span>
+                        <time datetime="YYYY-MM-DD" data-i18n="article_date_[id]">[Datum]</time>
+                    </div>
+                    <h2 class="article-title">
+                        <a href="#[article-id]" onclick="openArticle('[article-id]')" data-i18n="article_[id]_title">[Titel]</a>
+                    </h2>
+                    <p class="article-excerpt" data-i18n="article_[id]_excerpt">
+                        [Korte beschrijving]
+                    </p>
+                    <a href="#[article-id]" onclick="openArticle('[article-id]')" class="article-link" data-i18n="read_more">Lees verder →</a>
+                </article>
+                -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Full Article View (Initially Hidden) -->
+    <section class="article-full" id="article-view" style="display: none;">
+        <div class="container">
+            <button class="back-to-list" onclick="closeArticle()" data-i18n="back_to_list">← Terug naar overzicht</button>
+
+            <!-- CMP ARTICLE CONTENT -->
+            <article class="article-content" id="article-cmp">
+                <header class="article-header">
+                    <div class="article-meta">
+                        <span class="article-category" data-i18n="cat_regulation">Regelgeving</span>
+                        <time datetime="2025-12-01" data-i18n="cmp_update">Update December 2025</time>
+                    </div>
+                    <h1 data-i18n="cmp_title">Het Circulair Materialen Plan en de toekomst van kunstgras</h1>
+                    <p class="article-lead" data-i18n="cmp_subtitle">Hoe Europese regelgeving en het CMP de transitie naar duurzame oplossingen vormgeven</p>
+                </header>
+
+                <div class="article-body">
+                    <!-- Introduction -->
+                    <section class="content-section">
+                        <p class="intro-text" data-i18n="cmp_intro_text">De kunstgras-industrie bevindt zich in een transitiefase. De toenemende eisen aan transparantie, traceerbaarheid en circulariteit vragen om een heroverweging van ontwerp, materiaalkeuze en end-of-life verwerking. Het Nederlandse Circulair Materialen Plan (CMP) en opkomende Europese initiatieven bieden duidelijke richtlijnen voor deze transitie.</p>
+                    </section>
+
+                    <!-- What is CMP -->
+                    <section class="content-section">
+                        <h2 data-i18n="cmp_what_title">Wat is het Circulair Materialen Plan (CMP)?</h2>
+                        <p data-i18n="cmp_what_text">Het Nederlandse Ministerie van Infrastructuur en Waterstaat heeft het Circulair Materialen Plan (CMP) ontwikkeld als richtlijn voor de bouw- en infrasector. Het doel is helder: het verminderen van grondstoffenverbruik, het verhogen van gerecycled materiaalgebruik en het faciliteren van hoogwaardige recycling, waardoor circulariteit wordt gestimuleerd.</p>
+                        <p data-i18n="cmp_what_text2">Hoewel het CMP momenteel een vrijwillige aanpak is, wordt verwacht dat publieke aanbestedingen steeds vaker CMP-principes als selectiecriterium zullen hanteren. Het doel is een gelijk speelveld en transparantie te creëren, waardoor opdrachtgevers producten kunnen beoordelen op hun circulaire verdiensten.</p>
+                    </section>
+
+                    <!-- Core Elements -->
+                    <section class="content-section">
+                        <h2 data-i18n="cmp_elements_title">Kernelementen van het CMP</h2>
+                        <div class="info-cards">
+                            <div class="info-card">
+                                <div class="info-icon">🔄</div>
+                                <h3 data-i18n="cmp_element1_title">Minder verspilling, meer waarde</h3>
+                                <p data-i18n="cmp_element1_desc">Verminder virgin grondstoffen en geef de voorkeur aan hoogwaardig gerecycled materiaal</p>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-icon">♻️</div>
+                                <h3 data-i18n="cmp_element2_title">Circulariteit in de praktijk</h3>
+                                <p data-i18n="cmp_element2_desc">Denk aan de toekomst: producten moeten ontworpen zijn voor verwerkbaarheid en hoogwaardige recycling</p>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-icon">🎯</div>
+                                <h3 data-i18n="cmp_element3_title">Eenvoudige, traceerbare materialen</h3>
+                                <p data-i18n="cmp_element3_desc">Monomateriaal composities maken verwerking eenvoudiger dan complexe samengestelde systemen</p>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-icon">📊</div>
+                                <h3 data-i18n="cmp_element4_title">Transparantie centraal</h3>
+                                <p data-i18n="cmp_element4_desc">Het CMP benadrukt heldere, traceerbare materiaalstromen in lijn met circulaire principes</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- EU Timeline -->
+                    <section class="content-section">
+                        <h2 data-i18n="cmp_eu_title">Europese Regelgeving: Verwachte Ontwikkelingen 2026-2030</h2>
+                        <p data-i18n="cmp_eu_intro">Naast het CMP zijn er diverse Europese initiatieven in ontwikkeling die de kunstgrasmarkt zullen beïnvloeden. Hoewel niet alle details definitief zijn, schetsen deze ontwikkelingen een duidelijke richting naar meer transparantie, traceerbaarheid en verantwoord materiaalgebruik.</p>
+
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-year">2026</div>
+                                <div class="timeline-content">
+                                    <h3 data-i18n="timeline_2026_title">CSRD en EPD-toepassingen</h3>
+                                    <p data-i18n="timeline_2026_desc">De Corporate Sustainability Reporting Directive (CSRD) vereist dat grotere bedrijven transparant zijn over hun duurzaamheidsprestaties. Environmental Product Declarations (EPD's) worden steeds vaker gebruikt om deze transparantie te bieden. In Nederland wordt vanaf 1 januari 2026 het NOC*NSF duurzaamheidskeurmerk verplicht voor alle nieuwe kunstgrasvelden, waarbij EPD-gegevens onderdeel zijn van de beoordeling.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-year">2027-2030</div>
+                                <div class="timeline-content">
+                                    <h3 data-i18n="timeline_2027_title">Verwachte EU Blending Verplichting</h3>
+                                    <p data-i18n="timeline_2027_desc">De EU werkt aan regelgeving voor minimumpercentages gerecycled materiaal in plastic producten. Voor kunstgras is de precieze implementatie nog niet definitief, maar monomateriaal oplossingen hebben structureel betere voorwaarden voor integratie van gerecycled materiaal dan complexe meerlaagse systemen.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-year">2028</div>
+                                <div class="timeline-content">
+                                    <h3 data-i18n="timeline_2028_title">Digitaal Product Paspoort</h3>
+                                    <p data-i18n="timeline_2028_desc">De EU ontwikkelt het Digital Product Passport (DPP) als onderdeel van de bredere transitie naar volledige traceerbaarheid. Dit initiatief vereist duidelijke informatie over samenstelling, footprint en recyclebaarheid. Producten met gevalideerde data en certificeringen zijn beter voorbereid op deze ontwikkeling.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-year">2030</div>
+                                <div class="timeline-content">
+                                    <h3 data-i18n="timeline_2030_title">Uitgebreide Producentenverantwoordelijkheid (EPR)</h3>
+                                    <p data-i18n="timeline_2030_desc">Extended Producer Responsibility (EPR) zal waarschijnlijk ook gaan gelden voor kunstgras. Dit principe maakt producenten (mede)verantwoordelijk voor de end-of-life verwerking. Producten met heldere materiaalstromen en goede verwerkbaarheid hebben hierbij een voordeel.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="highlight-box">
+                            <p data-i18n="cmp_trend">De trend is duidelijk: transparantie, traceerbaarheid en circulariteit worden steeds belangrijker. Monomateriaal oplossingen passen structureel beter bij deze ontwikkelingen dan complexe meerlaagse systemen.</p>
+                        </div>
+                    </section>
+
+                    <!-- Why ONE-DNA fits -->
+                    <section class="content-section">
+                        <h2 data-i18n="cmp_why_title">Waarom ONE-DNA™ aansluit bij deze transitie</h2>
+                        <p data-i18n="cmp_why_intro">ONE-DNA™ is ontworpen met oog voor de transitie naar circulaire economie. Als een van de weinige monomateriaal kunstgrasoplossingen met EPD-certificering, sluiten wij aan bij de richting die het CMP en Europese initiatieven aangeven.</p>
+
+                        <div class="stats-highlight">
+                            <div class="stat-box">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label" data-i18n="cmp_stat1">Mono-materiaal PE</span>
+                            </div>
+                            <div class="stat-box">
+                                <span class="stat-number">-49%</span>
+                                <span class="stat-label" data-i18n="cmp_stat2">CO₂ lager*</span>
+                            </div>
+                            <div class="stat-box">
+                                <span class="stat-number">EPD</span>
+                                <span class="stat-label" data-i18n="cmp_stat3">Gecertificeerd</span>
+                            </div>
+                            <div class="stat-box">
+                                <span class="stat-number">PE</span>
+                                <span class="stat-label" data-i18n="cmp_stat4">Recyclebaar</span>
+                            </div>
+                        </div>
+                        <p class="footnote" data-i18n="cmp_footnote">*Ten opzichte van traditioneel kunstgras volgens LCA-gegevens</p>
+                    </section>
+
+                    <!-- Certifications -->
+                    <section class="content-section">
+                        <h2 data-i18n="cmp_certs_title">Certificeringen & Garanties</h2>
+                        <div class="cert-grid">
+                            <div class="cert-item">
+                                <h3 data-i18n="cmp_cert1_title">EPD Gecertificeerd</h3>
+                                <p data-i18n="cmp_cert1_desc">Onze LCA en EPD bieden transparante, gevalideerde gegevens over milieu-impact, zoals vereist door CSRD en NOC*NSF</p>
+                            </div>
+                            <div class="cert-item">
+                                <h3 data-i18n="cmp_cert2_title">Monomateriaal ontwerp</h3>
+                                <p data-i18n="cmp_cert2_desc">100 procent polyethyleen, zonder coatings of composieten. Ontworpen voor goede verwerkbaarheid in bestaande recyclingprocessen</p>
+                            </div>
+                            <div class="cert-item">
+                                <h3 data-i18n="cmp_cert3_title">Take-back programma</h3>
+                                <p data-i18n="cmp_cert3_desc">Aantoonbare en traceerbare keten voor end-of-life verwerking</p>
+                            </div>
+                            <div class="cert-item">
+                                <h3 data-i18n="cmp_cert4_title">Digital Product Passport ready</h3>
+                                <p data-i18n="cmp_cert4_desc">Volledige traceerbaarheid van materialen, samenstelling en impact, voorbereid op toekomstige DPP-eisen</p>
+                            </div>
+                            <div class="cert-item">
+                                <h3 data-i18n="cmp_cert5_title">REACH & EN 71-3 conform</h3>
+                                <p data-i18n="cmp_cert5_desc">Veilig voor kinderen en milieu, geen PFAS-risico</p>
+                            </div>
+                            <div class="cert-item">
+                                <h3 data-i18n="cmp_cert6_title">SGS Intron getest</h3>
+                                <p data-i18n="cmp_cert6_desc">Getest op goede verwerkbaarheid in bestaande recyclingprocessen, onafhankelijk geverifieerd</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Comparison Table -->
+                    <section class="content-section">
+                        <h2 data-i18n="cmp_comparison_title">Het verschil in de praktijk</h2>
+                        <div class="comparison-table-wrapper">
+                            <table class="comparison-table">
+                                <thead>
+                                    <tr>
+                                        <th data-i18n="cmp_table_aspect">Aspect</th>
+                                        <th data-i18n="cmp_table_multi">Meerlaags kunstgras</th>
+                                        <th class="highlight-col">ONE-DNA™</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td data-i18n="cmp_row1_aspect">CMP-aanpak (2025)</td>
+                                        <td data-i18n="cmp_row1_multi">Complexe composieten, meerdere materialen</td>
+                                        <td class="highlight-col" data-i18n="cmp_row1_onedna">✓ Monomateriaal, in lijn met CMP-principes</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-i18n="cmp_row2_aspect">EPD Certificering</td>
+                                        <td data-i18n="cmp_row2_multi">Vaak niet beschikbaar</td>
+                                        <td class="highlight-col" data-i18n="cmp_row2_onedna">✓ Gevalideerd en beschikbaar</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-i18n="cmp_row3_aspect">Verwerkbaarheid</td>
+                                        <td data-i18n="cmp_row3_multi">3-5 materialen, moeilijk te scheiden</td>
+                                        <td class="highlight-col" data-i18n="cmp_row3_onedna">✓ Ontworpen voor hoogwaardige recycling</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-i18n="cmp_row4_aspect">End-of-life perspectief</td>
+                                        <td data-i18n="cmp_row4_multi">Hogere verwerkingskosten verwacht</td>
+                                        <td class="highlight-col" data-i18n="cmp_row4_onedna">✓ Take-back programma beschikbaar</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-i18n="cmp_row5_aspect">Digitaal Product Paspoort</td>
+                                        <td data-i18n="cmp_row5_multi">Beperkte datatransparantie</td>
+                                        <td class="highlight-col" data-i18n="cmp_row5_onedna">✓ Volledig traceerbaar</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-i18n="cmp_row6_aspect">EU transitie perspectief</td>
+                                        <td data-i18n="cmp_row6_multi">Complexiteit met blending verplichting</td>
+                                        <td class="highlight-col" data-i18n="cmp_row6_onedna">✓ Monomateriaal sluit aan bij verwachte eisen</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                    <!-- Benefits -->
+                    <section class="content-section">
+                        <h2 data-i18n="cmp_benefits_title">Voordelen voor opdrachtgevers</h2>
+                        <div class="benefits-grid">
+                            <div class="benefit-item">
+                                <h3 data-i18n="cmp_benefit1_title">In lijn met CMP-principes</h3>
+                                <p data-i18n="cmp_benefit1_desc">ONE-DNA™ past binnen de richting die het CMP aangeeft: eenvoudige materiaalstromen en ontwerp voor verwerking.</p>
+                            </div>
+                            <div class="benefit-item">
+                                <h3 data-i18n="cmp_benefit2_title">Voorbereid op EU-ontwikkelingen</h3>
+                                <p data-i18n="cmp_benefit2_desc">Het monomateriaal ontwerp sluit aan bij verwachte EU-regelgeving rond gerecycled gehalte, traceerbaarheid en producentenverantwoordelijkheid.</p>
+                            </div>
+                            <div class="benefit-item">
+                                <h3 data-i18n="cmp_benefit3_title">Transparantie met EPD</h3>
+                                <p data-i18n="cmp_benefit3_desc">Gevalideerde milieugegevens via LCA en EPD ondersteunen onderbouwde communicatie naar stakeholders en aanbestedingen.</p>
+                            </div>
+                            <div class="benefit-item">
+                                <h3 data-i18n="cmp_benefit4_title">Circulair inkopen</h3>
+                                <p data-i18n="cmp_benefit4_desc">Steeds meer aanbestedingen vragen om bewijs van circulariteit en EPD-certificering. ONE-DNA™ levert deze documentatie.</p>
+                            </div>
+                            <div class="benefit-item">
+                                <h3 data-i18n="cmp_benefit5_title">Voorspelbaar end-of-life</h3>
+                                <p data-i18n="cmp_benefit5_desc">Door het ontwerp en take-back programma zijn verwerkingsmogelijkheden helder in kaart gebracht.</p>
+                            </div>
+                            <div class="benefit-item">
+                                <h3 data-i18n="cmp_benefit6_title">Eenvoudige materiaalstroom</h3>
+                                <p data-i18n="cmp_benefit6_desc">Monomateriaal betekent heldere verwerking zonder de complexiteit van materiaalscheiding.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Summary -->
+                    <section class="content-section">
+                        <div class="summary-box">
+                            <h2 data-i18n="cmp_summary_title">Conclusie</h2>
+                            <p data-i18n="cmp_summary">ONE-DNA™ biedt een oplossing die aansluit bij de richting van het CMP en verwachte EU-regelgeving, dankzij het monomateriaal ontwerp, EPD-certificering en een aantoonbare, traceerbare verwerkingsketen.</p>
+                        </div>
+                    </section>
+
+                    <!-- CTA -->
+                    <section class="article-cta">
+                        <h2 data-i18n="article_cta_title">Meer weten over ONE-DNA™?</h2>
+                        <p data-i18n="article_cta_desc">Ontdek hoe ONE-DNA™ past binnen uw projecten en duurzaamheidsdoelen.</p>
+                        <div class="cta-buttons">
+                            <a href="https://www.one-dna.com/products" target="_blank" rel="noopener" class="btn btn-primary" data-i18n="cta_products">Bekijk Producten</a>
+                            <a href="https://www.one-dna.com/contact" target="_blank" rel="noopener" class="btn btn-secondary" data-i18n="cta_contact">Neem Contact Op</a>
+                        </div>
+                    </section>
+                </div>
+            </article>
+
+            <!--
+            =====================================================
+            TEMPLATE VOOR NIEUWE ARTIKEL CONTENT
+            Kopieer dit blok voor een nieuw artikel
+            =====================================================
+
+            <article class="article-content" id="article-[id]" style="display: none;">
+                <header class="article-header">
+                    <div class="article-meta">
+                        <span class="article-category" data-i18n="cat_[category]">[Categorie]</span>
+                        <time datetime="YYYY-MM-DD" data-i18n="article_date_[id]">[Datum]</time>
+                    </div>
+                    <h1 data-i18n="article_[id]_full_title">[Volledige Titel]</h1>
+                    <p class="article-lead" data-i18n="article_[id]_lead">[Lead tekst]</p>
+                </header>
+
+                <div class="article-body">
+                    [Artikel content hier]
+                </div>
+            </article>
+            -->
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="assets/images/one-dna-logo-dark.svg" alt="ONE-DNA™" class="footer-logo">
+                    <p data-i18n="footer_tagline">Het kenniscentrum voor duurzaam kunstgras</p>
+                    <p class="footer-developed" data-i18n="footer_developed">Ontwikkeld door <a href="https://www.one-dna.com" target="_blank" rel="noopener">LimeGreen®</a></p>
+                </div>
+                <div class="footer-links-grid">
+                    <div class="footer-col">
+                        <h4 data-i18n="footer_explore">Ontdek</h4>
+                        <ul>
+                            <li><a href="blog.html" data-i18n="nav_insights">Inzichten</a></li>
+                            <li><a href="https://www.one-dna.com/products" target="_blank" rel="noopener" data-i18n="nav_products">Producten</a></li>
+                            <li><a href="https://www.one-dna.com/changemakers" target="_blank" rel="noopener" data-i18n="nav_changemakers">Changemakers</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4 data-i18n="footer_main_site">Hoofdsite</h4>
+                        <ul>
+                            <li><a href="https://www.one-dna.com" target="_blank" rel="noopener">one-dna.com</a></li>
+                            <li><a href="https://www.one-dna.com/contact" target="_blank" rel="noopener" data-i18n="nav_contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer_rights">© 2025 LimeGreen® - Alle rechten voorbehouden</p>
+                <p class="footer-seo" data-i18n="footer_seo">ONE-DNA™ is een geregistreerd handelsmerk van LimeGreen®</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
