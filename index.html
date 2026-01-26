@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Security Headers (also configure on server) -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://fonts.googleapis.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; frame-src https://www.youtube.com https://player.vimeo.com;">
+
     <!-- SEO Meta Tags -->
-    <meta name="description" content="ONE-DNA™ Kenniscentrum - Ontdek het laatste nieuws over duurzaam kunstgras, EU-regelgeving en circulaire economie. 100% recyclebaar mono-materiaal kunstgras.">
-    <meta name="keywords" content="ONE-DNA, kunstgras, recyclebaar, duurzaam, mono-materiaal, LimeGreen, CMP, circulair, EU regelgeving">
+    <meta name="description" content="ONE-DNA™ Global Knowledge Platform - Het mono-materiaal kunstgras systeem dat 100% recyclebaar is. Kenniscentrum voor beleid, specificaties en duurzame innovatie.">
+    <meta name="keywords" content="ONE-DNA, kunstgras, recyclebaar, mono-materiaal, circulair, LimeGreen, EPD, LCA, duurzaamheid, EU regelgeving, CMP">
     <meta name="author" content="LimeGreen®">
     <meta name="robots" content="index, follow">
 
@@ -17,14 +23,15 @@
     <!-- Open Graph / Social Media -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://one-dna.cloud/">
-    <meta property="og:title" content="ONE-DNA™ Kenniscentrum | Duurzaam Kunstgras Nieuws">
-    <meta property="og:description" content="Het laatste nieuws over duurzaam kunstgras, EU-regelgeving en de transitie naar circulaire economie.">
+    <meta property="og:title" content="ONE-DNA™ | Global Knowledge Platform">
+    <meta property="og:description" content="Het mono-materiaal kunstgras systeem ontworpen voor circulariteit. Kenniscentrum voor beleid, specificaties en duurzame innovatie.">
     <meta property="og:site_name" content="ONE-DNA™ by LimeGreen®">
+    <meta property="og:image" content="https://one-dna.cloud/assets/images/og-image.jpg">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="ONE-DNA™ Kenniscentrum | Duurzaam Kunstgras Nieuws">
-    <meta name="twitter:description" content="Het laatste nieuws over duurzaam kunstgras, EU-regelgeving en de transitie naar circulaire economie.">
+    <meta name="twitter:title" content="ONE-DNA™ | Global Knowledge Platform">
+    <meta name="twitter:description" content="Het mono-materiaal kunstgras systeem ontworpen voor circulariteit.">
 
     <!-- Language Alternates for SEO -->
     <link rel="alternate" hreflang="nl" href="https://one-dna.cloud/?lang=nl">
@@ -36,7 +43,7 @@
     <link rel="alternate" hreflang="it" href="https://one-dna.cloud/?lang=it">
     <link rel="alternate" hreflang="pt" href="https://one-dna.cloud/?lang=pt">
 
-    <title>ONE-DNA™ Kenniscentrum | Duurzaam Kunstgras Nieuws & Inzichten</title>
+    <title>ONE-DNA™ | Global Knowledge Platform - Duurzaam Kunstgras Systeem</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,50 +53,138 @@
     <!-- Styles -->
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- Schema.org Structured Data -->
+    <!-- Schema.org Structured Data - Organization -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "ONE-DNA™",
+        "alternateName": "ONE-DNA by LimeGreen",
+        "url": "https://www.one-dna.com",
+        "logo": "https://one-dna.cloud/assets/images/one-dna-logo-dark.svg",
+        "description": "ONE-DNA™ is het mono-materiaal kunstgras systeem ontworpen voor volledige recycleerbaarheid en circulariteit.",
+        "parentOrganization": {
+            "@type": "Organization",
+            "name": "LimeGreen®",
+            "url": "https://www.one-dna.com"
+        },
+        "sameAs": [
+            "https://www.instagram.com/onednaartificialgrass/",
+            "https://www.linkedin.com/company/onednaartificialgrass/",
+            "https://www.facebook.com/ONEDNA.artificialgrass"
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer service",
+            "url": "https://www.one-dna.com/contact"
+        }
+    }
+    </script>
+
+    <!-- Schema.org - WebSite -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "WebSite",
-        "name": "ONE-DNA™ Kenniscentrum",
+        "name": "ONE-DNA™ Knowledge Platform",
         "url": "https://one-dna.cloud",
-        "description": "Kenniscentrum voor duurzaam kunstgras nieuws en EU-regelgeving",
+        "description": "Kennisplatform voor beleid, specificaties en duurzame innovatie in kunstgras",
         "publisher": {
             "@type": "Organization",
-            "name": "LimeGreen®",
-            "url": "https://www.one-dna.com",
-            "logo": "https://one-dna.cloud/assets/images/one-dna-logo-dark.svg"
+            "name": "LimeGreen®"
         },
-        "sameAs": [
-            "https://www.one-dna.com"
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://one-dna.cloud/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+
+    <!-- Schema.org - FAQ for common questions -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Wat is ONE-DNA™?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "ONE-DNA™ is een mono-materiaal kunstgras systeem dat volledig bestaat uit polyethyleen (PE), ontworpen voor 100% recycleerbaarheid en circulariteit."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is ONE-DNA™ 100% recyclebaar?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "ONE-DNA™ is ontworpen voor recycleerbaarheid door het mono-materiaal (PE) ontwerp. De daadwerkelijke recycling is afhankelijk van beschikbare infrastructuur en correcte verwerking via het ONE-DNA™ take-back programma."
+                }
+            }
         ]
     }
     </script>
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <nav class="nav container">
+    <!-- Skip to main content - Accessibility -->
+    <a href="#main-content" class="skip-link">Ga naar hoofdinhoud</a>
+
+    <!-- Cookie Consent Banner (GDPR) -->
+    <div id="cookie-consent" class="cookie-banner" style="display: none;">
+        <div class="cookie-content">
+            <p data-i18n="cookie_message">Wij gebruiken cookies om uw ervaring te verbeteren. Door verder te gaan accepteert u ons cookiebeleid.</p>
+            <div class="cookie-actions">
+                <button onclick="acceptCookies()" class="btn btn-primary btn-sm" data-i18n="cookie_accept">Accepteren</button>
+                <a href="privacy.html" class="btn btn-text" data-i18n="cookie_more">Meer informatie</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Component -->
+    <header class="header" role="banner">
+        <nav class="nav container" role="navigation" aria-label="Hoofdnavigatie">
             <div class="logo">
                 <a href="index.html" class="logo-link" title="ONE-DNA™ Home">
-                    <img src="assets/images/one-dna-logo-dark.svg" alt="ONE-DNA™ Logo" class="logo-img">
+                    <img src="assets/images/one-dna-logo-dark.svg" alt="ONE-DNA™" class="logo-img" width="180" height="40">
                 </a>
             </div>
-            <ul class="nav-links">
-                <li><a href="index.html" data-i18n="nav_home">Home</a></li>
-                <li><a href="blog.html" data-i18n="nav_insights">Inzichten</a></li>
-                <li><a href="https://www.one-dna.com/products" target="_blank" rel="noopener" data-i18n="nav_products">Producten</a></li>
-                <li><a href="https://www.one-dna.com/changemakers" target="_blank" rel="noopener" data-i18n="nav_changemakers">Changemakers</a></li>
-                <li><a href="https://www.one-dna.com/contact" target="_blank" rel="noopener" class="btn btn-primary" data-i18n="nav_contact">Contact</a></li>
+
+            <!-- Main Navigation - 7 Core Sections -->
+            <ul class="nav-links" id="main-nav">
+                <li class="nav-item has-dropdown">
+                    <a href="what-is-one-dna.html" data-i18n="nav_what">Wat is ONE-DNA™</a>
+                </li>
+                <li class="nav-item has-dropdown">
+                    <a href="solutions.html" data-i18n="nav_solutions">Oplossingen</a>
+                </li>
+                <li class="nav-item">
+                    <a href="policy.html" data-i18n="nav_policy">Beleid & Inkoop</a>
+                </li>
+                <li class="nav-item">
+                    <a href="circularity.html" data-i18n="nav_circularity">Take-back & Circulariteit</a>
+                </li>
+                <li class="nav-item">
+                    <a href="specifications.html" data-i18n="nav_specifications">Specificaties</a>
+                </li>
+                <li class="nav-item">
+                    <a href="blog.html" data-i18n="nav_insights">Inzichten</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.one-dna.com/changemakers" target="_blank" rel="noopener" class="btn btn-primary" data-i18n="nav_partners">Vind een Partner</a>
+                </li>
             </ul>
+
+            <!-- Language Selector -->
             <div class="lang-dropdown">
-                <button class="lang-toggle" onclick="toggleLangDropdown()" aria-label="Kies taal">
+                <button class="lang-toggle" onclick="toggleLangDropdown()" aria-label="Kies taal" aria-expanded="false">
                     <span id="currentLang">NL</span>
                     <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor" aria-hidden="true">
                         <path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="2" fill="none"/>
                     </svg>
                 </button>
-                <div class="lang-menu" role="menu">
+                <div class="lang-menu" role="menu" aria-label="Taal selectie">
                     <button onclick="changeLanguage('nl')" role="menuitem">Nederlands</button>
                     <button onclick="changeLanguage('en')" role="menuitem">English</button>
                     <button onclick="changeLanguage('de')" role="menuitem">Deutsch</button>
@@ -100,7 +195,9 @@
                     <button onclick="changeLanguage('pt')" role="menuitem">Português</button>
                 </div>
             </div>
-            <button class="mobile-menu-toggle" onclick="toggleMobileMenu()" aria-label="Menu">
+
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-toggle" onclick="toggleMobileMenu()" aria-label="Menu" aria-expanded="false">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -108,157 +205,320 @@
         </nav>
     </header>
 
-    <!-- Hero Section - Neuro Copywriting: Emotional trigger + Clear benefit -->
-    <section class="hero hero-home">
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-badge" data-i18n="hero_badge">Kenniscentrum</div>
-                <h1 data-i18n="hero_title_home">De toekomst van kunstgras <span class="highlight">begint hier</span></h1>
-                <p class="hero-subtitle" data-i18n="hero_subtitle_home">
-                    Blijf voorop met de laatste inzichten over EU-regelgeving, circulariteit en duurzame innovatie in de kunstgrassector. Kennis die u helpt betere beslissingen te nemen.
-                </p>
-                <div class="hero-cta">
-                    <a href="blog.html" class="btn btn-primary btn-lg" data-i18n="hero_cta_insights">Ontdek Inzichten</a>
-                    <a href="https://www.one-dna.com" target="_blank" rel="noopener" class="btn btn-secondary btn-lg" data-i18n="hero_cta_main">Bezoek one-dna.com</a>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- Main Content -->
+    <main id="main-content" role="main">
 
-    <!-- Featured Article - Latest/Most Important -->
-    <section class="featured-article">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title" data-i18n="featured_title">Uitgelicht Artikel</h2>
-                <p class="section-subtitle" data-i18n="featured_subtitle">Het laatste nieuws dat u moet weten</p>
-            </div>
-
-            <article class="article-card article-featured">
-                <div class="article-meta">
-                    <span class="article-category" data-i18n="cat_regulation">Regelgeving</span>
-                    <time datetime="2025-12-01" data-i18n="article_date_cmp">December 2025</time>
-                </div>
-                <h3 class="article-title">
-                    <a href="blog.html#cmp" data-i18n="article_cmp_title">Het Circulair Materialen Plan: Wat betekent dit voor kunstgras?</a>
-                </h3>
-                <p class="article-excerpt" data-i18n="article_cmp_excerpt">
-                    De kunstgras-industrie staat voor een fundamentele verandering. Het Nederlandse CMP en nieuwe EU-regelgeving bepalen de koers. Ontdek wat dit betekent voor uw projecten en hoe u zich kunt voorbereiden.
-                </p>
-                <a href="blog.html#cmp" class="article-link" data-i18n="read_more">Lees verder →</a>
-            </article>
-        </div>
-    </section>
-
-    <!-- Value Proposition - Neuro: Social proof + Authority -->
-    <section class="value-props">
-        <div class="container">
-            <div class="value-grid">
-                <div class="value-card">
-                    <div class="value-icon">
-                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2"/>
-                            <path d="M24 14V24L30 30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                        </svg>
+        <!-- Hero Section - System-Level Positioning -->
+        <section class="hero hero-home" aria-labelledby="hero-title">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-badge" data-i18n="hero_badge">Global Knowledge Platform</div>
+                    <h1 id="hero-title" data-i18n="hero_title_home">Kunstgras ontworpen voor <span class="highlight">circulariteit</span></h1>
+                    <p class="hero-subtitle" data-i18n="hero_subtitle_home">
+                        ONE-DNA™ is het mono-materiaal kunstgras systeem dat de transitie naar een circulaire economie ondersteunt. Ontdek hoe ontwerp, beleid en infrastructuur samenkomen.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="what-is-one-dna.html" class="btn btn-primary btn-lg" data-i18n="hero_cta_discover">Ontdek ONE-DNA™</a>
+                        <a href="https://www.one-dna.com" target="_blank" rel="noopener" class="btn btn-secondary btn-lg" data-i18n="hero_cta_main">Naar one-dna.com</a>
                     </div>
-                    <h3 data-i18n="value_timely_title">Actuele Inzichten</h3>
-                    <p data-i18n="value_timely_desc">Blijf op de hoogte van de laatste ontwikkelingen in EU-regelgeving en marktontwikkelingen die uw beslissingen beïnvloeden.</p>
                 </div>
-                <div class="value-card">
-                    <div class="value-icon">
-                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M24 4L30 16H42L32 26L36 40L24 32L12 40L16 26L6 16H18L24 4Z" stroke="currentColor" stroke-width="2" fill="none"/>
-                        </svg>
+            </div>
+        </section>
+
+        <!-- System Introduction - Problem-Driven -->
+        <section class="system-intro" aria-labelledby="intro-title">
+            <div class="container">
+                <div class="intro-grid">
+                    <div class="intro-content">
+                        <h2 id="intro-title" data-i18n="intro_title">Van product naar systeem denken</h2>
+                        <p class="intro-lead" data-i18n="intro_lead">
+                            Traditioneel kunstgras is ontworpen voor prestatie, niet voor end-of-life.
+                            ONE-DNA™ verandert dit door circulariteit vanaf het begin in te bouwen.
+                        </p>
+                        <p data-i18n="intro_text">
+                            Door alle componenten uit één materiaal (polyethyleen) te maken,
+                            wordt hoogwaardige recycling technisch mogelijk. Dit vereist echter ook
+                            de juiste infrastructuur, processen en partnerschappen.
+                        </p>
                     </div>
-                    <h3 data-i18n="value_expert_title">Expert Perspectief</h3>
-                    <p data-i18n="value_expert_desc">Analyses van specialisten met jarenlange ervaring in duurzaam kunstgras en circulaire economie.</p>
-                </div>
-                <div class="value-card">
-                    <div class="value-icon">
-                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2"/>
-                            <path d="M16 24L22 30L32 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
+                    <div class="intro-visual">
+                        <!-- Placeholder for system diagram -->
+                        <div class="system-diagram">
+                            <div class="diagram-item">
+                                <span class="diagram-icon">🎯</span>
+                                <span data-i18n="diagram_design">Ontwerp</span>
+                            </div>
+                            <div class="diagram-arrow">→</div>
+                            <div class="diagram-item">
+                                <span class="diagram-icon">🏗️</span>
+                                <span data-i18n="diagram_use">Gebruik</span>
+                            </div>
+                            <div class="diagram-arrow">→</div>
+                            <div class="diagram-item">
+                                <span class="diagram-icon">♻️</span>
+                                <span data-i18n="diagram_recycle">Recycling</span>
+                            </div>
+                            <div class="diagram-arrow">→</div>
+                            <div class="diagram-item highlight">
+                                <span class="diagram-icon">🔄</span>
+                                <span data-i18n="diagram_new">Nieuw materiaal</span>
+                            </div>
+                        </div>
                     </div>
-                    <h3 data-i18n="value_actionable_title">Praktisch Toepasbaar</h3>
-                    <p data-i18n="value_actionable_desc">Concrete handvatten en aanbevelingen die u direct kunt toepassen in uw projecten en aanbestedingen.</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Quick Stats - Neuro: Numbers create trust -->
-    <section class="quick-stats">
-        <div class="container">
-            <div class="stats-grid">
-                <div class="stat-item">
-                    <span class="stat-number">49</span>
-                    <span class="stat-label" data-i18n="stat_partners">Partners Wereldwijd</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number">100%</span>
-                    <span class="stat-label" data-i18n="stat_recyclable">Recyclebaar</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number">-49%</span>
-                    <span class="stat-label" data-i18n="stat_co2">CO₂ Reductie</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number">8</span>
-                    <span class="stat-label" data-i18n="stat_languages">Talen</span>
+        <!-- Evidence Block - Anti-Greenwashing Framework -->
+        <section class="evidence-section" aria-labelledby="evidence-title">
+            <div class="container">
+                <div class="evidence-block">
+                    <h2 id="evidence-title" class="evidence-title" data-i18n="evidence_title">Onderbouwing & Context</h2>
+
+                    <div class="evidence-grid">
+                        <!-- What ONE-DNA enables -->
+                        <div class="evidence-card evidence-enables">
+                            <h3 data-i18n="evidence_enables_title">Wat ONE-DNA™ mogelijk maakt</h3>
+                            <ul>
+                                <li data-i18n="evidence_enables_1">Mono-materiaal ontwerp (100% PE) maakt materiaalscheiding overbodig</li>
+                                <li data-i18n="evidence_enables_2">EPD-gecertificeerde milieudata voor transparante inkoop</li>
+                                <li data-i18n="evidence_enables_3">Take-back programma met traceerbare verwerkingsketen</li>
+                                <li data-i18n="evidence_enables_4">Compatibiliteit met bestaande PE-recyclingprocessen</li>
+                            </ul>
+                        </div>
+
+                        <!-- What it does NOT guarantee -->
+                        <div class="evidence-card evidence-limitations">
+                            <h3 data-i18n="evidence_limits_title">Wat het niet garandeert</h3>
+                            <ul>
+                                <li data-i18n="evidence_limits_1">Daadwerkelijke recycling hangt af van lokale infrastructuur</li>
+                                <li data-i18n="evidence_limits_2">End-of-life verwerking vereist correcte inzameling via partners</li>
+                                <li data-i18n="evidence_limits_3">Circulariteit is een systeemresultaat, geen productgarantie</li>
+                                <li data-i18n="evidence_limits_4">Regionale beschikbaarheid van take-back varieert</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Evidence References -->
+                    <div class="evidence-references">
+                        <h4 data-i18n="evidence_refs_title">Certificeringen & Verificatie</h4>
+                        <div class="ref-badges">
+                            <span class="ref-badge">EPD Gecertificeerd</span>
+                            <span class="ref-badge">LCA Gevalideerd</span>
+                            <span class="ref-badge">SGS Intron Getest</span>
+                            <span class="ref-badge">REACH Conform</span>
+                            <span class="ref-badge">EN 71-3 Conform</span>
+                        </div>
+                        <p class="evidence-note" data-i18n="evidence_note">
+                            * Alle claims zijn gebaseerd op productontwerp en geteste eigenschappen.
+                            Resultaten in de praktijk zijn afhankelijk van correcte implementatie en beschikbare infrastructuur.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- CTA Section - Neuro: Clear next step -->
-    <section class="cta-section">
-        <div class="container">
-            <div class="cta-content">
-                <h2 data-i18n="cta_title">Klaar om de stap te zetten naar duurzaam kunstgras?</h2>
-                <p data-i18n="cta_desc">Ontdek hoe ONE-DNA™ past binnen uw duurzaamheidsdoelen en voldoet aan toekomstige regelgeving.</p>
-                <div class="cta-buttons">
-                    <a href="https://www.one-dna.com/products" target="_blank" rel="noopener" class="btn btn-primary btn-lg" data-i18n="cta_products">Bekijk Producten</a>
-                    <a href="https://www.one-dna.com/contact" target="_blank" rel="noopener" class="btn btn-secondary btn-lg" data-i18n="cta_contact">Neem Contact Op</a>
+        <!-- Key Topics Grid -->
+        <section class="topics-section" aria-labelledby="topics-title">
+            <div class="container">
+                <h2 id="topics-title" class="section-title" data-i18n="topics_title">Verken het Platform</h2>
+                <p class="section-subtitle" data-i18n="topics_subtitle">Kennis georganiseerd voor professionals</p>
+
+                <div class="topics-grid">
+                    <a href="policy.html" class="topic-card">
+                        <div class="topic-icon">📋</div>
+                        <h3 data-i18n="topic_policy_title">Beleid & Inkoop</h3>
+                        <p data-i18n="topic_policy_desc">CMP, CSRD, EPR en hoe ONE-DNA™ aansluit bij toekomstige regelgeving.</p>
+                    </a>
+
+                    <a href="circularity.html" class="topic-card">
+                        <div class="topic-icon">♻️</div>
+                        <h3 data-i18n="topic_circular_title">Take-back & Circulariteit</h3>
+                        <p data-i18n="topic_circular_desc">Het take-back programma, verwerkingsroutes en partnernetwerk.</p>
+                    </a>
+
+                    <a href="specifications.html" class="topic-card">
+                        <div class="topic-icon">📐</div>
+                        <h3 data-i18n="topic_specs_title">Specificaties</h3>
+                        <p data-i18n="topic_specs_desc">Technische data, bestekteksten en installatierichtlijnen.</p>
+                    </a>
+
+                    <a href="blog.html" class="topic-card">
+                        <div class="topic-icon">📰</div>
+                        <h3 data-i18n="topic_insights_title">Inzichten</h3>
+                        <p data-i18n="topic_insights_desc">Artikelen over markt, regelgeving en duurzaamheidsontwikkelingen.</p>
+                    </a>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer -->
-    <footer class="footer">
+        <!-- Stats Section -->
+        <section class="stats-section" aria-label="Statistieken">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label" data-i18n="stat_mono">Mono-materiaal (PE)</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">49+</span>
+                        <span class="stat-label" data-i18n="stat_partners">Partners Wereldwijd</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">-49%</span>
+                        <span class="stat-label" data-i18n="stat_co2">CO₂ vs. Traditioneel*</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">EPD</span>
+                        <span class="stat-label" data-i18n="stat_epd">Gecertificeerd</span>
+                    </div>
+                </div>
+                <p class="stats-footnote" data-i18n="stats_footnote">* Gebaseerd op LCA-vergelijking met conventioneel meerlaags kunstgras</p>
+            </div>
+        </section>
+
+        <!-- Featured Insight -->
+        <section class="featured-section" aria-labelledby="featured-title">
+            <div class="container">
+                <h2 id="featured-title" class="section-title" data-i18n="featured_title">Uitgelicht</h2>
+
+                <article class="article-card article-featured">
+                    <div class="article-meta">
+                        <span class="article-category" data-i18n="cat_regulation">Regelgeving</span>
+                        <time datetime="2025-12-01" data-i18n="article_date_cmp">December 2025</time>
+                    </div>
+                    <h3 class="article-title">
+                        <a href="blog.html#cmp" data-i18n="article_cmp_title">Het Circulair Materialen Plan: Wat betekent dit voor kunstgras?</a>
+                    </h3>
+                    <p class="article-excerpt" data-i18n="article_cmp_excerpt">
+                        De kunstgras-industrie staat voor een fundamentele verandering. Het Nederlandse CMP en nieuwe EU-regelgeving bepalen de koers.
+                    </p>
+                    <div class="article-actions">
+                        <a href="blog.html#cmp" class="btn btn-primary" data-i18n="read_article">Lees artikel</a>
+                        <button class="btn btn-icon" onclick="shareArticle('cmp')" aria-label="Deel artikel">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/>
+                                <polyline points="16 6 12 2 8 6"/>
+                                <line x1="12" y1="2" x2="12" y2="15"/>
+                            </svg>
+                        </button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section" aria-labelledby="cta-title">
+            <div class="container">
+                <div class="cta-content">
+                    <h2 id="cta-title" data-i18n="cta_title">Klaar voor de volgende stap?</h2>
+                    <p data-i18n="cta_desc">Ontdek hoe ONE-DNA™ past binnen uw projecten, beleid of aanbestedingen.</p>
+                    <div class="cta-buttons">
+                        <a href="https://www.one-dna.com/products" target="_blank" rel="noopener" class="btn btn-primary btn-lg" data-i18n="cta_products">Bekijk Producten</a>
+                        <a href="https://www.one-dna.com/contact" target="_blank" rel="noopener" class="btn btn-secondary btn-lg" data-i18n="cta_contact">Neem Contact Op</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Component -->
+    <footer class="footer" role="contentinfo">
         <div class="container">
-            <div class="footer-content">
+            <!-- Footer Main -->
+            <div class="footer-main">
+                <!-- Brand Column -->
                 <div class="footer-brand">
-                    <img src="assets/images/one-dna-logo-dark.svg" alt="ONE-DNA™" class="footer-logo">
-                    <p data-i18n="footer_tagline">Het kenniscentrum voor duurzaam kunstgras</p>
-                    <p class="footer-developed" data-i18n="footer_developed">Ontwikkeld door <a href="https://www.one-dna.com" target="_blank" rel="noopener">LimeGreen®</a></p>
+                    <img src="assets/images/one-dna-logo-dark.svg" alt="ONE-DNA™" class="footer-logo" width="150" height="33">
+                    <p class="footer-tagline" data-i18n="footer_tagline">Global Knowledge Platform voor duurzaam kunstgras</p>
+
+                    <!-- Social Links -->
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/onednaartificialgrass/" target="_blank" rel="noopener" aria-label="ONE-DNA™ op Instagram" class="social-link">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                        <a href="https://www.linkedin.com/company/onednaartificialgrass/" target="_blank" rel="noopener" aria-label="ONE-DNA™ op LinkedIn" class="social-link">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        </a>
+                        <a href="https://www.facebook.com/ONEDNA.artificialgrass" target="_blank" rel="noopener" aria-label="ONE-DNA™ op Facebook" class="social-link">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+                        </a>
+                    </div>
                 </div>
-                <div class="footer-links-grid">
+
+                <!-- Navigation Columns -->
+                <div class="footer-nav">
                     <div class="footer-col">
-                        <h4 data-i18n="footer_explore">Ontdek</h4>
+                        <h4 data-i18n="footer_platform">Platform</h4>
                         <ul>
+                            <li><a href="what-is-one-dna.html" data-i18n="nav_what">Wat is ONE-DNA™</a></li>
+                            <li><a href="solutions.html" data-i18n="nav_solutions">Oplossingen</a></li>
+                            <li><a href="specifications.html" data-i18n="nav_specifications">Specificaties</a></li>
                             <li><a href="blog.html" data-i18n="nav_insights">Inzichten</a></li>
-                            <li><a href="https://www.one-dna.com/products" target="_blank" rel="noopener" data-i18n="nav_products">Producten</a></li>
-                            <li><a href="https://www.one-dna.com/changemakers" target="_blank" rel="noopener" data-i18n="nav_changemakers">Changemakers</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4 data-i18n="footer_resources">Resources</h4>
+                        <ul>
+                            <li><a href="policy.html" data-i18n="nav_policy">Beleid & Inkoop</a></li>
+                            <li><a href="circularity.html" data-i18n="nav_circularity">Take-back & Circulariteit</a></li>
+                            <li><a href="https://www.one-dna.com/changemakers" target="_blank" rel="noopener" data-i18n="nav_partners">Vind een Partner</a></li>
                         </ul>
                     </div>
                     <div class="footer-col">
                         <h4 data-i18n="footer_main_site">Hoofdsite</h4>
                         <ul>
                             <li><a href="https://www.one-dna.com" target="_blank" rel="noopener">one-dna.com</a></li>
+                            <li><a href="https://www.one-dna.com/products" target="_blank" rel="noopener" data-i18n="nav_products">Producten</a></li>
                             <li><a href="https://www.one-dna.com/contact" target="_blank" rel="noopener" data-i18n="nav_contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p data-i18n="footer_rights">© 2025 LimeGreen® - Alle rechten voorbehouden</p>
-                <p class="footer-seo" data-i18n="footer_seo">ONE-DNA™ is een geregistreerd handelsmerk van LimeGreen®</p>
+
+            <!-- Footer Legal -->
+            <div class="footer-legal">
+                <div class="footer-legal-links">
+                    <a href="privacy.html" data-i18n="footer_privacy">Privacybeleid</a>
+                    <a href="cookies.html" data-i18n="footer_cookies">Cookiebeleid</a>
+                    <a href="terms.html" data-i18n="footer_terms">Gebruiksvoorwaarden</a>
+                    <a href="disclaimer.html" data-i18n="footer_disclaimer">Disclaimer</a>
+                </div>
+
+                <!-- Trademark & Copyright -->
+                <div class="footer-trademark">
+                    <p>© 2025 LimeGreen® - <span data-i18n="footer_rights">Alle rechten voorbehouden</span></p>
+                    <p class="footer-tm-notice">ONE-DNA™ is een geregistreerd handelsmerk van LimeGreen®. LimeGreen® is een geregistreerd merk.</p>
+                </div>
+
+                <!-- Sustainability Disclaimer -->
+                <div class="footer-sustainability-notice">
+                    <p data-i18n="footer_sustainability_notice">
+                        <strong>Duurzaamheidsverklaring:</strong> ONE-DNA™ is ontworpen voor recycleerbaarheid.
+                        De daadwerkelijke milieuvoordelen zijn afhankelijk van correcte implementatie, beschikbare infrastructuur
+                        en deelname aan het ONE-DNA™ take-back programma. Alle claims zijn gebaseerd op productontwerp en
+                        geverifieerde testresultaten. Voor volledige informatie, raadpleeg onze EPD-documentatie.
+                    </p>
+                </div>
             </div>
         </div>
     </footer>
 
+    <!-- Scripts -->
     <script src="js/translations.js"></script>
     <script src="js/main.js"></script>
+
+    <!-- Cookie Consent Script -->
+    <script>
+        // Simple cookie consent
+        if (!localStorage.getItem('cookieConsent')) {
+            document.getElementById('cookie-consent').style.display = 'block';
+        }
+        function acceptCookies() {
+            localStorage.setItem('cookieConsent', 'true');
+            document.getElementById('cookie-consent').style.display = 'none';
+        }
+    </script>
 </body>
 </html>
