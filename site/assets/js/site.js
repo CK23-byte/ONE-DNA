@@ -46,21 +46,13 @@
             const lang = this.dataset.lang;
             const currentPath = window.location.pathname;
 
-            // Determine new path based on language
-            let newPath;
-            if (lang === 'no') {
-                newPath = currentPath.replace(/\/(sv|en)\//, '/no/');
-                if (!newPath.includes('/no/')) {
-                    newPath = '/no/';
-                }
-            } else if (lang === 'sv') {
-                newPath = currentPath.replace(/\/(no|en)\//, '/sv/');
-                if (!newPath.includes('/sv/')) {
-                    newPath = '/sv/';
-                }
-            }
+            // Get base path (everything before /no/ or /sv/)
+            const basePath = currentPath.replace(/\/(no|sv)\/?.*$/, '');
 
-            if (newPath && newPath !== currentPath) {
+            // Build new path
+            const newPath = basePath + '/' + lang + '/';
+
+            if (newPath !== currentPath) {
                 window.location.href = newPath;
             }
         });
