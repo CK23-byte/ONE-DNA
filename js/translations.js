@@ -9,6 +9,7 @@ const translations = {
         nav_changemakers: "Changemakers",
         nav_about: "Over Ons",
         nav_contact: "Contact",
+        nav_norway: "Norge / Sverige",
 
         // Hero - Homepage
         hero_badge: "Kenniscentrum",
@@ -237,6 +238,7 @@ const translations = {
         nav_changemakers: "Changemakers",
         nav_about: "About Us",
         nav_contact: "Contact",
+        nav_norway: "Norway / Sweden",
 
         // Hero - Homepage
         hero_badge: "Knowledge Centre",
@@ -456,6 +458,7 @@ const translations = {
         nav_changemakers: "Changemakers",
         nav_about: "Über Uns",
         nav_contact: "Kontakt",
+        nav_norway: "Norwegen / Schweden",
 
         hero_badge: "Wissenszentrum",
         hero_title_home: "Die Zukunft des Kunstrasens <span class=\"highlight\">beginnt hier</span>",
@@ -660,6 +663,7 @@ const translations = {
         nav_changemakers: "Changemakers",
         nav_about: "Om Oss",
         nav_contact: "Kontakt",
+        nav_norway: "Norge / Sverige",
 
         hero_badge: "Kunskapscenter",
         hero_title_home: "Framtiden för konstgräs <span class=\"highlight\">börjar här</span>",
@@ -864,6 +868,7 @@ const translations = {
         nav_changemakers: "Changemakers",
         nav_about: "Om Oss",
         nav_contact: "Kontakt",
+        nav_norway: "Norge / Sverige",
 
         hero_badge: "Kunnskapssenter",
         hero_title_home: "Fremtiden for kunstgress <span class=\"highlight\">starter her</span>",
@@ -1068,6 +1073,7 @@ const translations = {
         nav_changemakers: "Changemakers",
         nav_about: "Sobre Nosotros",
         nav_contact: "Contacto",
+        nav_norway: "Noruega / Suecia",
 
         hero_badge: "Centro de Conocimiento",
         hero_title_home: "El futuro del césped artificial <span class=\"highlight\">comienza aquí</span>",
@@ -1272,6 +1278,7 @@ const translations = {
         nav_changemakers: "Changemakers",
         nav_about: "Chi Siamo",
         nav_contact: "Contatto",
+        nav_norway: "Norvegia / Svezia",
 
         hero_badge: "Centro di Conoscenza",
         hero_title_home: "Il futuro dell'erba artificiale <span class=\"highlight\">inizia qui</span>",
@@ -1476,6 +1483,7 @@ const translations = {
         nav_changemakers: "Changemakers",
         nav_about: "Sobre Nós",
         nav_contact: "Contacto",
+        nav_norway: "Noruega / Suécia",
 
         hero_badge: "Centro de Conhecimento",
         hero_title_home: "O futuro da relva artificial <span class=\"highlight\">começa aqui</span>",

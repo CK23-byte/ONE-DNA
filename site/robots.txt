@@ -1,0 +1,16 @@
+# ONE-DNA™ Scandinavia - robots.txt
+# https://one-dna.cloud
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://one-dna.cloud/sitemap.xml
+
+# Disallow admin/system paths (if any)
+Disallow: /admin/
+Disallow: /.well-known/
+Disallow: /*.json$
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
