@@ -1456,6 +1456,101 @@ p {
     </footer>
 
     <!-- Scripts -->
-    <script src="../assets/js/site.js"></script>
+    <script>
+    (function() {
+        'use strict';
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('.nav');
+        if (menuToggle && nav) {
+            menuToggle.addEventListener('click', function() {
+                this.classList.toggle('active');
+                nav.classList.toggle('active');
+                document.body.style.overflow = nav.classList.contains('active') ? 'hidden' : '';
+            });
+            nav.querySelectorAll('.nav__link').forEach(link => {
+                link.addEventListener('click', () => {
+                    menuToggle.classList.remove('active');
+                    nav.classList.remove('active');
+                    document.body.style.overflow = '';
+                });
+            });
+            document.addEventListener('click', function(e) {
+                if (nav.classList.contains('active') && !e.target.closest('.nav') && !e.target.closest('.menu-toggle')) {
+                    menuToggle.classList.remove('active');
+                    nav.classList.remove('active');
+                    document.body.style.overflow = '';
+                }
+            });
+        }
+        const langButtons = document.querySelectorAll('.lang-switch__btn');
+        langButtons.forEach(btn => {
+            btn.addEventListener('click', function() {
+                const lang = this.dataset.lang;
+                const currentPath = window.location.pathname;
+                const basePath = currentPath.replace(/\/(no|sv)\/?.*$/, '');
+                const newPath = basePath + '/' + lang + '/';
+                if (newPath !== currentPath) { window.location.href = newPath; }
+            });
+        });
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const href = this.getAttribute('href');
+                if (href.length > 1) {
+                    const target = document.querySelector(href);
+                    if (target) {
+                        e.preventDefault();
+                        const headerHeight = document.querySelector('.header')?.offsetHeight || 80;
+                        const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+                        window.scrollTo({ top: targetPosition, behavior: 'smooth' });
+                        history.pushState(null, '', href);
+                    }
+                }
+            });
+        });
+        const header = document.querySelector('.header');
+        let lastScroll = 0;
+        if (header) {
+            window.addEventListener('scroll', function() {
+                const currentScroll = window.pageYOffset;
+                if (currentScroll > 50) { header.classList.add('scrolled'); } else { header.classList.remove('scrolled'); }
+                if (currentScroll > lastScroll && currentScroll > 200) { header.style.transform = 'translateY(-100%)'; } else { header.style.transform = 'translateY(0)'; }
+                lastScroll = currentScroll;
+            }, { passive: true });
+        }
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); } });
+        }, { root: null, rootMargin: '0px', threshold: 0.1 });
+        document.querySelectorAll('.fade-in, .slide-up').forEach(el => { observer.observe(el); });
+        const yearSpan = document.querySelector('.current-year');
+        if (yearSpan) { yearSpan.textContent = new Date().getFullYear(); }
+        const videoContainers = document.querySelectorAll('.video-container[data-src]');
+        const videoObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const container = entry.target;
+                    const iframe = container.querySelector('iframe');
+                    const src = container.dataset.src;
+                    if (iframe && src) { iframe.src = src; }
+                    videoObserver.unobserve(container);
+                }
+            });
+        }, { rootMargin: '100px' });
+        videoContainers.forEach(container => { videoObserver.observe(container); });
+        window.addEventListener('beforeprint', () => { document.querySelectorAll('details').forEach(d => d.open = true); });
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) { document.documentElement.style.scrollBehavior = 'auto'; }
+        function showCookieConsent() {
+            if (localStorage.getItem('onedna_cookie_consent')) return;
+            const banner = document.getElementById('cookie-banner');
+            if (banner) { banner.style.display = 'block'; }
+        }
+        function acceptCookies() {
+            localStorage.setItem('onedna_cookie_consent', 'accepted');
+            const banner = document.getElementById('cookie-banner');
+            if (banner) { banner.style.display = 'none'; }
+        }
+        window.acceptCookies = acceptCookies;
+        window.addEventListener('load', showCookieConsent);
+    })();
+    </script>
 </body>
 </html>
