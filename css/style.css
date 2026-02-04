@@ -3138,3 +3138,57 @@ h4 { font-size: var(--font-size-lg); }
     color: var(--color-primary);
     font-weight: bold;
 }
+
+/* ================================
+   Platform Positioning (Kennisplatform)
+   ================================ */
+.platform-positioning {
+    background-color: var(--color-background-alt);
+    border-bottom: 1px solid var(--color-border-light);
+    padding: var(--spacing-4) 0;
+}
+
+.platform-positioning__content {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-4);
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .platform-positioning__content {
+        text-align: left;
+        justify-content: flex-start;
+    }
+}
+
+.platform-positioning__badge {
+    display: inline-block;
+    padding: var(--spacing-1) var(--spacing-3);
+    background-color: var(--color-primary);
+    color: white;
+    font-size: var(--font-size-xs);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-radius: var(--radius-full);
+    flex-shrink: 0;
+}
+
+.platform-positioning p {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-light);
+    margin: 0;
+    line-height: 1.5;
+}
+
+.platform-positioning a {
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+.platform-positioning a:hover {
+    text-decoration: underline;
+}
