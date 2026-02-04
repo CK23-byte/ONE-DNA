@@ -129,8 +129,8 @@
                 <li class="nav__item">
                     <a href="blog.html" class="nav__link">Inzichten</a>
                 </li>
-                <li class="nav__item nav__item--cta">
-                    <a href="https://www.one-dna.com/contact" target="_blank" rel="noopener" class="btn btn-primary">Offerte Aanvragen</a>
+                <li class="nav__item nav__item--external">
+                    <a href="https://www.one-dna.com" target="_blank" rel="noopener" class="nav__link nav__link--external">one-dna.com <span aria-hidden="true">↗</span></a>
                 </li>
             </ul>
 
@@ -186,7 +186,7 @@
                 <li><a href="blog.html">Inzichten</a></li>
             </ul>
             <div class="mobile-nav__cta">
-                <a href="https://www.one-dna.com/contact" target="_blank" rel="noopener" class="btn btn-primary btn-block">Offerte Aanvragen</a>
+                <a href="https://www.one-dna.com" target="_blank" rel="noopener" class="btn btn-secondary btn-block">Commerciële site ↗</a>
             </div>
         </div>
     </div>
@@ -194,144 +194,177 @@
     <!-- Main Content -->
     <main id="main-content" role="main">
 
-        <!-- HERO: Neuro-copywriting - Direct de kernbelofte -->
-        <section class="hero" aria-labelledby="hero-title">
+        <!-- PLATFORM POSITIONERING: Kennisplatform (Prominent, boven hero) -->
+        <section class="platform-intro" aria-label="Platform introductie">
+            <div class="container">
+                <div class="platform-intro__content">
+                    <div class="platform-intro__badge">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                        </svg>
+                        <span>Kennisplatform</span>
+                    </div>
+                    <h1 class="platform-intro__title">Onafhankelijke informatie over kunstgras en circulariteit</h1>
+                    <div class="platform-intro__description">
+                        <p>
+                            Dit platform biedt technische en contextuele informatie over kunstgras systemen,
+                            recycling, certificering en end-of-life oplossingen.
+                        </p>
+                        <p>
+                            <strong>Doel:</strong> Professionals ondersteunen bij begrip en toepassing van circulaire kunstgras systemen.
+                        </p>
+                        <p class="platform-intro__commercial">
+                            <strong>Commerciële vragen?</strong> Zie <a href="https://www.one-dna.com" target="_blank" rel="noopener">www.one-dna.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- HERO: Informatief, niet sales-gericht -->
+        <section class="hero hero--knowledge" aria-labelledby="hero-title">
             <div class="hero__background"></div>
             <div class="container">
                 <div class="hero__content">
-                    <h1 id="hero-title" class="hero__title">
-                        Waarom eindigt 95% van kunstgras<br>
-                        <span class="hero__title--accent">in de verbrandingsoven?</span>
-                    </h1>
+                    <h2 id="hero-title" class="hero__title">
+                        Waarom is kunstgras recycling<br>
+                        <span class="hero__title--accent">vandaag zo complex?</span>
+                    </h2>
                     <p class="hero__subtitle">
-                        Multi-materiaal systemen eindigen in de verbrandingsoven.
-                        ONE-DNA™ is 100% mono-materiaal: recyclebaar zonder excuses.
+                        De meeste kunstgras systemen combineren verschillende materialen,
+                        wat mechanische recycling bemoeilijkt. Deze pagina legt uit welke
+                        factoren de haalbaarheid van kunstgras recycling bepalen.
                     </p>
+                    <div class="hero__context">
+                        <p class="context__note">
+                            <strong>Let op:</strong> Dit platform presenteert feiten en context.
+                            We vermijden absolute claims en benadrukken afhankelijkheden van
+                            lokale infrastructuur en regelgeving.
+                        </p>
+                    </div>
                     <div class="hero__cta">
-                        <a href="products.html" class="btn btn-primary btn-lg">Bekijk Producten</a>
-                        <a href="documentation.html#epd" class="btn btn-secondary btn-lg">Download EPD</a>
+                        <a href="documentation.html" class="btn btn-primary btn-lg">Bekijk Documentatie</a>
+                        <a href="#complexity" class="btn btn-secondary btn-lg">Lees verder</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- PLATFORM POSITIONERING: Kennisplatform vs Merksite -->
-        <section class="platform-positioning">
+        <!-- COMPLEXITEIT SECTIE: Informatief, niet dramatiserend -->
+        <section id="complexity" class="complexity-section" aria-labelledby="complexity-title">
             <div class="container">
-                <div class="platform-positioning__content">
-                    <div class="platform-positioning__badge">Kennisplatform</div>
-                    <p>
-                        <strong>U bevindt zich op het ONE-DNA™ Kennisplatform</strong> —
-                        onafhankelijke informatie over kunstgras recycling, certificeringen en end-of-life oplossingen.
-                        Voor commerciële aanvragen en offertes: <a href="https://www.one-dna.com" target="_blank" rel="noopener">www.one-dna.com</a>
-                    </p>
-                </div>
-            </div>
-        </section>
+                <div class="complexity-section__grid">
 
-        <!-- PROBLEEM SECTIE: Neuro-copywriting Stap 1 & 2 - Dramatiseer + Consequenties -->
-        <section class="problem-section" aria-labelledby="problem-title">
-            <div class="container">
-                <div class="problem-section__grid">
-
-                    <!-- Het Probleem -->
-                    <div class="problem-card problem-card--problem">
-                        <div class="problem-card__icon">
+                    <!-- De Complexiteit -->
+                    <div class="complexity-card complexity-card--context">
+                        <div class="complexity-card__icon">
                             <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
                                 <circle cx="12" cy="12" r="10"/>
-                                <path d="M15 9l-6 6M9 9l6 6"/>
+                                <path d="M12 16v-4M12 8h.01"/>
                             </svg>
                         </div>
-                        <h2 id="problem-title">Het Multi-Materiaal Probleem</h2>
-                        <p class="problem-card__lead">
-                            Traditioneel kunstgras bevat 8-12 verschillende materialen: PP backing, latex lijmen, PU coatings, SBR infill, en diverse vezeltypen.
+                        <h2 id="complexity-title">Welke factoren bepalen recyclebaarheid?</h2>
+                        <p class="complexity-card__lead">
+                            Traditionele kunstgras systemen combineren typisch 6-10 verschillende materialen:
+                            PP backing, PE vezels, latex bindmiddel, SBR granulaat, en diverse coatings.
                         </p>
 
-                        <div class="problem-card__consequence">
-                            <h3>Het gevolg?</h3>
-                            <p>
-                                Materiaalscheiding is technisch en economisch onhaalbaar.
-                                <strong>95% eindigt in de verbrandingsoven of op de stortplaats.</strong>
-                            </p>
+                        <div class="complexity-card__factors">
+                            <h3>Relevante factoren:</h3>
+                            <ul>
+                                <li>
+                                    <strong>Materiaalsamenstelling:</strong> Multi-materiaal systemen vereisen
+                                    arbeidsintensieve scheiding voor recycling
+                                </li>
+                                <li>
+                                    <strong>Lokale infrastructuur:</strong> Verwerkingscapaciteit varieert
+                                    sterk per regio en land
+                                </li>
+                                <li>
+                                    <strong>Economische haalbaarheid:</strong> Scheidingskosten bepalen mede
+                                    of recycling plaatsvindt
+                                </li>
+                                <li>
+                                    <strong>Regelgeving:</strong> EU EPR-regelgeving is in ontwikkeling
+                                    en zal impact hebben
+                                </li>
+                            </ul>
                         </div>
 
-                        <div class="problem-card__emotional">
+                        <div class="complexity-card__note">
                             <p>
-                                <em>U specificeert "duurzaam" kunstgras. Uw gemeente betaalt €50.000 disposal kosten.
-                                De pers noemt het greenwashing. Uw reputatie lijdt.</em>
+                                <strong>Context:</strong> Schattingen suggereren dat het merendeel van kunstgras
+                                thermisch verwerkt wordt. Exacte percentages variëren per bron en regio.
                             </p>
                         </div>
-
-                        <ul class="problem-card__list">
-                            <li>✕ Onmogelijk te scheiden aan end-of-life</li>
-                            <li>✕ Geen werkende recycling infrastructuur</li>
-                            <li>✕ "Recyclebaar" is marketing, geen realiteit</li>
-                            <li>✕ Toekomstige EPR-kosten onbekend</li>
-                        </ul>
                     </div>
 
-                    <!-- De Oplossing -->
-                    <div class="problem-card problem-card--solution">
-                        <div class="problem-card__icon">
+                    <!-- Mono-materiaal Benadering -->
+                    <div class="complexity-card complexity-card--approach">
+                        <div class="complexity-card__icon">
                             <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
                                 <circle cx="12" cy="12" r="10"/>
                                 <path d="M9 12l2 2 4-4"/>
                             </svg>
                         </div>
-                        <h2>De ONE-DNA™ Oplossing</h2>
-                        <p class="problem-card__lead">
-                            100% polyethyleen. Niets anders. Vezels, backing én coating zijn allemaal PE-gebaseerd.
+                        <h2>Hoe mono-materiaal dit vereenvoudigt</h2>
+                        <p class="complexity-card__lead">
+                            ONE-DNA™ bestaat uit 100% polyethyleen - vezels, backing én coating.
+                            Dit vereenvoudigt verwerking aan end-of-life.
                         </p>
 
-                        <div class="problem-card__hope">
-                            <h3>Het verschil?</h3>
+                        <div class="complexity-card__benefits">
+                            <h3>Wat dit mogelijk maakt:</h3>
+                            <ul>
+                                <li>Compatibiliteit met bestaande PE-recycling stromen</li>
+                                <li>Geen arbeidsintensieve materiaalscheiding nodig</li>
+                                <li>EPD-gecertificeerde milieudata (ISO 14025)</li>
+                                <li>Take-back programma via partnernetwerk</li>
+                            </ul>
+                        </div>
+
+                        <div class="complexity-card__caveat">
                             <p>
-                                Geen materiaalscheiding nodig. Direct compatibel met bestaande PE-recycling.
-                                <strong>Traceerbare take-back keten.</strong>
+                                <strong>Belangrijk:</strong> Daadwerkelijke recycling is afhankelijk van
+                                lokale infrastructuur, partnernetwerk en economische factoren.
                             </p>
                         </div>
 
-                        <ul class="problem-card__list problem-card__list--check">
-                            <li>✓ Mechanisch recyclebaar als één materiaalstroom</li>
-                            <li>✓ EPD-gecertificeerd (ISO 14025)</li>
-                            <li>✓ Take-back via All Sports Recycled netwerk</li>
-                            <li>✓ Voorbereid op CMP en EU EPR-regelgeving</li>
-                        </ul>
-
-                        <a href="circularity.html" class="btn btn-primary mt-4">Bekijk Take-back Programma</a>
+                        <a href="circularity.html" class="btn btn-secondary mt-4">Meer over take-back</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- EVIDENCE SECTIE: Anti-Greenwashing - Wat we WEL en NIET claimen -->
+        <!-- TRANSPARANTIE SECTIE -->
         <section class="evidence-section" aria-labelledby="evidence-title">
             <div class="container">
-                <h2 id="evidence-title" class="section-title">Transparantie: Wat We Wél en Niet Claimen</h2>
-                <p class="section-subtitle">Geen marketing praatjes. Alleen feiten.</p>
+                <h2 id="evidence-title" class="section-title">Transparantie: Mogelijkheden en Beperkingen</h2>
+                <p class="section-subtitle">Feiten en context, geen absolute claims.</p>
 
                 <div class="evidence-grid">
                     <div class="evidence-card evidence-card--enables">
-                        <h3>✓ Wat ONE-DNA™ Mogelijk Maakt</h3>
+                        <h3>Wat ONE-DNA™ Mogelijk Maakt</h3>
                         <ul>
-                            <li>Mono-materiaal ontwerp (100% PE) elimineert scheiding</li>
+                            <li>Mono-materiaal ontwerp (100% PE) vereenvoudigt verwerking</li>
                             <li>EPD-gecertificeerde milieudata voor transparante inkoop</li>
-                            <li>Take-back programma met traceerbare verwerkingsketen</li>
-                            <li>Compatibiliteit met bestaande PE-recycling infrastructuur</li>
-                            <li>Registratie van elke installatie voor end-of-life beheer</li>
+                            <li>Take-back programma via partnernetwerk</li>
+                            <li>Compatibiliteit met bestaande PE-recycling stromen</li>
+                            <li>Registratie van installaties voor end-of-life beheer</li>
                             <li>Documentatie voor CSRD/ESG-rapportage</li>
                         </ul>
                     </div>
 
                     <div class="evidence-card evidence-card--limitations">
-                        <h3>✗ Wat We NIET Claimen</h3>
+                        <h3>Belangrijke Kanttekeningen</h3>
                         <ul>
-                            <li>Geen 100% recycling garantie - afhankelijk van infrastructuur</li>
-                            <li>Geen closed-loop systeem (nog niet)</li>
-                            <li>Recycling kwaliteit varieert per verwerkingslocatie</li>
-                            <li>Regionale beschikbaarheid take-back verschilt</li>
-                            <li>Circulariteit is een systeemresultaat, geen productgarantie</li>
-                            <li>Economische factoren bepalen mede de recycling rate</li>
+                            <li>Recycling is afhankelijk van lokale infrastructuur</li>
+                            <li>Geen closed-loop turf-to-turf recycling (nog niet)</li>
+                            <li>Verwerkingskwaliteit varieert per locatie</li>
+                            <li>Take-back beschikbaarheid verschilt per regio</li>
+                            <li>Circulariteit is een systeemresultaat</li>
+                            <li>Economische factoren spelen een rol</li>
                         </ul>
                     </div>
                 </div>
@@ -559,6 +592,24 @@
                         </ul>
                     </div>
                 </div>
+            </div>
+
+            <!-- Knowledge Platform Statement -->
+            <div class="footer__platform-statement">
+                <h3>Over Dit Kennisplatform</h3>
+                <p>
+                    support.one-dna.com is een informatieplatform van LimeGreen®
+                    dat technische en contextuele informatie biedt over
+                    kunstgras systemen, recycling en circulariteit.
+                </p>
+                <p>
+                    <strong>Doel:</strong> Professionals ondersteunen bij begrip
+                    en toepassing. Dit platform is geen verkoopkanaal.
+                </p>
+                <p>
+                    <strong>Commerciële vragen?</strong> Zie
+                    <a href="https://www.one-dna.com" target="_blank" rel="noopener">www.one-dna.com</a>
+                </p>
             </div>
 
             <!-- Footer Legal -->
