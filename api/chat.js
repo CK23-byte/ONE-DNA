@@ -68,7 +68,19 @@ ONE-DNA™ is 's werelds eerste 100% mono-materiaal kunstgras, geproduceerd door
 - Play: https://one-dna.com/wp-content/uploads/2023/12/Product-Passport-ONE-DNA™-Play.pdf
 
 ### Technische Datasheets:
-- Alle producten hebben technische specsheets beschikbaar op one-dna.com
+- Vista 30: https://one-dna.com/wp-content/uploads/2023/12/Specsheet-ONE-DNA-Vista-30-TF-ENG-vs2-3.pdf
+- Vista 27: https://one-dna.com/wp-content/uploads/2023/10/Specsheet-ONE-DNA-Vista-27-TF-ENG-vs2_01.pdf
+- Elan 35: https://one-dna.com/wp-content/uploads/2023/12/Specsheet-ONE-DNA-Elan-35-TF-ENG-vs2_01.pdf
+- Orion 40: https://one-dna.com/wp-content/uploads/2023/12/Specsheet-ONE-DNA-Orion-40-TF-ENG-vs2-1.pdf
+- Play 24: https://one-dna.com/wp-content/uploads/2023/12/Specsheet-ONE-DNA-Play-24-TF-ENG-vs2.pdf
+
+### Bestekteksten:
+- Play 24: https://one-dna.com/wp-content/uploads/2023/12/Bestekinformatie-ONE-DNA-Play-24-NL.pdf
+- Overige producten: op aanvraag via info@one-dna.com
+
+### Take-back Portal:
+- Officieel portaal: https://one-dna.com/nl/take-back/
+- Registratie en informatie over Collection Points
 
 ## Technologie
 
