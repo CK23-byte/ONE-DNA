@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Security Headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Praktische informatie voor ONE-DNA™ installatie. Video's, handleidingen, tips en tricks voor professionals.">
+    <meta name="keywords" content="ONE-DNA installatie, kunstgras leggen, installatievideo, kunstgras handleiding">
+    <meta name="author" content="LimeGreen®">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://one-dna.cloud/praktijk.html">
+
+    <title>Praktijk | ONE-DNA™</title>
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://one-dna.cloud/praktijk.html">
+    <meta property="og:title" content="ONE-DNA™ Praktijk | Installatie & Handleidingen">
+    <meta property="og:description" content="Video's, installatiehandleidingen en praktische tips voor ONE-DNA™ kunstgras professionals.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Skip Link -->
+    <a href="#main-content" class="skip-link">Ga naar hoofdinhoud</a>
+
+    <!-- Top Bar - Knowledge Platform Signals -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar__items">
+                <span class="top-bar__item">📚 Kennisplatform</span>
+                <span class="top-bar__item">✓ Technische Documentatie</span>
+                <span class="top-bar__item">✓ Certificeringen & Data</span>
+                <span class="top-bar__item">✓ Onafhankelijke Informatie</span>
+            </div>
+            <div class="top-bar__contact">
+                <a href="https://www.one-dna.com" target="_blank" rel="noopener">one-dna.com ↗</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" role="banner">
+        <nav class="nav container" role="navigation" aria-label="Hoofdnavigatie">
+            <div class="nav__logo">
+                <a href="index.html" class="logo-link" title="ONE-DNA™ Home">
+                    <img src="assets/images/one-dna-logo-dark.svg" alt="ONE-DNA™" class="logo-img" width="160" height="36">
+                </a>
+            </div>
+
+            <ul class="nav__menu" id="main-nav">
+                <li class="nav__item">
+                    <a href="index.html" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="products.html" class="nav__link">Technologie</a>
+                </li>
+                <li class="nav__item nav__item--dropdown">
+                    <a href="circularity.html" class="nav__link">Circulariteit</a>
+                    <div class="nav__dropdown">
+                        <a href="circularity.html#context" class="nav__dropdown-item">Achtergrond</a>
+                        <a href="circularity.html#take-back" class="nav__dropdown-item">Take-back Systeem</a>
+                        <a href="circularity.html#partners" class="nav__dropdown-item">Partners</a>
+                    </div>
+                </li>
+                <li class="nav__item nav__item--dropdown">
+                    <a href="documentation.html" class="nav__link">Certificaten</a>
+                    <div class="nav__dropdown">
+                        <a href="documentation.html#algemeen" class="nav__dropdown-item">Algemene Certificaten</a>
+                        <a href="documentation.html#product" class="nav__dropdown-item">Productcertificaten</a>
+                    </div>
+                </li>
+                <li class="nav__item">
+                    <a href="praktijk.html" class="nav__link active">Praktijk</a>
+                </li>
+                <li class="nav__item">
+                    <a href="blog.html" class="nav__link">Inzichten</a>
+                </li>
+                <li class="nav__item nav__item--external">
+                    <a href="https://www.one-dna.com" target="_blank" rel="noopener" class="nav__link nav__link--external">one-dna.com <span aria-hidden="true">↗</span></a>
+                </li>
+            </ul>
+
+            <div class="nav__actions">
+                <div class="lang-dropdown">
+                    <button class="lang-toggle" onclick="toggleLangDropdown()" aria-label="Kies taal" aria-expanded="false">
+                        <span id="currentLang">NL</span>
+                        <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true">
+                            <path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="2" fill="none"/>
+                        </svg>
+                    </button>
+                    <div class="lang-menu" role="menu">
+                        <button onclick="changeLanguage('nl')" role="menuitem">Nederlands</button>
+                        <button onclick="changeLanguage('en')" role="menuitem">English</button>
+                        <button onclick="changeLanguage('de')" role="menuitem">Deutsch</button>
+                    </div>
+                </div>
+                <button class="nav__toggle" onclick="toggleMobileMenu()" aria-label="Menu openen">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+        <div class="mobile-nav__content">
+            <ul class="mobile-nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Technologie</a></li>
+                <li class="mobile-nav__group">
+                    <span class="mobile-nav__label">Circulariteit</span>
+                    <ul>
+                        <li><a href="circularity.html#context">Achtergrond</a></li>
+                        <li><a href="circularity.html#take-back">Take-back Systeem</a></li>
+                        <li><a href="circularity.html#partners">Partners</a></li>
+                    </ul>
+                </li>
+                <li class="mobile-nav__group">
+                    <span class="mobile-nav__label">Certificaten</span>
+                    <ul>
+                        <li><a href="documentation.html#algemeen">Algemene Certificaten</a></li>
+                        <li><a href="documentation.html#product">Productcertificaten</a></li>
+                    </ul>
+                </li>
+                <li><a href="praktijk.html">Praktijk</a></li>
+                <li><a href="blog.html">Inzichten</a></li>
+            </ul>
+            <div class="mobile-nav__cta">
+                <a href="https://www.one-dna.com" target="_blank" rel="noopener" class="btn btn-secondary btn-block">Commerciële site ↗</a>
+            </div>
+        </div>
+    </div>
+
+    <main id="main-content" role="main">
+
+        <!-- Hero Section -->
+        <section class="praktijk-hero">
+            <div class="container">
+                <nav class="breadcrumbs" aria-label="Breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <span>Praktijk</span>
+                </nav>
+
+                <div class="praktijk-hero__content">
+                    <h1>Praktische Informatie</h1>
+                    <p class="praktijk-hero__lead">
+                        Van voorbereiding tot onderhoud: alles wat je nodig hebt voor een succesvolle installatie.
+                    </p>
+                    <p class="praktijk-hero__description">
+                        Video's, handleidingen en tips van ervaren installateurs.
+                        Voor professionals die het goed willen doen.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Section -->
+        <section class="praktijk-videos" id="videos">
+            <div class="container">
+                <div class="praktijk-section__header">
+                    <span class="section-label">Instructievideo's</span>
+                    <h2>Bekijk hoe het werkt</h2>
+                    <p class="praktijk-section__lead">
+                        Stapsgewijze video-instructies voor elke fase van het installatieproces.
+                    </p>
+                </div>
+
+                <div class="video-grid">
+                    <article class="video-card">
+                        <div class="video-card__thumbnail">
+                            <div class="video-placeholder">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <polygon points="5 3 19 12 5 21 5 3"/>
+                                </svg>
+                                <span>Video binnenkort beschikbaar</span>
+                            </div>
+                        </div>
+                        <div class="video-card__content">
+                            <h3>Ondergrond Voorbereiding</h3>
+                            <p>
+                                Correcte voorbereiding van de ondergrond is cruciaal voor een duurzame installatie.
+                                Deze video toont de belangrijkste stappen.
+                            </p>
+                            <ul class="video-card__topics">
+                                <li>Drainage-eisen</li>
+                                <li>Vlakheidstoleranties</li>
+                                <li>Verdichting</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="video-card">
+                        <div class="video-card__thumbnail">
+                            <div class="video-placeholder">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <polygon points="5 3 19 12 5 21 5 3"/>
+                                </svg>
+                                <span>Video binnenkort beschikbaar</span>
+                            </div>
+                        </div>
+                        <div class="video-card__content">
+                            <h3>Gras Uitrollen</h3>
+                            <p>
+                                Het correct uitrollen en positioneren van de grasstroken
+                                voorkomt problemen bij het verlijmen.
+                            </p>
+                            <ul class="video-card__topics">
+                                <li>Acclimatiseren</li>
+                                <li>Uitrolrichting</li>
+                                <li>Overlapping</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="video-card">
+                        <div class="video-card__thumbnail">
+                            <div class="video-placeholder">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <polygon points="5 3 19 12 5 21 5 3"/>
+                                </svg>
+                                <span>Video binnenkort beschikbaar</span>
+                            </div>
+                        </div>
+                        <div class="video-card__content">
+                            <h3>Naden Verlijmen</h3>
+                            <p>
+                                Professioneel naadwerk maakt het verschil tussen een mooie
+                                of zichtbare naad. Leer de juiste techniek.
+                            </p>
+                            <ul class="video-card__topics">
+                                <li>Naadband plaatsen</li>
+                                <li>Lijmapplicatie</li>
+                                <li>Droogtijd</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="video-card">
+                        <div class="video-card__thumbnail">
+                            <div class="video-placeholder">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <polygon points="5 3 19 12 5 21 5 3"/>
+                                </svg>
+                                <span>Video binnenkort beschikbaar</span>
+                            </div>
+                        </div>
+                        <div class="video-card__content">
+                            <h3>Infill Aanbrengen</h3>
+                            <p>
+                                De juiste hoeveelheid en verdeling van infill
+                                bepaalt de speeleigenschappen en levensduur.
+                            </p>
+                            <ul class="video-card__topics">
+                                <li>Infill type</li>
+                                <li>Strooihoeveelheid</li>
+                                <li>Inborstelen</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Handleidingen Section -->
+        <section class="praktijk-guides" id="handleidingen">
+            <div class="container">
+                <div class="praktijk-section__header">
+                    <span class="section-label">Documentatie</span>
+                    <h2>Installatiehandleidingen</h2>
+                    <p class="praktijk-section__lead">
+                        Gedetailleerde handleidingen voor elke stap van het installatieproces.
+                    </p>
+                </div>
+
+                <div class="guide-grid">
+                    <article class="guide-card">
+                        <div class="guide-card__icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M19 21H5a2 2 0 01-2-2V5a2 2 0 012-2h11l5 5v11a2 2 0 01-2 2z"/>
+                                <polyline points="17 21 17 13 7 13 7 21"/>
+                                <polyline points="7 3 7 8 15 8"/>
+                            </svg>
+                        </div>
+                        <h3>Ondergrond Specificaties</h3>
+                        <p>
+                            Eisen voor onderbouwconstructie, drainage en oppervlaktevoorbereiding.
+                        </p>
+                        <ul>
+                            <li>Onderbouw opbouw</li>
+                            <li>Drainage capaciteit</li>
+                            <li>Vlakheidseisen (3m rei)</li>
+                            <li>Verdichtingsgraad</li>
+                        </ul>
+                        <a href="mailto:info@one-dna.com?subject=Aanvraag%20Ondergrond%20Handleiding" class="btn btn-secondary">Download handleiding</a>
+                    </article>
+
+                    <article class="guide-card">
+                        <div class="guide-card__icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                                <line x1="3" y1="9" x2="21" y2="9"/>
+                                <line x1="9" y1="21" x2="9" y2="9"/>
+                            </svg>
+                        </div>
+                        <h3>Installatieprocedure</h3>
+                        <p>
+                            Stapsgewijze installatieprocedures inclusief layout, naden en bevestiging.
+                        </p>
+                        <ul>
+                            <li>Rol-uitlegplanning</li>
+                            <li>Snijden en passen</li>
+                            <li>Naadvoorbereiding</li>
+                            <li>Randafwerking</li>
+                        </ul>
+                        <a href="mailto:info@one-dna.com?subject=Aanvraag%20Installatie%20Handleiding" class="btn btn-secondary">Download handleiding</a>
+                    </article>
+
+                    <article class="guide-card">
+                        <div class="guide-card__icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/>
+                            </svg>
+                        </div>
+                        <h3>Verlijmen & Bevestigen</h3>
+                        <p>
+                            Lijmsystemen, naadtechnieken en randbevestiging.
+                        </p>
+                        <ul>
+                            <li>Lijmtypes en -systemen</li>
+                            <li>Temperatuurgrenzen</li>
+                            <li>Droogtijden</li>
+                            <li>Kwaliteitscontrole</li>
+                        </ul>
+                        <a href="mailto:info@one-dna.com?subject=Aanvraag%20Verlijm%20Handleiding" class="btn btn-secondary">Download handleiding</a>
+                    </article>
+
+                    <article class="guide-card">
+                        <div class="guide-card__icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                        </div>
+                        <h3>Onderhoud & Beheer</h3>
+                        <p>
+                            Onderhoudsschema's en procedures voor optimale levensduur.
+                        </p>
+                        <ul>
+                            <li>Regelmatig borstelen</li>
+                            <li>Infill bijvullen</li>
+                            <li>Reiniging</li>
+                            <li>Inspectieprotocol</li>
+                        </ul>
+                        <a href="mailto:info@one-dna.com?subject=Aanvraag%20Onderhoud%20Handleiding" class="btn btn-secondary">Download handleiding</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tips & Tricks Section -->
+        <section class="praktijk-tips" id="tips">
+            <div class="container">
+                <div class="praktijk-section__header">
+                    <span class="section-label">Ervaring</span>
+                    <h2>Tips & Tricks</h2>
+                    <p class="praktijk-section__lead">
+                        Praktijklessen van ervaren installateurs.
+                    </p>
+                </div>
+
+                <div class="tips-grid">
+                    <article class="tip-card">
+                        <div class="tip-card__number">01</div>
+                        <h3>Acclimatiseren is essentieel</h3>
+                        <p>
+                            Laat grasrollen minimaal 2 uur acclimatiseren voor installatie.
+                            Temperatuurverschillen veroorzaken krimp of uitzetting die later
+                            tot golfvorming kan leiden.
+                        </p>
+                    </article>
+
+                    <article class="tip-card">
+                        <div class="tip-card__number">02</div>
+                        <h3>Controleer de rolrichting</h3>
+                        <p>
+                            Alle rollen moeten dezelfde vezelrichting hebben.
+                            Een verkeerde rol valt direct op door kleurverschil bij zijlicht.
+                            Controleer dit vóór het snijden.
+                        </p>
+                    </article>
+
+                    <article class="tip-card">
+                        <div class="tip-card__number">03</div>
+                        <h3>Droog weer voor verlijmen</h3>
+                        <p>
+                            Verlijm alleen bij droog weer en temperaturen boven 5°C.
+                            Vocht in de naad voorkomt goede hechting.
+                            Check de weersverwachting voor de komende uren.
+                        </p>
+                    </article>
+
+                    <article class="tip-card">
+                        <div class="tip-card__number">04</div>
+                        <h3>Lijm gelijkmatig aanbrengen</h3>
+                        <p>
+                            Gebruik een getande spatel voor gelijkmatige lijmverdeling.
+                            Te veel lijm drukt door de naad, te weinig geeft loslating.
+                            Oefen eerst op een reststuk.
+                        </p>
+                    </article>
+
+                    <article class="tip-card">
+                        <div class="tip-card__number">05</div>
+                        <h3>Infill in lagen aanbrengen</h3>
+                        <p>
+                            Breng infill in meerdere dunne lagen aan en borstel na elke laag.
+                            Dit geeft betere verdeling en voorkomt ophoping.
+                            Totale hoeveelheid volgens specificatie.
+                        </p>
+                    </article>
+
+                    <article class="tip-card">
+                        <div class="tip-card__number">06</div>
+                        <h3>Documenteer je werk</h3>
+                        <p>
+                            Maak foto's van elke fase: ondergrond, naden, afwerking.
+                            Dit helpt bij eventuele garantievragen en verbetert
+                            je eigen werkproces.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="praktijk-faq" id="faq">
+            <div class="container">
+                <div class="praktijk-section__header">
+                    <span class="section-label">Veelgesteld</span>
+                    <h2>Veelgestelde vragen</h2>
+                </div>
+
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary>Wat is de minimale temperatuur voor installatie?</summary>
+                        <div class="faq-item__content">
+                            <p>
+                                De minimale temperatuur voor verlijmen is 5°C. Bij lagere temperaturen
+                                hecht de lijm niet goed en kunnen naden loskomen.
+                                Het gras zelf kan bij lagere temperaturen worden uitgerold,
+                                maar laat het acclimatiseren voor het verlijmen.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Hoeveel infill heb ik nodig per m²?</summary>
+                        <div class="faq-item__content">
+                            <p>
+                                De benodigde hoeveelheid infill hangt af van het producttype en de toepassing.
+                                Raadpleeg de productspecifieke datasheet voor exacte hoeveelheden.
+                                Algemeen geldt: te weinig infill geeft slechte vezelondersteuning,
+                                te veel bedekt de vezels en vermindert drainage.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Kan ik ONE-DNA™ over bestaand kunstgras leggen?</summary>
+                        <div class="faq-item__content">
+                            <p>
+                                Dit wordt afgeraden. Bestaand kunstgras moet worden verwijderd
+                                voor een goede installatie. Overlappen geeft problemen met
+                                vlakheid, drainage en levensduur. Bovendien is de oude laag
+                                niet geschikt voor take-back in het ONE-DNA™ programma.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Hoe lang duurt de installatie van een sportveld?</summary>
+                        <div class="faq-item__content">
+                            <p>
+                                De installatietijd hangt af van veldgrootte, complexiteit en weersomstandigheden.
+                                Een standaard voetbalveld (ca. 7.000 m²) neemt doorgaans 5-7 werkdagen
+                                in beslag, exclusief ondergrondvoorbereiding.
+                            </p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Welke garantie geldt er op de installatie?</summary>
+                        <div class="faq-item__content">
+                            <p>
+                                De productgarantie geldt alleen bij installatie door een gecertificeerde
+                                partner volgens de installatievoorschriften. Neem contact op voor
+                                informatie over gecertificeerde installateurs in uw regio.
+                            </p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="praktijk-cta">
+            <div class="container">
+                <div class="praktijk-cta__content">
+                    <h2>Hulp nodig bij uw project?</h2>
+                    <p>
+                        Onze technische ondersteuning helpt u graag met advies
+                        over installatie, onderhoud of probleemoplossing.
+                    </p>
+                    <div class="praktijk-cta__actions">
+                        <a href="mailto:info@one-dna.com?subject=Technische%20Vraag" class="btn btn-primary btn-lg">Stel uw vraag</a>
+                        <a href="https://www.one-dna.com/changemakers" target="_blank" rel="noopener" class="btn btn-secondary btn-lg">Vind een installateur</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- SUPERFOOTER -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <!-- Footer Main -->
+            <div class="footer__main">
+                <!-- Brand -->
+                <div class="footer__brand">
+                    <img src="assets/images/one-dna-logo-white.svg" alt="ONE-DNA™" class="footer__logo" width="140" height="32">
+                    <p class="footer__tagline">100% Mono-Materiaal Kunstgras.<br>Ontworpen voor Circulariteit.</p>
+
+                    <!-- Contact -->
+                    <div class="footer__contact">
+                        <p><a href="mailto:info@one-dna.com">info@one-dna.com</a></p>
+                        <p><a href="tel:+31541217900">+31 (0) 541 21 79 00</a></p>
+                    </div>
+
+                    <!-- Social -->
+                    <div class="footer__social">
+                        <a href="https://www.instagram.com/onednaartificialgrass/" target="_blank" rel="noopener" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                        <a href="https://www.linkedin.com/company/onednaartificialgrass/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        </a>
+                        <a href="https://www.facebook.com/ONEDNA.artificialgrass" target="_blank" rel="noopener" aria-label="Facebook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Navigation Columns -->
+                <div class="footer__nav">
+                    <div class="footer__col">
+                        <h4>Technologie</h4>
+                        <ul>
+                            <li><a href="products.html">Productieproces</a></li>
+                            <li><a href="products.html#impact">Impact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <h4>Circulariteit</h4>
+                        <ul>
+                            <li><a href="circularity.html#context">Achtergrond</a></li>
+                            <li><a href="circularity.html#take-back">Take-back Systeem</a></li>
+                            <li><a href="circularity.html#partners">Partners</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <h4>Documentatie</h4>
+                        <ul>
+                            <li><a href="documentation.html#algemeen">Algemene Certificaten</a></li>
+                            <li><a href="documentation.html#product">Productcertificaten</a></li>
+                            <li><a href="praktijk.html">Praktische Info</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <h4>Bedrijf</h4>
+                        <ul>
+                            <li><a href="https://www.one-dna.com" target="_blank" rel="noopener">one-dna.com</a></li>
+                            <li><a href="blog.html">Inzichten</a></li>
+                            <li><a href="https://www.one-dna.com/changemakers" target="_blank" rel="noopener">Changemakers</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Knowledge Platform Statement -->
+            <div class="footer__platform-statement">
+                <h3>Over Dit Kennisplatform</h3>
+                <p>
+                    support.one-dna.com is een informatieplatform van LimeGreen®
+                    dat technische en contextuele informatie biedt over
+                    kunstgras systemen, recycling en circulariteit.
+                </p>
+                <p>
+                    <strong>Doel:</strong> Professionals ondersteunen bij begrip
+                    en toepassing. Dit platform is geen verkoopkanaal.
+                </p>
+                <p>
+                    <strong>Commerciële vragen?</strong> Zie
+                    <a href="https://www.one-dna.com" target="_blank" rel="noopener">www.one-dna.com</a>
+                </p>
+            </div>
+
+            <!-- Footer Legal -->
+            <div class="footer__legal">
+                <div class="footer__legal-links">
+                    <a href="privacy.html">Privacy</a>
+                    <a href="cookies.html">Cookies</a>
+                    <a href="terms.html">Voorwaarden</a>
+                    <a href="disclaimer.html">Disclaimer</a>
+                </div>
+
+                <div class="footer__copyright">
+                    <p>&copy; 2025 LimeGreen® - Alle rechten voorbehouden</p>
+                    <p class="footer__tm">ONE-DNA™ is een geregistreerd handelsmerk van LimeGreen®.</p>
+                </div>
+
+                <!-- Anti-Greenwashing Notice -->
+                <div class="footer__notice">
+                    <p>
+                        <strong>Duurzaamheidsverklaring:</strong> ONE-DNA™ is ontworpen voor recycleerbaarheid.
+                        Daadwerkelijke milieuvoordelen zijn afhankelijk van correcte implementatie, beschikbare
+                        infrastructuur en deelname aan het ONE-DNA™ take-back programma. Alle claims zijn
+                        gebaseerd op productontwerp en geverifieerde testresultaten.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

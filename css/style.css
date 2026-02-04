@@ -6382,3 +6382,705 @@ h4 { font-size: var(--font-size-lg); }
 .circ-closing .btn-secondary:hover {
     background: rgba(255, 255, 255, 0.1);
 }
+
+/* =====================================================
+   CERTIFICATES PAGE STYLES
+   ===================================================== */
+
+/* Cert Hero */
+.cert-hero {
+    padding: var(--spacing-16) 0 var(--spacing-12);
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+}
+
+.cert-hero__content {
+    max-width: 700px;
+}
+
+.cert-hero h1 {
+    font-size: var(--font-size-3xl);
+    color: var(--color-text);
+    margin-bottom: var(--spacing-4);
+}
+
+@media (min-width: 768px) {
+    .cert-hero h1 {
+        font-size: var(--font-size-4xl);
+    }
+}
+
+.cert-hero__lead {
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-4);
+}
+
+.cert-hero__description {
+    font-size: var(--font-size-base);
+    color: var(--color-text-light);
+    line-height: 1.7;
+}
+
+/* Cert Context Box */
+.cert-context {
+    padding: var(--spacing-12) 0;
+    background: white;
+}
+
+.cert-context__box {
+    padding: var(--spacing-8);
+    background: #fffbeb;
+    border-left: 4px solid #f59e0b;
+    border-radius: var(--radius-lg);
+    max-width: 800px;
+}
+
+.cert-context__box h2 {
+    font-size: var(--font-size-lg);
+    color: var(--color-text);
+    margin-bottom: var(--spacing-4);
+}
+
+.cert-context__box p {
+    font-size: var(--font-size-base);
+    color: var(--color-text-light);
+    line-height: 1.6;
+    margin-bottom: var(--spacing-4);
+}
+
+.cert-context__box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 var(--spacing-4);
+}
+
+.cert-context__box li {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-light);
+    padding-left: var(--spacing-5);
+    margin-bottom: var(--spacing-2);
+    position: relative;
+}
+
+.cert-context__box li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #f59e0b;
+}
+
+/* Cert Section */
+.cert-section {
+    padding: var(--spacing-16) 0;
+}
+
+.cert-section--general {
+    background: var(--color-background-alt);
+}
+
+.cert-section--product {
+    background: white;
+}
+
+.cert-section__header {
+    margin-bottom: var(--spacing-10);
+}
+
+.cert-section__header h2 {
+    font-size: var(--font-size-2xl);
+    color: var(--color-text);
+    margin-bottom: var(--spacing-3);
+}
+
+@media (min-width: 768px) {
+    .cert-section__header h2 {
+        font-size: var(--font-size-3xl);
+    }
+}
+
+.cert-section__lead {
+    font-size: var(--font-size-base);
+    color: var(--color-text-light);
+    max-width: 600px;
+}
+
+/* Cert Grid */
+.cert-grid {
+    display: grid;
+    gap: var(--spacing-6);
+}
+
+@media (min-width: 768px) {
+    .cert-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .cert-grid--request {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .cert-grid--product {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .cert-grid--product {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Cert Card */
+.cert-card {
+    padding: var(--spacing-6);
+    background: white;
+    border-radius: var(--radius-lg);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.cert-card--request {
+    border-top: 3px solid var(--color-border);
+}
+
+.cert-card--available {
+    border-top: 3px solid var(--color-primary);
+}
+
+.cert-card__badge {
+    position: absolute;
+    top: var(--spacing-4);
+    right: var(--spacing-4);
+    font-size: var(--font-size-xs);
+    font-weight: 600;
+    padding: var(--spacing-1) var(--spacing-2);
+    border-radius: var(--radius-sm);
+    background: var(--color-background-alt);
+    color: var(--color-text-muted);
+}
+
+.cert-card__badge--available {
+    background: rgba(34, 197, 94, 0.1);
+    color: #16a34a;
+}
+
+.cert-card__icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: var(--spacing-4);
+    color: var(--color-primary);
+}
+
+.cert-card h3 {
+    font-size: var(--font-size-lg);
+    color: var(--color-text);
+    margin-bottom: var(--spacing-2);
+}
+
+.cert-card > p {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-light);
+    line-height: 1.6;
+    margin-bottom: var(--spacing-4);
+}
+
+.cert-card__what {
+    margin-bottom: var(--spacing-4);
+}
+
+.cert-card__what h4 {
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: var(--spacing-2);
+}
+
+.cert-card__what ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cert-card__what li {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-light);
+    padding-left: var(--spacing-4);
+    margin-bottom: var(--spacing-1);
+    position: relative;
+}
+
+.cert-card__what li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--color-primary);
+}
+
+.cert-card__note {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-muted);
+    background: var(--color-background-alt);
+    padding: var(--spacing-3);
+    border-radius: var(--radius-sm);
+    margin-bottom: var(--spacing-4);
+    flex-grow: 1;
+}
+
+.cert-card .btn {
+    margin-top: auto;
+    align-self: flex-start;
+}
+
+/* Cert Transparency */
+.cert-transparency {
+    padding: var(--spacing-16) 0;
+    background: var(--color-background-alt);
+}
+
+.cert-transparency__content h2 {
+    font-size: var(--font-size-2xl);
+    color: var(--color-text);
+    margin-bottom: var(--spacing-8);
+    text-align: center;
+}
+
+.cert-transparency__grid {
+    display: grid;
+    gap: var(--spacing-6);
+}
+
+@media (min-width: 768px) {
+    .cert-transparency__grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.cert-transparency__item {
+    text-align: center;
+    padding: var(--spacing-6);
+}
+
+.cert-transparency__item h3 {
+    font-size: var(--font-size-base);
+    color: var(--color-text);
+    margin-bottom: var(--spacing-3);
+}
+
+.cert-transparency__item p {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-light);
+    line-height: 1.6;
+}
+
+/* Cert CTA */
+.cert-cta {
+    padding: var(--spacing-16) 0;
+    background: var(--color-primary);
+}
+
+.cert-cta__content {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cert-cta__content h2 {
+    font-size: var(--font-size-2xl);
+    color: white;
+    margin-bottom: var(--spacing-4);
+}
+
+.cert-cta__content p {
+    font-size: var(--font-size-base);
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: var(--spacing-6);
+}
+
+.cert-cta__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-3);
+    justify-content: center;
+}
+
+.cert-cta .btn-primary {
+    background: white;
+    color: var(--color-primary);
+}
+
+.cert-cta .btn-secondary {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+/* =====================================================
+   PRAKTIJK PAGE STYLES
+   ===================================================== */
+
+/* Praktijk Hero */
+.praktijk-hero {
+    padding: var(--spacing-16) 0 var(--spacing-12);
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+}
+
+.praktijk-hero__content {
+    max-width: 700px;
+}
+
+.praktijk-hero h1 {
+    font-size: var(--font-size-3xl);
+    color: var(--color-text);
+    margin-bottom: var(--spacing-4);
+}
+
+@media (min-width: 768px) {
+    .praktijk-hero h1 {
+        font-size: var(--font-size-4xl);
+    }
+}
+
+.praktijk-hero__lead {
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-3);
+}
+
+.praktijk-hero__description {
+    font-size: var(--font-size-base);
+    color: var(--color-text-light);
+}
+
+/* Praktijk Section Header */
+.praktijk-section__header {
+    margin-bottom: var(--spacing-10);
+}
+
+.praktijk-section__header h2 {
+    font-size: var(--font-size-2xl);
+    color: var(--color-text);
+    margin-bottom: var(--spacing-3);
+}
+
+@media (min-width: 768px) {
+    .praktijk-section__header h2 {
+        font-size: var(--font-size-3xl);
+    }
+}
+
+.praktijk-section__lead {
+    font-size: var(--font-size-base);
+    color: var(--color-text-light);
+    max-width: 600px;
+}
+
+/* Praktijk Videos */
+.praktijk-videos {
+    padding: var(--spacing-16) 0;
+    background: white;
+}
+
+.video-grid {
+    display: grid;
+    gap: var(--spacing-6);
+}
+
+@media (min-width: 768px) {
+    .video-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.video-card {
+    background: var(--color-background-alt);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+}
+
+.video-card__thumbnail {
+    aspect-ratio: 16 / 9;
+    background: #1a1a2e;
+}
+
+.video-placeholder {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-3);
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.video-placeholder svg {
+    opacity: 0.5;
+}
+
+.video-placeholder span {
+    font-size: var(--font-size-sm);
+}
+
+.video-card__content {
+    padding: var(--spacing-5);
+}
+
+.video-card__content h3 {
+    font-size: var(--font-size-lg);
+    color: var(--color-text);
+    margin-bottom: var(--spacing-2);
+}
+
+.video-card__content p {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-light);
+    line-height: 1.6;
+    margin-bottom: var(--spacing-3);
+}
+
+.video-card__topics {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-2);
+}
+
+.video-card__topics li {
+    font-size: var(--font-size-xs);
+    color: var(--color-primary);
+    background: rgba(0, 104, 55, 0.1);
+    padding: var(--spacing-1) var(--spacing-2);
+    border-radius: var(--radius-sm);
+}
+
+/* Praktijk Guides */
+.praktijk-guides {
+    padding: var(--spacing-16) 0;
+    background: var(--color-background-alt);
+}
+
+.guide-grid {
+    display: grid;
+    gap: var(--spacing-6);
+}
+
+@media (min-width: 768px) {
+    .guide-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .guide-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.guide-card {
+    padding: var(--spacing-6);
+    background: white;
+    border-radius: var(--radius-lg);
+    display: flex;
+    flex-direction: column;
+}
+
+.guide-card__icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: var(--spacing-4);
+    color: var(--color-primary);
+}
+
+.guide-card h3 {
+    font-size: var(--font-size-base);
+    color: var(--color-text);
+    margin-bottom: var(--spacing-2);
+}
+
+.guide-card > p {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-light);
+    line-height: 1.5;
+    margin-bottom: var(--spacing-4);
+}
+
+.guide-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 var(--spacing-4);
+    flex-grow: 1;
+}
+
+.guide-card li {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+    padding-left: var(--spacing-4);
+    margin-bottom: var(--spacing-1);
+    position: relative;
+}
+
+.guide-card li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--color-primary);
+}
+
+.guide-card .btn {
+    align-self: flex-start;
+}
+
+/* Praktijk Tips */
+.praktijk-tips {
+    padding: var(--spacing-16) 0;
+    background: white;
+}
+
+.tips-grid {
+    display: grid;
+    gap: var(--spacing-6);
+}
+
+@media (min-width: 768px) {
+    .tips-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .tips-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.tip-card {
+    padding: var(--spacing-6);
+    background: var(--color-background-alt);
+    border-radius: var(--radius-lg);
+    position: relative;
+}
+
+.tip-card__number {
+    font-size: var(--font-size-3xl);
+    font-weight: 800;
+    color: rgba(0, 104, 55, 0.1);
+    position: absolute;
+    top: var(--spacing-4);
+    right: var(--spacing-4);
+}
+
+.tip-card h3 {
+    font-size: var(--font-size-base);
+    color: var(--color-text);
+    margin-bottom: var(--spacing-3);
+    padding-right: var(--spacing-8);
+}
+
+.tip-card p {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-light);
+    line-height: 1.6;
+}
+
+/* Praktijk FAQ */
+.praktijk-faq {
+    padding: var(--spacing-16) 0;
+    background: var(--color-background-alt);
+}
+
+.faq-list {
+    max-width: 800px;
+}
+
+.faq-item {
+    background: white;
+    border-radius: var(--radius-md);
+    margin-bottom: var(--spacing-3);
+    overflow: hidden;
+}
+
+.faq-item summary {
+    padding: var(--spacing-5);
+    font-size: var(--font-size-base);
+    font-weight: 600;
+    color: var(--color-text);
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-item summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq-item summary::after {
+    content: "+";
+    font-size: var(--font-size-lg);
+    color: var(--color-primary);
+    font-weight: 400;
+}
+
+.faq-item[open] summary::after {
+    content: "−";
+}
+
+.faq-item__content {
+    padding: 0 var(--spacing-5) var(--spacing-5);
+}
+
+.faq-item__content p {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-light);
+    line-height: 1.6;
+}
+
+/* Praktijk CTA */
+.praktijk-cta {
+    padding: var(--spacing-16) 0;
+    background: var(--color-primary);
+}
+
+.praktijk-cta__content {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.praktijk-cta__content h2 {
+    font-size: var(--font-size-2xl);
+    color: white;
+    margin-bottom: var(--spacing-4);
+}
+
+.praktijk-cta__content p {
+    font-size: var(--font-size-base);
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: var(--spacing-6);
+}
+
+.praktijk-cta__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-3);
+    justify-content: center;
+}
+
+.praktijk-cta .btn-primary {
+    background: white;
+    color: var(--color-primary);
+}
+
+.praktijk-cta .btn-secondary {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
