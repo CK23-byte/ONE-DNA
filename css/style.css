@@ -3904,3 +3904,272 @@ h4 { font-size: var(--font-size-lg); }
     width: 100%;
     height: 100%;
 }
+
+/* ================================
+   Hero - Large Kennisplatform Title
+   ================================ */
+.hero__pretitle {
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    color: var(--color-secondary);
+    margin-bottom: var(--spacing-2);
+    letter-spacing: 0.05em;
+}
+
+.hero__title--large {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-4);
+    letter-spacing: -0.02em;
+    line-height: 1;
+}
+
+@media (min-width: 768px) {
+    .hero__title--large {
+        font-size: 5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .hero__title--large {
+        font-size: 6rem;
+    }
+}
+
+.hero__tagline {
+    font-size: var(--font-size-xl);
+    font-weight: 500;
+    color: var(--color-text);
+    margin-bottom: var(--spacing-4);
+}
+
+@media (min-width: 768px) {
+    .hero__tagline {
+        font-size: var(--font-size-2xl);
+    }
+}
+
+/* Outline Light Button (for dark backgrounds) */
+.btn-outline-light {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacing-3) var(--spacing-6);
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: var(--radius-md);
+    transition: var(--transition-base);
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+}
+
+.btn-outline-light:hover {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.btn-outline-light.btn-lg {
+    padding: var(--spacing-4) var(--spacing-8);
+    font-size: var(--font-size-lg);
+}
+
+/* Improved button contrast on gray backgrounds */
+.complexity-section .btn,
+.mono-section .btn,
+.evidence-section .btn {
+    background-color: var(--color-primary);
+    color: white;
+    border-color: var(--color-primary);
+    box-shadow: 0 2px 4px rgba(38, 81, 73, 0.3);
+}
+
+.complexity-section .btn:hover,
+.mono-section .btn:hover,
+.evidence-section .btn:hover {
+    background-color: var(--color-primary-dark);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(38, 81, 73, 0.4);
+}
+
+.complexity-section .btn-secondary,
+.mono-section .btn-secondary,
+.evidence-section .btn-secondary {
+    background-color: white;
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+}
+
+.complexity-section .btn-secondary:hover,
+.mono-section .btn-secondary:hover,
+.evidence-section .btn-secondary:hover {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+/* ================================
+   Improved Certification Section
+   ================================ */
+.certs-section {
+    padding: var(--spacing-12) 0;
+    background: white;
+}
+
+.certs-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-4);
+    margin: var(--spacing-8) 0;
+}
+
+@media (min-width: 640px) {
+    .certs-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .certs-grid {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+.cert-badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacing-6) var(--spacing-4);
+    background: var(--color-background-alt);
+    border-radius: var(--radius-lg);
+    text-align: center;
+    transition: var(--transition-base);
+    border: 2px solid transparent;
+}
+
+.cert-badge:hover {
+    border-color: var(--color-primary);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.cert-badge strong {
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-1);
+}
+
+.cert-badge span {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-light);
+    font-weight: 500;
+}
+
+.certs-note {
+    text-align: center;
+    font-size: var(--font-size-sm);
+    color: var(--color-text-light);
+    margin-top: var(--spacing-4);
+}
+
+.certs-note a {
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+.certs-note a:hover {
+    text-decoration: underline;
+}
+
+/* ================================
+   Certification Cards (Improved UX)
+   ================================ */
+.certs-intro {
+    max-width: 700px;
+    margin: 0 auto var(--spacing-8);
+    text-align: center;
+}
+
+.certs-intro p {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-light);
+    line-height: 1.6;
+}
+
+.certs-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-4);
+    margin-bottom: var(--spacing-8);
+}
+
+@media (min-width: 640px) {
+    .certs-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .certs-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.cert-card {
+    background: var(--color-background-alt);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-6);
+    border-left: 4px solid var(--color-primary);
+    transition: var(--transition-base);
+}
+
+.cert-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.cert-card__header {
+    display: flex;
+    align-items: baseline;
+    gap: var(--spacing-2);
+    margin-bottom: var(--spacing-3);
+}
+
+.cert-card__title {
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    color: var(--color-primary);
+}
+
+.cert-card__standard {
+    font-size: var(--font-size-xs);
+    font-weight: 600;
+    color: var(--color-secondary);
+    background: rgba(86, 158, 130, 0.15);
+    padding: var(--spacing-1) var(--spacing-2);
+    border-radius: var(--radius-sm);
+}
+
+.cert-card__description {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-light);
+    line-height: 1.6;
+    margin: 0;
+}
+
+.certs-cta {
+    text-align: center;
+    padding-top: var(--spacing-6);
+    border-top: 1px solid var(--color-border-light);
+}
+
+.certs-cta p {
+    font-size: var(--font-size-base);
+    color: var(--color-text-light);
+    margin-bottom: var(--spacing-4);
+}
