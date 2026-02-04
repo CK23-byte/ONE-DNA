@@ -2130,6 +2130,14 @@ h4 { font-size: var(--font-size-lg); }
     opacity: 0.9;
 }
 
+.top-bar__item--usp {
+    font-weight: 600;
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.15);
+    padding: var(--spacing-1) var(--spacing-3);
+    border-radius: var(--radius-sm);
+}
+
 .top-bar__contact a {
     color: white;
     font-weight: 600;
