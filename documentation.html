@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+
+    <meta name="description" content="ONE-DNA™ documentation, certifications, and technical specifications. EPD, LCA data, EN 71-3 compliance, installation guides.">
+    <meta name="keywords" content="ONE-DNA EPD, artificial grass certification, LCA data, EN 71-3, technical specifications, installation guide">
+    <meta name="author" content="LimeGreen®">
+
+    <link rel="canonical" href="https://one-dna.cloud/documentation.html">
+    <title>Documentation & Certifications | ONE-DNA™</title>
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="ONE-DNA™ Documentation | Certifications & Technical Specs">
+    <meta property="og:description" content="Access EPD certificates, LCA data, technical specifications, and installation guides for ONE-DNA™ products.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="header" role="banner">
+        <nav class="nav container" role="navigation" aria-label="Main navigation">
+            <div class="nav__logo">
+                <a href="index.html" class="logo-link" title="ONE-DNA™ Home">
+                    <img src="assets/images/one-dna-logo-dark.svg" alt="ONE-DNA™" class="logo-img" width="160" height="36">
+                </a>
+            </div>
+
+            <ul class="nav__menu" id="main-nav">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item nav__item--dropdown">
+                    <a href="products.html" class="nav__link">Products</a>
+                    <div class="nav__dropdown">
+                        <a href="products.html#play-24" class="nav__dropdown-item">ONE-DNA™ Play 24</a>
+                        <a href="products.html#pure-pt-28" class="nav__dropdown-item">ONE-DNA™ Pure PT Play 28</a>
+                        <a href="products.html#comparison" class="nav__dropdown-item">Product Comparison</a>
+                    </div>
+                </li>
+                <li class="nav__item nav__item--dropdown">
+                    <a href="circularity.html" class="nav__link">Circularity</a>
+                    <div class="nav__dropdown">
+                        <a href="circularity.html#take-back" class="nav__dropdown-item">Take-back Program</a>
+                        <a href="circularity.html#how-it-works" class="nav__dropdown-item">How It Works</a>
+                        <a href="circularity.html#partners" class="nav__dropdown-item">Partners</a>
+                    </div>
+                </li>
+                <li class="nav__item nav__item--dropdown">
+                    <a href="documentation.html" class="nav__link active">Documentation</a>
+                    <div class="nav__dropdown">
+                        <a href="documentation.html#certifications" class="nav__dropdown-item">Certifications</a>
+                        <a href="documentation.html#technical" class="nav__dropdown-item">Technical Specs</a>
+                        <a href="documentation.html#installation" class="nav__dropdown-item">Installation Guides</a>
+                    </div>
+                </li>
+                <li class="nav__item"><a href="blog.html" class="nav__link">Insights</a></li>
+                <li class="nav__item nav__item--cta">
+                    <a href="https://www.one-dna.com/contact" target="_blank" rel="noopener" class="btn btn-primary">Contact</a>
+                </li>
+            </ul>
+
+            <div class="nav__actions">
+                <div class="lang-dropdown">
+                    <button class="lang-toggle" onclick="toggleLangDropdown()" aria-label="Select language">
+                        <span id="currentLang">EN</span>
+                        <svg width="12" height="12" viewBox="0 0 12 12"><path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+                    </button>
+                    <div class="lang-menu" role="menu">
+                        <button onclick="changeLanguage('en')" role="menuitem">English</button>
+                        <button onclick="changeLanguage('nl')" role="menuitem">Nederlands</button>
+                        <button onclick="changeLanguage('de')" role="menuitem">Deutsch</button>
+                        <button onclick="changeLanguage('sv')" role="menuitem">Svenska</button>
+                        <button onclick="changeLanguage('no')" role="menuitem">Norsk</button>
+                        <button onclick="changeLanguage('es')" role="menuitem">Español</button>
+                        <button onclick="changeLanguage('it')" role="menuitem">Italiano</button>
+                        <button onclick="changeLanguage('pt')" role="menuitem">Português</button>
+                    </div>
+                </div>
+                <button class="nav__toggle" onclick="toggleMobileMenu()" aria-label="Toggle menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+        <div class="mobile-nav__content">
+            <ul class="mobile-nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="circularity.html">Circularity</a></li>
+                <li class="mobile-nav__group">
+                    <span class="mobile-nav__label">Documentation</span>
+                    <ul>
+                        <li><a href="documentation.html#certifications">Certifications</a></li>
+                        <li><a href="documentation.html#technical">Technical Specs</a></li>
+                        <li><a href="documentation.html#installation">Installation Guides</a></li>
+                    </ul>
+                </li>
+                <li><a href="blog.html">Insights</a></li>
+            </ul>
+            <div class="mobile-nav__cta">
+                <a href="https://www.one-dna.com/contact" target="_blank" rel="noopener" class="btn btn-primary btn-block">Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <main id="main-content" role="main">
+
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <nav class="breadcrumbs" aria-label="Breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <span>Documentation</span>
+                </nav>
+                <h1>Documentation & Certifications</h1>
+                <p class="page-header__subtitle">Technical specifications, certifications, and resources for specifiers and professionals.</p>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="content-section">
+            <div class="container">
+                <h2 class="section-title">Certifications & Compliance</h2>
+                <p class="section-subtitle">Third-party verified credentials for ONE-DNA™ products</p>
+
+                <div class="cert-grid">
+                    <article id="epd" class="cert-card">
+                        <div class="cert-card__header">
+                            <span class="badge">Environmental</span>
+                            <h3>EPD Certification</h3>
+                        </div>
+                        <p>Environmental Product Declaration providing transparent, third-party verified data on environmental impact throughout the product lifecycle.</p>
+                        <ul class="cert-card__details">
+                            <li><strong>Scope:</strong> Cradle-to-gate with end-of-life options</li>
+                            <li><strong>Standard:</strong> ISO 14025, EN 15804</li>
+                            <li><strong>Validity:</strong> 5 years from issue date</li>
+                        </ul>
+                        <a href="https://www.one-dna.com/contact" target="_blank" rel="noopener" class="btn btn-secondary">Request EPD</a>
+                    </article>
+
+                    <article class="cert-card">
+                        <div class="cert-card__header">
+                            <span class="badge">Safety</span>
+                            <h3>EN 71-3 Compliance</h3>
+                        </div>
+                        <p>Certified compliance with European toy safety standards for migration of certain elements. Ensures safe use in environments with children.</p>
+                        <ul class="cert-card__details">
+                            <li><strong>Scope:</strong> Heavy metal migration testing</li>
+                            <li><strong>Standard:</strong> EN 71-3:2019</li>
+                            <li><strong>Application:</strong> Schools, playgrounds, residential</li>
+                        </ul>
+                        <a href="https://www.one-dna.com/contact" target="_blank" rel="noopener" class="btn btn-secondary">Request Certificate</a>
+                    </article>
+
+                    <article class="cert-card">
+                        <div class="cert-card__header">
+                            <span class="badge">Chemical</span>
+                            <h3>REACH Compliance</h3>
+                        </div>
+                        <p>Full compliance with EU REACH regulation for chemical substances. No SVHC (Substances of Very High Concern) above threshold.</p>
+                        <ul class="cert-card__details">
+                            <li><strong>Scope:</strong> All product components</li>
+                            <li><strong>Standard:</strong> EC 1907/2006</li>
+                            <li><strong>PFAS:</strong> PFAS-free formulation</li>
+                        </ul>
+                        <a href="https://www.one-dna.com/contact" target="_blank" rel="noopener" class="btn btn-secondary">Request Declaration</a>
+                    </article>
+
+                    <article class="cert-card">
+                        <div class="cert-card__header">
+                            <span class="badge">Recyclability</span>
+                            <h3>SGS Intron Testing</h3>
+                        </div>
+                        <p>Independent verification of recyclability by SGS Intron. Confirms compatibility with existing PE recycling processes.</p>
+                        <ul class="cert-card__details">
+                            <li><strong>Scope:</strong> Material recyclability assessment</li>
+                            <li><strong>Testing:</strong> Melt flow, contamination, processing</li>
+                            <li><strong>Result:</strong> Suitable for PE recycling streams</li>
+                        </ul>
+                        <a href="https://www.one-dna.com/contact" target="_blank" rel="noopener" class="btn btn-secondary">Request Report</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Specifications -->
+        <section id="technical" class="content-section bg-alt">
+            <div class="container">
+                <h2 class="section-title">Technical Specifications</h2>
+                <p class="section-subtitle">Detailed product data for specification and procurement</p>
+
+                <div class="specs-overview">
+                    <div class="specs-product">
+                        <h3>ONE-DNA™ Play 24</h3>
+                        <table class="specs-table-full">
+                            <tbody>
+                                <tr><th>Pile Height</th><td>24 mm ± 1 mm</td></tr>
+                                <tr><th>Yarn Material</th><td>100% Polyethylene (PE)</td></tr>
+                                <tr><th>Yarn Type</th><td>Monofilament</td></tr>
+                                <tr><th>Yarn Dtex</th><td>~8,800 dtex</td></tr>
+                                <tr><th>Backing Material</th><td>PE woven fabric</td></tr>
+                                <tr><th>Coating</th><td>PE-based compound</td></tr>
+                                <tr><th>Total Weight</th><td>~2,100 g/m² ± 5%</td></tr>
+                                <tr><th>Pile Weight</th><td>~1,100 g/m²</td></tr>
+                                <tr><th>Pile Density</th><td>~98,000 tufts/m²</td></tr>
+                                <tr><th>Gauge</th><td>3/8" (9.5 mm)</td></tr>
+                                <tr><th>Stitch Rate</th><td>18 stitches/10cm</td></tr>
+                                <tr><th>Roll Width</th><td>4.0 m standard</td></tr>
+                                <tr><th>Roll Length</th><td>25 m standard</td></tr>
+                                <tr><th>UV Resistance</th><td>&gt;6,000 hours (Xenon test)</td></tr>
+                                <tr><th>Color Fastness</th><td>≥6 (Grey scale)</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="specs-product">
+                        <h3>ONE-DNA™ Pure PT Play 28</h3>
+                        <table class="specs-table-full">
+                            <tbody>
+                                <tr><th>Pile Height</th><td>28 mm ± 1 mm</td></tr>
+                                <tr><th>Yarn Material</th><td>100% Polyethylene (PE)</td></tr>
+                                <tr><th>Yarn Type</th><td>Monofilament (PT enhanced)</td></tr>
+                                <tr><th>Yarn Dtex</th><td>~11,000 dtex</td></tr>
+                                <tr><th>Backing Material</th><td>PE woven fabric (reinforced)</td></tr>
+                                <tr><th>Coating</th><td>PE-based compound (enhanced)</td></tr>
+                                <tr><th>Total Weight</th><td>~2,400 g/m² ± 5%</td></tr>
+                                <tr><th>Pile Weight</th><td>~1,350 g/m²</td></tr>
+                                <tr><th>Pile Density</th><td>~112,000 tufts/m²</td></tr>
+                                <tr><th>Gauge</th><td>3/8" (9.5 mm)</td></tr>
+                                <tr><th>Stitch Rate</th><td>20 stitches/10cm</td></tr>
+                                <tr><th>Roll Width</th><td>4.0 m standard</td></tr>
+                                <tr><th>Roll Length</th><td>25 m standard</td></tr>
+                                <tr><th>UV Resistance</th><td>&gt;8,000 hours (Xenon test)</td></tr>
+                                <tr><th>Color Fastness</th><td>≥7 (Grey scale)</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="specs-download">
+                    <p>Need complete technical data sheets? Contact us for detailed specifications suitable for tender documents and specifications.</p>
+                    <a href="https://www.one-dna.com/contact" target="_blank" rel="noopener" class="btn btn-primary">Request Technical Data</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Installation Guides -->
+        <section id="installation" class="content-section">
+            <div class="container">
+                <h2 class="section-title">Installation Guidelines</h2>
+                <p class="section-subtitle">Professional installation resources</p>
+
+                <div class="guide-grid">
+                    <article class="guide-card">
+                        <h3>Base Preparation</h3>
+                        <p>Requirements for sub-base construction, drainage, and surface preparation to ensure optimal performance and longevity.</p>
+                        <ul>
+                            <li>Sub-base specifications</li>
+                            <li>Drainage requirements</li>
+                            <li>Level tolerances</li>
+                            <li>Edge detailing</li>
+                        </ul>
+                    </article>
+
+                    <article class="guide-card">
+                        <h3>Turf Installation</h3>
+                        <p>Step-by-step installation procedures including layout, seaming, securing, and finishing requirements.</p>
+                        <ul>
+                            <li>Roll layout planning</li>
+                            <li>Seam preparation</li>
+                            <li>Adhesive application</li>
+                            <li>Infill installation</li>
+                        </ul>
+                    </article>
+
+                    <article class="guide-card">
+                        <h3>Maintenance</h3>
+                        <p>Recommended maintenance schedules and procedures to maximize service life and maintain performance.</p>
+                        <ul>
+                            <li>Regular grooming</li>
+                            <li>Infill top-up</li>
+                            <li>Cleaning procedures</li>
+                            <li>Inspection schedules</li>
+                        </ul>
+                    </article>
+
+                    <article class="guide-card">
+                        <h3>End-of-Life</h3>
+                        <p>Take-back program procedures and requirements for proper end-of-life handling.</p>
+                        <ul>
+                            <li>Notification process</li>
+                            <li>Removal procedures</li>
+                            <li>Collection logistics</li>
+                            <li>Documentation requirements</li>
+                        </ul>
+                    </article>
+                </div>
+
+                <div class="guide-cta">
+                    <p><strong>Installation Partner Required:</strong> ONE-DNA™ products should be installed by certified partners to ensure warranty coverage and take-back program eligibility.</p>
+                    <a href="https://www.one-dna.com/changemakers" target="_blank" rel="noopener" class="btn btn-secondary">Find Installation Partner</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <div class="cta__content">
+                    <h2>Need Additional Documentation?</h2>
+                    <p>Contact us for specific certificates, test reports, or technical data for your project requirements.</p>
+                    <div class="cta__buttons">
+                        <a href="https://www.one-dna.com/contact" target="_blank" rel="noopener" class="btn btn-primary btn-lg">Contact Us</a>
+                        <a href="products.html" class="btn btn-secondary btn-lg">View Products</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer__main">
+                <div class="footer__brand">
+                    <img src="assets/images/one-dna-logo-white.svg" alt="ONE-DNA™" class="footer__logo" width="140" height="32">
+                    <p class="footer__tagline">Global Knowledge Platform for Sustainable Artificial Grass</p>
+                    <div class="footer__social">
+                        <a href="https://www.instagram.com/onednaartificialgrass/" target="_blank" rel="noopener" aria-label="Instagram" class="footer__social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                        <a href="https://www.linkedin.com/company/onednaartificialgrass/" target="_blank" rel="noopener" aria-label="LinkedIn" class="footer__social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__nav">
+                    <div class="footer__col">
+                        <h4>Products</h4>
+                        <ul>
+                            <li><a href="products.html#play-24">ONE-DNA™ Play 24</a></li>
+                            <li><a href="products.html#pure-pt-28">ONE-DNA™ Pure PT Play 28</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="circularity.html">Circularity</a></li>
+                            <li><a href="documentation.html">Documentation</a></li>
+                            <li><a href="blog.html">Insights</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="https://www.one-dna.com" target="_blank" rel="noopener">one-dna.com</a></li>
+                            <li><a href="https://www.one-dna.com/contact" target="_blank" rel="noopener">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__legal">
+                <div class="footer__legal-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="cookies.html">Cookie Policy</a>
+                    <a href="terms.html">Terms of Use</a>
+                </div>
+                <div class="footer__copyright">
+                    <p>&copy; 2025 LimeGreen® - All rights reserved</p>
+                    <p class="footer__tm">ONE-DNA™ is a registered trademark of LimeGreen®.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+
+    <meta name="description" content="ONE-DNA™ take-back program and circularity. Learn how mono-material design enables real recyclability and closes the material loop.">
+    <meta name="keywords" content="ONE-DNA circularity, take-back program, artificial grass recycling, circular economy, mono-material recycling">
+    <meta name="author" content="LimeGreen®">
+
+    <link rel="canonical" href="https://one-dna.cloud/circularity.html">
+    <title>Circularity & Take-back | ONE-DNA™</title>
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="ONE-DNA™ Circularity | Take-back Program">
+    <meta property="og:description" content="How ONE-DNA™ mono-material design enables real recyclability with verified take-back infrastructure.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="header" role="banner">
+        <nav class="nav container" role="navigation" aria-label="Main navigation">
+            <div class="nav__logo">
+                <a href="index.html" class="logo-link" title="ONE-DNA™ Home">
+                    <img src="assets/images/one-dna-logo-dark.svg" alt="ONE-DNA™" class="logo-img" width="160" height="36">
+                </a>
+            </div>
+
+            <ul class="nav__menu" id="main-nav">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item nav__item--dropdown">
+                    <a href="products.html" class="nav__link">Products</a>
+                    <div class="nav__dropdown">
+                        <a href="products.html#play-24" class="nav__dropdown-item">ONE-DNA™ Play 24</a>
+                        <a href="products.html#pure-pt-28" class="nav__dropdown-item">ONE-DNA™ Pure PT Play 28</a>
+                        <a href="products.html#comparison" class="nav__dropdown-item">Product Comparison</a>
+                    </div>
+                </li>
+                <li class="nav__item nav__item--dropdown">
+                    <a href="circularity.html" class="nav__link active">Circularity</a>
+                    <div class="nav__dropdown">
+                        <a href="circularity.html#take-back" class="nav__dropdown-item">Take-back Program</a>
+                        <a href="circularity.html#how-it-works" class="nav__dropdown-item">How It Works</a>
+                        <a href="circularity.html#partners" class="nav__dropdown-item">Partners</a>
+                    </div>
+                </li>
+                <li class="nav__item nav__item--dropdown">
+                    <a href="documentation.html" class="nav__link">Documentation</a>
+                    <div class="nav__dropdown">
+                        <a href="documentation.html#certifications" class="nav__dropdown-item">Certifications</a>
+                        <a href="documentation.html#technical" class="nav__dropdown-item">Technical Specs</a>
+                        <a href="documentation.html#installation" class="nav__dropdown-item">Installation Guides</a>
+                    </div>
+                </li>
+                <li class="nav__item"><a href="blog.html" class="nav__link">Insights</a></li>
+                <li class="nav__item nav__item--cta">
+                    <a href="https://www.one-dna.com/contact" target="_blank" rel="noopener" class="btn btn-primary">Contact</a>
+                </li>
+            </ul>
+
+            <div class="nav__actions">
+                <div class="lang-dropdown">
+                    <button class="lang-toggle" onclick="toggleLangDropdown()" aria-label="Select language">
+                        <span id="currentLang">EN</span>
+                        <svg width="12" height="12" viewBox="0 0 12 12"><path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+                    </button>
+                    <div class="lang-menu" role="menu">
+                        <button onclick="changeLanguage('en')" role="menuitem">English</button>
+                        <button onclick="changeLanguage('nl')" role="menuitem">Nederlands</button>
+                        <button onclick="changeLanguage('de')" role="menuitem">Deutsch</button>
+                        <button onclick="changeLanguage('sv')" role="menuitem">Svenska</button>
+                        <button onclick="changeLanguage('no')" role="menuitem">Norsk</button>
+                        <button onclick="changeLanguage('es')" role="menuitem">Español</button>
+                        <button onclick="changeLanguage('it')" role="menuitem">Italiano</button>
+                        <button onclick="changeLanguage('pt')" role="menuitem">Português</button>
+                    </div>
+                </div>
+                <button class="nav__toggle" onclick="toggleMobileMenu()" aria-label="Toggle menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+        <div class="mobile-nav__content">
+            <ul class="mobile-nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li class="mobile-nav__group">
+                    <span class="mobile-nav__label">Circularity</span>
+                    <ul>
+                        <li><a href="circularity.html#take-back">Take-back Program</a></li>
+                        <li><a href="circularity.html#how-it-works">How It Works</a></li>
+                        <li><a href="circularity.html#partners">Partners</a></li>
+                    </ul>
+                </li>
+                <li><a href="documentation.html">Documentation</a></li>
+                <li><a href="blog.html">Insights</a></li>
+            </ul>
+            <div class="mobile-nav__cta">
+                <a href="https://www.one-dna.com/contact" target="_blank" rel="noopener" class="btn btn-primary btn-block">Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <main id="main-content" role="main">
+
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <nav class="breadcrumbs" aria-label="Breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <span>Circularity</span>
+                </nav>
+                <h1>Circularity & Take-back</h1>
+                <p class="page-header__subtitle">From installation to recycling. How ONE-DNA™ closes the material loop.</p>
+            </div>
+        </section>
+
+        <!-- The Circularity Challenge -->
+        <section class="content-section">
+            <div class="container">
+                <div class="content-grid">
+                    <div class="content-main">
+                        <h2>The Challenge with Traditional Artificial Grass</h2>
+                        <p class="content-lead">
+                            Traditional artificial grass consists of multiple materials bonded together: polypropylene backing, latex adhesives, polyurethane coatings, and various fiber types. This multi-material construction makes recycling technically impossible without expensive separation processes that often aren't economically viable.
+                        </p>
+                        <p>
+                            The result: millions of square meters of artificial grass end up in landfill or incineration each year. Even when recycled, it's typically "downcycled" into low-value applications, losing most of its material value.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- The ONE-DNA Solution -->
+        <section id="take-back" class="content-section bg-alt">
+            <div class="container">
+                <h2 class="section-title">The ONE-DNA™ Take-back Program</h2>
+                <p class="section-subtitle">Designed for circularity from the start</p>
+
+                <div class="solution-grid">
+                    <div class="solution-card">
+                        <div class="solution-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                                <path d="M2 17l10 5 10-5"/>
+                                <path d="M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <h3>Mono-Material Design</h3>
+                        <p>100% polyethylene construction - fibers, backing, and coating are all PE. No material separation needed at end-of-life.</p>
+                    </div>
+
+                    <div class="solution-card">
+                        <div class="solution-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M21 12a9 9 0 11-6.219-8.56"/>
+                                <path d="M12 2v4"/>
+                                <path d="M12 18v4"/>
+                                <path d="M4.93 4.93l2.83 2.83"/>
+                            </svg>
+                        </div>
+                        <h3>Verified Take-back</h3>
+                        <p>Every ONE-DNA™ installation is eligible for our take-back program. We collect, process, and return materials to the cycle.</p>
+                    </div>
+
+                    <div class="solution-card">
+                        <div class="solution-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M9 12l2 2 4-4"/>
+                                <circle cx="12" cy="12" r="10"/>
+                            </svg>
+                        </div>
+                        <h3>Traceable Chain</h3>
+                        <p>Full traceability from installation to recycling. Documentation available for sustainability reporting.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works -->
+        <section id="how-it-works" class="content-section">
+            <div class="container">
+                <h2 class="section-title">How It Works</h2>
+                <p class="section-subtitle">The ONE-DNA™ circular journey</p>
+
+                <div class="process-steps">
+                    <div class="process-step">
+                        <div class="process-number">1</div>
+                        <h3>Design</h3>
+                        <p>ONE-DNA™ is engineered from 100% polyethylene. All components - fibers, backing, and coating - are PE-based, ensuring material uniformity.</p>
+                    </div>
+
+                    <div class="process-step">
+                        <div class="process-number">2</div>
+                        <h3>Installation</h3>
+                        <p>Professional installation by certified partners. Every installation is registered in our system for end-of-life management.</p>
+                    </div>
+
+                    <div class="process-step">
+                        <div class="process-number">3</div>
+                        <h3>Use Phase</h3>
+                        <p>Typical service life of 8-15 years depending on application and maintenance. Full support throughout the lifecycle.</p>
+                    </div>
+
+                    <div class="process-step">
+                        <div class="process-number">4</div>
+                        <h3>Collection</h3>
+                        <p>At end-of-life, certified collection partners remove the field. Material is transported to approved processing facilities.</p>
+                    </div>
+
+                    <div class="process-step">
+                        <div class="process-number">5</div>
+                        <h3>Processing</h3>
+                        <p>Because ONE-DNA™ is mono-material, no separation is needed. Material is cleaned, shredded, and processed into PE pellets.</p>
+                    </div>
+
+                    <div class="process-step">
+                        <div class="process-number">6</div>
+                        <h3>New Material</h3>
+                        <p>Recycled PE enters the material stream for new applications. True circular economy in action.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Anti-Greenwashing Evidence -->
+        <section class="evidence">
+            <div class="container">
+                <div class="evidence__block">
+                    <h2 class="evidence__title">Transparency & Limitations</h2>
+
+                    <div class="evidence__grid">
+                        <div class="evidence__card evidence__card--enables">
+                            <h3>What the Program Enables</h3>
+                            <ul>
+                                <li>Guaranteed collection at end-of-life via partner network</li>
+                                <li>Verified processing at approved facilities</li>
+                                <li>Documentation for sustainability reporting (CSRD, EPR)</li>
+                                <li>Material tracking throughout the chain</li>
+                            </ul>
+                        </div>
+
+                        <div class="evidence__card evidence__card--limitations">
+                            <h3>Important Considerations</h3>
+                            <ul>
+                                <li>Take-back availability varies by region - contact us for local coverage</li>
+                                <li>Processing infrastructure depends on local capabilities</li>
+                                <li>Recycled content percentage in new products varies</li>
+                                <li>Collection must be coordinated with certified partners</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="evidence__refs">
+                        <p class="evidence__note">
+                            * Circularity is a system outcome. ONE-DNA™ provides the technical foundation (mono-material design) and infrastructure (take-back network), but actual recycling depends on correct implementation and regional capabilities. We are transparent about these dependencies.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partners Section -->
+        <section id="partners" class="content-section bg-alt">
+            <div class="container">
+                <h2 class="section-title">Our Partner Network</h2>
+                <p class="section-subtitle">49+ certified partners across Europe and beyond</p>
+
+                <div class="partner-stats">
+                    <div class="partner-stat">
+                        <span class="partner-stat__number">49+</span>
+                        <span class="partner-stat__label">Global Partners</span>
+                    </div>
+                    <div class="partner-stat">
+                        <span class="partner-stat__number">15+</span>
+                        <span class="partner-stat__label">Countries</span>
+                    </div>
+                    <div class="partner-stat">
+                        <span class="partner-stat__number">100%</span>
+                        <span class="partner-stat__label">Take-back Eligible</span>
+                    </div>
+                </div>
+
+                <div class="partner-cta">
+                    <p>Our Changemaker network includes certified installation partners, collection specialists, and recycling facilities.</p>
+                    <a href="https://www.one-dna.com/changemakers" target="_blank" rel="noopener" class="btn btn-primary">Find a Partner Near You</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <div class="cta__content">
+                    <h2>Ready to Close the Loop?</h2>
+                    <p>Learn how ONE-DNA™ can support your circularity goals and sustainability requirements.</p>
+                    <div class="cta__buttons">
+                        <a href="https://www.one-dna.com/contact" target="_blank" rel="noopener" class="btn btn-primary btn-lg">Contact Us</a>
+                        <a href="documentation.html" class="btn btn-secondary btn-lg">View Documentation</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer__main">
+                <div class="footer__brand">
+                    <img src="assets/images/one-dna-logo-white.svg" alt="ONE-DNA™" class="footer__logo" width="140" height="32">
+                    <p class="footer__tagline">Global Knowledge Platform for Sustainable Artificial Grass</p>
+                    <div class="footer__social">
+                        <a href="https://www.instagram.com/onednaartificialgrass/" target="_blank" rel="noopener" aria-label="Instagram" class="footer__social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                        <a href="https://www.linkedin.com/company/onednaartificialgrass/" target="_blank" rel="noopener" aria-label="LinkedIn" class="footer__social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__nav">
+                    <div class="footer__col">
+                        <h4>Products</h4>
+                        <ul>
+                            <li><a href="products.html#play-24">ONE-DNA™ Play 24</a></li>
+                            <li><a href="products.html#pure-pt-28">ONE-DNA™ Pure PT Play 28</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="circularity.html">Circularity</a></li>
+                            <li><a href="documentation.html">Documentation</a></li>
+                            <li><a href="blog.html">Insights</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="https://www.one-dna.com" target="_blank" rel="noopener">one-dna.com</a></li>
+                            <li><a href="https://www.one-dna.com/contact" target="_blank" rel="noopener">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__legal">
+                <div class="footer__legal-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="cookies.html">Cookie Policy</a>
+                    <a href="terms.html">Terms of Use</a>
+                </div>
+                <div class="footer__copyright">
+                    <p>&copy; 2025 LimeGreen® - All rights reserved</p>
+                    <p class="footer__tm">ONE-DNA™ is a registered trademark of LimeGreen®.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
