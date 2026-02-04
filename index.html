@@ -183,7 +183,7 @@
         <!-- HERO: Video Background -->
         <section class="video-hero" aria-labelledby="hero-title">
             <div class="video-hero__background">
-                <video autoplay muted loop playsinline class="video-hero__video" poster="https://air-prod.imgix.net/0e646998-67b3-427c-9cbc-d44126286c38/thumbnail.jpg">
+                <video id="heroVideo" autoplay muted loop playsinline preload="auto" class="video-hero__video" poster="https://air-prod.imgix.net/0e646998-67b3-427c-9cbc-d44126286c38/thumbnail.jpg">
                     <source src="assets/video/header-video.mp4" type="video/mp4">
                 </video>
                 <div class="video-hero__overlay"></div>
@@ -795,5 +795,17 @@
     <script src="js/translations.js"></script>
     <script src="js/main.js"></script>
     <script src="js/chatbot.js"></script>
+
+    <!-- Video Autoplay Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const video = document.getElementById('heroVideo');
+            if (video) {
+                video.play().catch(function(error) {
+                    console.log('Video autoplay blocked:', error);
+                });
+            }
+        });
+    </script>
 </body>
 </html>
