@@ -5426,3 +5426,676 @@ h4 { font-size: var(--font-size-lg); }
     gap: var(--spacing-3);
     justify-content: center;
 }
+
+/* ================================
+   Circularity Page - Neutral Tone
+   ================================ */
+
+/* Circ Hero */
+.circ-hero {
+    padding: calc(var(--header-height) + var(--spacing-16) + 32px) 0 var(--spacing-12);
+    background: linear-gradient(135deg, #f8faf9 0%, #e8f0ed 100%);
+}
+
+.circ-hero .breadcrumbs {
+    margin-bottom: var(--spacing-6);
+}
+
+.circ-hero__content {
+    max-width: 800px;
+}
+
+.circ-hero__content h1 {
+    font-size: var(--font-size-3xl);
+    font-weight: 800;
+    color: var(--color-text);
+    margin-bottom: var(--spacing-6);
+}
+
+@media (min-width: 768px) {
+    .circ-hero__content h1 {
+        font-size: var(--font-size-4xl);
+    }
+}
+
+.circ-hero__definition {
+    font-size: var(--font-size-lg);
+    color: var(--color-text);
+    line-height: 1.7;
+    margin-bottom: var(--spacing-4);
+}
+
+.circ-hero__note {
+    font-size: var(--font-size-base);
+    color: var(--color-text-light);
+    line-height: 1.6;
+    padding: var(--spacing-4);
+    background: white;
+    border-left: 4px solid var(--color-border);
+    border-radius: var(--radius-sm);
+}
+
+/* Circ Context Section */
+.circ-context {
+    padding: var(--spacing-16) 0;
+    background: white;
+}
+
+.circ-context__intro {
+    margin-bottom: var(--spacing-10);
+}
+
+.circ-context__intro h2 {
+    font-size: var(--font-size-2xl);
+    color: var(--color-text);
+}
+
+@media (min-width: 768px) {
+    .circ-context__intro h2 {
+        font-size: var(--font-size-3xl);
+    }
+}
+
+.context-cards {
+    display: grid;
+    gap: var(--spacing-6);
+}
+
+@media (min-width: 768px) {
+    .context-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.context-card {
+    padding: var(--spacing-6);
+    background: var(--color-background-alt);
+    border-radius: var(--radius-lg);
+    border-top: 4px solid var(--color-border);
+}
+
+.context-card h3 {
+    font-size: var(--font-size-lg);
+    color: var(--color-text);
+    margin-bottom: var(--spacing-3);
+}
+
+.context-card p {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-light);
+    line-height: 1.6;
+    margin-bottom: var(--spacing-3);
+}
+
+.context-card p:last-child {
+    margin-bottom: 0;
+}
+
+/* Circ Factors Section */
+.circ-factors {
+    padding: var(--spacing-16) 0;
+    background: var(--color-background-alt);
+}
+
+.circ-factors__intro {
+    margin-bottom: var(--spacing-10);
+}
+
+.circ-factors__intro h2 {
+    font-size: var(--font-size-2xl);
+    color: var(--color-text);
+}
+
+@media (min-width: 768px) {
+    .circ-factors__intro h2 {
+        font-size: var(--font-size-3xl);
+    }
+}
+
+.factors-list {
+    max-width: 800px;
+}
+
+.factor-item {
+    display: flex;
+    gap: var(--spacing-5);
+    padding: var(--spacing-6);
+    background: white;
+    border-radius: var(--radius-lg);
+    margin-bottom: var(--spacing-4);
+}
+
+.factor-item:last-child {
+    margin-bottom: 0;
+}
+
+.factor-item__number {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-text-muted);
+    color: white;
+    font-size: var(--font-size-lg);
+    font-weight: 700;
+    border-radius: var(--radius-full);
+}
+
+.factor-item__content h3 {
+    font-size: var(--font-size-lg);
+    color: var(--color-text);
+    margin-bottom: var(--spacing-2);
+}
+
+.factor-item__content p {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-light);
+    line-height: 1.6;
+    margin-bottom: var(--spacing-3);
+}
+
+.factor-item__content p:last-child {
+    margin-bottom: 0;
+}
+
+/* Circ Mono Section */
+.circ-mono {
+    padding: var(--spacing-16) 0;
+    background: white;
+}
+
+.circ-mono__intro {
+    margin-bottom: var(--spacing-10);
+}
+
+.circ-mono__intro h2 {
+    font-size: var(--font-size-2xl);
+    color: var(--color-text);
+    margin-bottom: var(--spacing-4);
+}
+
+@media (min-width: 768px) {
+    .circ-mono__intro h2 {
+        font-size: var(--font-size-3xl);
+    }
+}
+
+.circ-mono__lead {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-light);
+    line-height: 1.6;
+    max-width: 700px;
+}
+
+.mono-comparison {
+    display: grid;
+    gap: var(--spacing-6);
+    margin-bottom: var(--spacing-8);
+}
+
+@media (min-width: 768px) {
+    .mono-comparison {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.mono-card {
+    padding: var(--spacing-6);
+    border-radius: var(--radius-lg);
+}
+
+.mono-card--traditional {
+    background: var(--color-background-alt);
+    border-top: 4px solid #6b7280;
+}
+
+.mono-card--mono {
+    background: rgba(38, 81, 73, 0.05);
+    border-top: 4px solid var(--color-primary);
+}
+
+.mono-card h3 {
+    font-size: var(--font-size-lg);
+    color: var(--color-text);
+    margin-bottom: var(--spacing-4);
+}
+
+.mono-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 var(--spacing-4);
+}
+
+.mono-card li {
+    padding: var(--spacing-2) 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: var(--font-size-sm);
+    color: var(--color-text-light);
+}
+
+.mono-card li:last-child {
+    border-bottom: none;
+}
+
+.mono-card__note {
+    font-size: var(--font-size-sm);
+    font-style: italic;
+    color: var(--color-text-muted);
+    margin: 0;
+}
+
+.circ-mono__caveat {
+    padding: var(--spacing-6);
+    background: #fff8e1;
+    border-left: 4px solid #ffc107;
+    border-radius: var(--radius-md);
+    max-width: 800px;
+}
+
+.circ-mono__caveat h4 {
+    font-size: var(--font-size-base);
+    color: var(--color-text);
+    margin-bottom: var(--spacing-2);
+}
+
+.circ-mono__caveat p {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-light);
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Circ Takeback Section */
+.circ-takeback {
+    padding: var(--spacing-16) 0;
+    background: var(--color-background-alt);
+}
+
+.circ-takeback__intro {
+    margin-bottom: var(--spacing-10);
+}
+
+.circ-takeback__intro h2 {
+    font-size: var(--font-size-2xl);
+    color: var(--color-text);
+    margin-bottom: var(--spacing-4);
+}
+
+@media (min-width: 768px) {
+    .circ-takeback__intro h2 {
+        font-size: var(--font-size-3xl);
+    }
+}
+
+.circ-takeback__lead {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-light);
+    line-height: 1.6;
+    max-width: 700px;
+}
+
+.takeback-steps {
+    display: grid;
+    gap: var(--spacing-4);
+    margin-bottom: var(--spacing-8);
+}
+
+@media (min-width: 640px) {
+    .takeback-steps {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .takeback-steps {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.takeback-step {
+    padding: var(--spacing-6);
+    background: white;
+    border-radius: var(--radius-lg);
+    text-align: center;
+}
+
+.takeback-step__number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background: var(--color-primary);
+    color: white;
+    font-size: var(--font-size-base);
+    font-weight: 700;
+    border-radius: var(--radius-full);
+    margin-bottom: var(--spacing-3);
+}
+
+.takeback-step h3 {
+    font-size: var(--font-size-base);
+    color: var(--color-text);
+    margin-bottom: var(--spacing-2);
+}
+
+.takeback-step p {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-light);
+    line-height: 1.5;
+    margin: 0;
+}
+
+.takeback-limits {
+    padding: var(--spacing-6);
+    background: white;
+    border-left: 4px solid var(--color-error);
+    border-radius: var(--radius-md);
+    max-width: 700px;
+}
+
+.takeback-limits h4 {
+    font-size: var(--font-size-base);
+    color: var(--color-text);
+    margin-bottom: var(--spacing-3);
+}
+
+.takeback-limits ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.takeback-limits li {
+    position: relative;
+    padding-left: var(--spacing-5);
+    font-size: var(--font-size-sm);
+    color: var(--color-text-light);
+    margin-bottom: var(--spacing-2);
+}
+
+.takeback-limits li::before {
+    content: "×";
+    position: absolute;
+    left: 0;
+    color: var(--color-error);
+    font-weight: bold;
+}
+
+/* Circ Partners Section */
+.circ-partners {
+    padding: var(--spacing-16) 0;
+    background: white;
+}
+
+.circ-partners__intro {
+    margin-bottom: var(--spacing-10);
+}
+
+.circ-partners__intro h2 {
+    font-size: var(--font-size-2xl);
+    color: var(--color-text);
+    margin-bottom: var(--spacing-4);
+}
+
+@media (min-width: 768px) {
+    .circ-partners__intro h2 {
+        font-size: var(--font-size-3xl);
+    }
+}
+
+.circ-partners__lead {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-light);
+    line-height: 1.6;
+    max-width: 700px;
+}
+
+.partner-examples {
+    display: grid;
+    gap: var(--spacing-6);
+    margin-bottom: var(--spacing-8);
+}
+
+@media (min-width: 768px) {
+    .partner-examples {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.partner-example {
+    padding: var(--spacing-6);
+    background: var(--color-background-alt);
+    border-radius: var(--radius-lg);
+    border-left: 4px solid var(--color-border);
+}
+
+.partner-example__header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: var(--spacing-2);
+    margin-bottom: var(--spacing-3);
+}
+
+.partner-example__header h3 {
+    font-size: var(--font-size-lg);
+    color: var(--color-text);
+    margin: 0;
+}
+
+.partner-example__region {
+    font-size: var(--font-size-xs);
+    font-weight: 600;
+    color: var(--color-secondary);
+    background: rgba(86, 158, 130, 0.15);
+    padding: var(--spacing-1) var(--spacing-2);
+    border-radius: var(--radius-sm);
+}
+
+.partner-example p {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-light);
+    line-height: 1.6;
+    margin-bottom: var(--spacing-3);
+}
+
+.partner-example__note {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-muted);
+    margin: 0;
+}
+
+.partner-context {
+    padding: var(--spacing-6);
+    background: var(--color-background-alt);
+    border-radius: var(--radius-md);
+    max-width: 800px;
+}
+
+.partner-context h4 {
+    font-size: var(--font-size-base);
+    color: var(--color-text);
+    margin-bottom: var(--spacing-3);
+}
+
+.partner-context p {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-light);
+    line-height: 1.6;
+    margin-bottom: var(--spacing-3);
+}
+
+.partner-context p:last-child {
+    margin-bottom: 0;
+}
+
+.partner-context a {
+    color: var(--color-primary);
+    font-weight: 500;
+}
+
+/* Circ Transparency Section */
+.circ-transparency {
+    padding: var(--spacing-16) 0;
+    background: var(--color-background-alt);
+}
+
+.circ-transparency__intro {
+    margin-bottom: var(--spacing-10);
+}
+
+.circ-transparency__intro h2 {
+    font-size: var(--font-size-2xl);
+    color: var(--color-text);
+}
+
+@media (min-width: 768px) {
+    .circ-transparency__intro h2 {
+        font-size: var(--font-size-3xl);
+    }
+}
+
+.transparency-grid {
+    display: grid;
+    gap: var(--spacing-6);
+    margin-bottom: var(--spacing-8);
+}
+
+@media (min-width: 768px) {
+    .transparency-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.transparency-card {
+    padding: var(--spacing-6);
+    border-radius: var(--radius-lg);
+}
+
+.transparency-card--can {
+    background: rgba(38, 81, 73, 0.08);
+    border-top: 4px solid var(--color-primary);
+}
+
+.transparency-card--cannot {
+    background: white;
+    border-top: 4px solid var(--color-error);
+}
+
+.transparency-card h3 {
+    font-size: var(--font-size-lg);
+    color: var(--color-text);
+    margin-bottom: var(--spacing-4);
+}
+
+.transparency-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.transparency-card li {
+    position: relative;
+    padding-left: var(--spacing-5);
+    font-size: var(--font-size-sm);
+    color: var(--color-text-light);
+    margin-bottom: var(--spacing-2);
+}
+
+.transparency-card--can li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+.transparency-card--cannot li::before {
+    content: "×";
+    position: absolute;
+    left: 0;
+    color: var(--color-error);
+    font-weight: bold;
+}
+
+.transparency-statement {
+    padding: var(--spacing-6);
+    background: white;
+    border-left: 4px solid var(--color-primary);
+    border-radius: var(--radius-md);
+    max-width: 800px;
+}
+
+.transparency-statement h4 {
+    font-size: var(--font-size-lg);
+    color: var(--color-text);
+    margin-bottom: var(--spacing-3);
+}
+
+.transparency-statement p {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-light);
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Circ Closing Section */
+.circ-closing {
+    padding: var(--spacing-16) 0;
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+}
+
+.circ-closing__content {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.circ-closing__content h2 {
+    font-size: var(--font-size-2xl);
+    color: white;
+    margin-bottom: var(--spacing-6);
+}
+
+@media (min-width: 768px) {
+    .circ-closing__content h2 {
+        font-size: var(--font-size-3xl);
+    }
+}
+
+.circ-closing__content p {
+    font-size: var(--font-size-base);
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.7;
+    margin-bottom: var(--spacing-4);
+}
+
+.circ-closing__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-3);
+    justify-content: center;
+    margin-top: var(--spacing-8);
+}
+
+.circ-closing .btn-primary {
+    background: white;
+    color: var(--color-primary);
+}
+
+.circ-closing .btn-primary:hover {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.circ-closing .btn-secondary {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.circ-closing .btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
