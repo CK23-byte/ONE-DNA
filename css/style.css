@@ -2165,6 +2165,13 @@ h2 .highlight {
     border-radius: var(--radius-sm);
 }
 
+.top-bar__item--statement {
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 0.02em;
+    font-size: var(--font-size-sm);
+}
+
 .top-bar__contact a {
     color: white;
     font-weight: 600;
