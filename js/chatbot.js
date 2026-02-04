@@ -49,8 +49,8 @@ function initChat() {
     // Set up form submission
     chatForm.addEventListener('submit', handleChatSubmit);
 
-    // Focus input
-    chatInput.focus();
+    // Don't auto-focus input on page load to prevent scrolling
+    // Focus will happen when user clicks on the input field
 }
 
 // Handle chat form submission
