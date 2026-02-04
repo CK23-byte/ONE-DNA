@@ -20,6 +20,56 @@ ONE-DNA™ is 's werelds eerste 100% mono-materiaal kunstgras, geproduceerd door
 - Tot 60% lagere CO₂-uitstoot in productie (EPD-gecertificeerd, scope A1-A3)
 - Ontworpen voor recycleerbaarheid
 
+## Productlijnen
+
+### ONE-DNA™ Landscaping (Siertuin):
+- Vista 30 - ECI: €0.38/m², CFL-S1 brandclassificatie
+- Vista 27 - ECI: €0.38/m², BFL-S1 brandclassificatie
+- Elan 35 - ECI: €0.77/m², CFL-S1 brandclassificatie
+- Orion 40 - ECI: €0.80/m², CFL-S1 brandclassificatie
+- Velvet 40 - CFL-S1 brandclassificatie
+
+### ONE-DNA™ Play (Speeltuinen):
+- Play 24 - ECI: €0.38/m², CFL-S1, met valhoogte certificering (EN 1177)
+- Pure PT Play 28 - BFL-S1 brandclassificatie, tot 51% gerecycled materiaal
+
+### ONE-DNA™ Multisport:
+- Matrix 35 - voor multifunctionele sportvelden
+
+### ONE-DNA™ Event & Indoor:
+- Elan 35 - CFL-S1, geschikt voor evenementen
+- Vista 30 - BFL-S1, geschikt voor beurzen en indoor
+
+### ONE-DNA™ Padel:
+- Padel TX - BFL-S1, speciaal voor padelbanen
+
+## Downloadbare Documenten (one-dna.com)
+
+### EPD Certificaten (Environmental Product Declaration):
+- Vista 30: https://one-dna.com/wp-content/uploads/2023/12/MRPI_EPD-ONE-DNA™-Vista-30.pdf
+- Vista 27: Deelt EPD met Vista 30
+- Elan 35: https://one-dna.com/wp-content/uploads/2023/12/MRPI_EPD-ONE-DNA™-Elan-35.pdf
+- Orion 40: https://one-dna.com/wp-content/uploads/2023/12/MRPI_EPD-ONE-DNA™-Orion-40.pdf
+- Play 24: EPD-ONE-DNA™-Play24.pdf (beschikbaar via productpagina)
+
+### Brandveiligheid Certificaten (BFL-S1 / CFL-S1):
+- Vista 30: https://one-dna.com/wp-content/uploads/2023/12/VISTA-30-10KG-INFILL-Bfl-S1.pdf
+- Elan 35: https://one-dna.com/wp-content/uploads/2023/12/ELAN-35-NO-INFILL-Bfl-S1.pdf
+- Orion 40: https://one-dna.com/wp-content/uploads/2023/12/ORION-40-15-KG-INFILL-Bfl-S1.pdf
+- Play 24: PLAY-24-25KG-INFILL-Bfl-S1.pdf (beschikbaar via productpagina)
+
+### Valhoogte Certificaten (NEN-EN 1177:2018):
+- Play 24: Valhoogte testrapport beschikbaar - geschikt voor speeltoestellen
+
+### Product Passports:
+- Vista: https://one-dna.com/wp-content/uploads/2023/12/Product-Passport-ONE-DNA™-Vista.pdf
+- Elan: https://one-dna.com/wp-content/uploads/2023/12/Product-Passport-ONE-DNA™-Elan.pdf
+- Orion: https://one-dna.com/wp-content/uploads/2023/12/Product-Passport-ONE-DNA™-Orion.pdf
+- Play: https://one-dna.com/wp-content/uploads/2023/12/Product-Passport-ONE-DNA™-Play.pdf
+
+### Technische Datasheets:
+- Alle producten hebben technische specsheets beschikbaar op one-dna.com
+
 ## Technologie
 
 ### Het Probleem met Traditioneel Kunstgras:
@@ -80,13 +130,15 @@ ONE-DNA™ is 's werelds eerste 100% mono-materiaal kunstgras, geproduceerd door
 1. Circulariteitsrapport - Take-back data en materiaalstromen
 2. Leaching Test - Uitloging analyse (zware metalen, organische verbindingen)
 3. REACH Verklaring - EU compliance chemische stoffen
+4. NEN-EN 71-3 - Kindveiligheid certificaat
 
 ### Productcertificaten (beschikbaar):
-1. Valhoogte Testrapport - EN 1177, per systeemconfiguratie
+1. Valhoogte Testrapport - NEN-EN 1177:2018, per systeemconfiguratie (Play-lijn)
 2. EPD Certificaat - ISO 14025, EN 15804 (scope A1-A3, C1-C4, Module D)
-3. Brandveiligheid - EN 13501-1 classificatie
+3. Brandveiligheid - ISO 9239-1, BFL-S1 en CFL-S1 classificatie
 4. Bestekteksten - RAW en STABU compatible
 5. Technische Datasheets - Specificaties per product
+6. EN 15343 - Gerecycled materiaal certificaat (tot 51%)
 
 ### Belangrijke Context:
 - Certificaten zijn momentopnames
@@ -110,10 +162,11 @@ ONE-DNA™ is 's werelds eerste 100% mono-materiaal kunstgras, geproduceerd door
 - Over bestaand gras: NIET aanbevolen
 - Installatietijd sportveld: 5-7 werkdagen (ca. 7.000 m²)
 - Garantie: alleen bij gecertificeerde installatie
+- Garantie Landscaping: 15 jaar
 
 ## PFAS Statement
 - Geen intentioneel toegevoegde PFAS in productie
-- Getest conform gangbare analysemethoden
+- Getest conform EU 2013/1272
 - Achtergrondniveaus kunnen niet volledig worden uitgesloten
 
 ## Contact & Bedrijfsinfo
@@ -121,16 +174,24 @@ ONE-DNA™ is 's werelds eerste 100% mono-materiaal kunstgras, geproduceerd door
 - Adres: Textielstraat 14, 7575 CA Oldenzaal, Nederland
 - E-mail: info@one-dna.com
 - Telefoon: +31 (0) 541 21 79 00
-- Website: www.one-dna.com (commercieel)
+- Commerciële website: www.one-dna.com
 - Kennisplatform: support.one-dna.com
 
-## Pagina Navigatie
+## Pagina Navigatie (Kennisplatform)
 - Home: index.html - Overzicht kennisplatform
 - Technologie: products.html - Productieproces en impact
 - Circulariteit: circularity.html - Take-back systeem en partners
 - Certificaten: documentation.html - Alle certificeringen
 - Praktijk: praktijk.html - Installatie video's en tips
 - Inzichten: blog.html - Artikelen over CMP, regelgeving
+
+## Pagina Navigatie (one-dna.com)
+- Play collectie: https://one-dna.com/nl/one-dna-play/
+- Multisport collectie: https://one-dna.com/nl/one-dna-multisport/
+- Landscaping collectie: https://one-dna.com/nl/one-dna-landscaping/
+- Event & Indoor: https://one-dna.com/nl/one-dna-event/
+- Padel: https://one-dna.com/nl/one-dna-kunstgras-voor-padel/
+- R&D: https://one-dna.com/nl/r-en-d/
 
 ## Regelgeving Context
 - CMP (Circulair Materialen Plan) - EU regelgeving
@@ -140,23 +201,29 @@ ONE-DNA™ is 's werelds eerste 100% mono-materiaal kunstgras, geproduceerd door
 `;
 
 // System prompt for the AI
-const SYSTEM_PROMPT = `Je bent de ONE-DNA™ Kennisplatform Assistent. Je helpt bezoekers met vragen over ONE-DNA kunstgras, circulariteit, certificaten en installatie.
+const SYSTEM_PROMPT = `Je bent de ONE-DNA® Kennisplatform Assistent. Je helpt bezoekers met vragen over ONE-DNA kunstgras, circulariteit, certificaten en installatie.
 
 BELANGRIJKE REGELS:
-1. Gebruik ALLEEN informatie uit de kennisbank hieronder. Verzin NOOIT informatie.
+1. Gebruik informatie uit de kennisbank hieronder en de officiële websites (support.one-dna.com en one-dna.com). Verzin NOOIT informatie.
 2. Als je iets niet weet, zeg dan eerlijk: "Die informatie heb ik niet beschikbaar. Neem contact op met info@one-dna.com"
 3. Wees beknopt maar volledig. Gebruik bullet points waar nuttig.
 4. Verwijs naar relevante pagina's wanneer gepast (bijv. "Zie de Technologie pagina voor meer details").
 5. Gebruik een professionele maar vriendelijke toon.
-6. Bij commerciële vragen, verwijs naar www.one-dna.com
+6. Voor productinformatie en certificaat downloads, verwijs naar de specifieke productpagina's op one-dna.com
 7. Antwoord in het Nederlands tenzij anders gevraagd.
 8. Houd antwoorden kort en bondig - max 3-4 alinea's.
+9. Geef directe links naar EPD's, brandveiligheid certificaten en andere documenten wanneer relevant.
 
 ANTI-GREENWASHING:
 - Wees eerlijk over beperkingen
 - "Recyclebaar" betekent ontworpen voor recycling, niet dat het automatisch gebeurt
 - Take-back is een mogelijkheid, geen garantie
 - Percentages (zoals 60% CO₂ reductie) variëren per product
+
+BRONNEN:
+- Dit kennisplatform (support.one-dna.com)
+- Commerciële website (one-dna.com)
+- Officiële certificaten en documenten op one-dna.com/wp-content/uploads/
 
 ${SITE_KNOWLEDGE}`;
 
