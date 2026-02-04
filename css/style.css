@@ -6395,42 +6395,83 @@ h4 { font-size: var(--font-size-lg); }
    CERTIFICATES PAGE STYLES
    ===================================================== */
 
-/* Cert Hero */
+/* Cert Hero - Same style as Tech Hero */
 .cert-hero {
-    padding: var(--spacing-16) 0 var(--spacing-12);
-    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    padding: calc(var(--header-height) + var(--spacing-16) + 32px) 0 var(--spacing-12);
+    background: linear-gradient(135deg, #f8faf9 0%, #e8f0ed 100%);
+}
+
+.cert-hero .breadcrumbs {
+    margin-bottom: var(--spacing-8);
 }
 
 .cert-hero__content {
-    max-width: 700px;
+    max-width: 800px;
 }
 
-.cert-hero h1 {
+.cert-hero__overtitle {
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    color: var(--color-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: var(--spacing-3);
+}
+
+.cert-hero__title {
     font-size: var(--font-size-3xl);
+    font-weight: 800;
     color: var(--color-text);
-    margin-bottom: var(--spacing-4);
+    line-height: 1.2;
+    margin-bottom: var(--spacing-6);
 }
 
 @media (min-width: 768px) {
-    .cert-hero h1 {
+    .cert-hero__title {
         font-size: var(--font-size-4xl);
     }
 }
 
-.cert-hero__lead {
-    font-size: var(--font-size-xl);
-    font-weight: 600;
-    color: var(--color-primary);
-    margin-bottom: var(--spacing-4);
+.cert-hero__title .highlight {
+    color: var(--color-secondary);
 }
 
-.cert-hero__description {
-    font-size: var(--font-size-base);
+.cert-hero__lead {
+    font-size: var(--font-size-lg);
     color: var(--color-text-light);
     line-height: 1.7;
+    max-width: 650px;
 }
 
-/* Cert Context Box */
+/* Cert Problem Section - Storytelling */
+.cert-problem {
+    padding: var(--spacing-16) 0;
+    background: white;
+}
+
+.cert-problem__intro {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto var(--spacing-12);
+}
+
+.cert-problem__intro h2 {
+    font-size: var(--font-size-2xl);
+    line-height: 1.3;
+}
+
+@media (min-width: 768px) {
+    .cert-problem__intro h2 {
+        font-size: var(--font-size-3xl);
+    }
+}
+
+.cert-problem__story {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Cert Context Box - Legacy support */
 .cert-context {
     padding: var(--spacing-12) 0;
     background: white;
@@ -6731,38 +6772,96 @@ h4 { font-size: var(--font-size-lg); }
    PRAKTIJK PAGE STYLES
    ===================================================== */
 
-/* Praktijk Hero */
+/* Praktijk Hero - Same style as Tech Hero */
 .praktijk-hero {
-    padding: var(--spacing-16) 0 var(--spacing-12);
-    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    padding: calc(var(--header-height) + var(--spacing-16) + 32px) 0 var(--spacing-12);
+    background: linear-gradient(135deg, #f8faf9 0%, #e8f0ed 100%);
+}
+
+.praktijk-hero .breadcrumbs {
+    margin-bottom: var(--spacing-8);
 }
 
 .praktijk-hero__content {
-    max-width: 700px;
+    max-width: 800px;
 }
 
-.praktijk-hero h1 {
+.praktijk-hero__overtitle {
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    color: var(--color-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: var(--spacing-3);
+}
+
+.praktijk-hero__title {
     font-size: var(--font-size-3xl);
+    font-weight: 800;
     color: var(--color-text);
-    margin-bottom: var(--spacing-4);
+    line-height: 1.2;
+    margin-bottom: var(--spacing-6);
 }
 
 @media (min-width: 768px) {
-    .praktijk-hero h1 {
+    .praktijk-hero__title {
         font-size: var(--font-size-4xl);
     }
 }
 
-.praktijk-hero__lead {
-    font-size: var(--font-size-xl);
-    font-weight: 600;
-    color: var(--color-primary);
-    margin-bottom: var(--spacing-3);
+.praktijk-hero__title .highlight {
+    color: var(--color-secondary);
 }
 
-.praktijk-hero__description {
-    font-size: var(--font-size-base);
+.praktijk-hero__lead {
+    font-size: var(--font-size-lg);
     color: var(--color-text-light);
+    line-height: 1.7;
+    max-width: 650px;
+}
+
+/* Praktijk Why Section - Storytelling */
+.praktijk-why {
+    padding: var(--spacing-16) 0;
+    background: white;
+}
+
+.praktijk-why__intro {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto var(--spacing-12);
+}
+
+.praktijk-why__intro h2 {
+    font-size: var(--font-size-2xl);
+    line-height: 1.3;
+}
+
+@media (min-width: 768px) {
+    .praktijk-why__intro h2 {
+        font-size: var(--font-size-3xl);
+    }
+}
+
+.praktijk-why__story {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.praktijk-why__story .story-block {
+    margin-bottom: var(--spacing-10);
+}
+
+.praktijk-why__story .why-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-6);
+}
+
+@media (min-width: 768px) {
+    .praktijk-why__story .why-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 /* Praktijk Section Header */
