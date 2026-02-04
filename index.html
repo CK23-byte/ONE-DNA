@@ -701,8 +701,88 @@
         </div>
     </footer>
 
+    <!-- Chat Widget -->
+    <div class="chat-widget" id="chatWidget">
+        <!-- Chat Toggle Button -->
+        <button class="chat-toggle" id="chatToggle" aria-label="Open chat" aria-expanded="false">
+            <svg class="chat-toggle__icon chat-toggle__icon--chat" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+            </svg>
+            <svg class="chat-toggle__icon chat-toggle__icon--close" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="6" x2="6" y2="18"/>
+                <line x1="6" y1="6" x2="18" y2="18"/>
+            </svg>
+        </button>
+
+        <!-- Chat Window -->
+        <div class="chat-window" id="chatWindow" aria-hidden="true">
+            <div class="chat-header">
+                <div class="chat-header__info">
+                    <div class="chat-header__avatar">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M8 14s1.5 2 4 2 4-2 4-2"/>
+                            <line x1="9" y1="9" x2="9.01" y2="9"/>
+                            <line x1="15" y1="9" x2="15.01" y2="9"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="chat-header__title">ONE-DNA Assistent</h3>
+                        <p class="chat-header__status">Kennisplatform helper</p>
+                    </div>
+                </div>
+                <button class="chat-header__close" onclick="toggleChat()" aria-label="Sluit chat">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"/>
+                        <line x1="6" y1="6" x2="18" y2="18"/>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="chat-messages" id="chatMessages">
+                <div class="chat-message chat-message--bot">
+                    <div class="chat-message__content">
+                        <p>Welkom bij het ONE-DNA™ Kennisplatform! 👋</p>
+                        <p>Ik help u graag met vragen over:</p>
+                        <ul>
+                            <li>Mono-materiaal technologie</li>
+                            <li>Take-back systeem & circulariteit</li>
+                            <li>Certificaten & documentatie</li>
+                            <li>Installatie & praktijk</li>
+                        </ul>
+                        <p>Waar kan ik u mee helpen?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chat-suggestions" id="chatSuggestions">
+                <button class="chat-suggestion" onclick="sendSuggestion('Wat is ONE-DNA technologie?')">Wat is ONE-DNA?</button>
+                <button class="chat-suggestion" onclick="sendSuggestion('Hoe werkt het take-back systeem?')">Take-back systeem</button>
+                <button class="chat-suggestion" onclick="sendSuggestion('Welke certificaten zijn beschikbaar?')">Certificaten</button>
+            </div>
+
+            <form class="chat-input" id="chatForm" onsubmit="handleChatSubmit(event)">
+                <input
+                    type="text"
+                    id="chatInput"
+                    placeholder="Stel uw vraag..."
+                    autocomplete="off"
+                    aria-label="Chat bericht"
+                >
+                <button type="submit" class="chat-input__send" aria-label="Verstuur bericht">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="22" y1="2" x2="11" y2="13"/>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </div>
+
     <!-- Scripts -->
     <script src="js/translations.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/chatbot.js"></script>
 </body>
 </html>
