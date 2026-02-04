@@ -145,27 +145,40 @@
 
     <main id="main-content" role="main">
 
-        <!-- Page Header -->
-        <section class="page-header">
+        <!-- Hero Section - Emotional Hook -->
+        <section class="tech-hero">
             <div class="container">
                 <nav class="breadcrumbs" aria-label="Breadcrumb">
                     <a href="index.html">Home</a>
                     <span>/</span>
                     <span>Technologie</span>
                 </nav>
-                <h1>De ONE-DNA™ Technologie</h1>
-                <p class="page-header__subtitle">
-                    Hoe mono-materiaal kunstgras wordt geproduceerd en waarom dit verschilt van traditionele methoden.
-                </p>
+
+                <div class="tech-hero__content">
+                    <p class="tech-hero__overtitle">De productie maakt het verschil</p>
+                    <h1 class="tech-hero__title">
+                        Wat als kunstgras produceren<br>
+                        <span class="highlight">60% minder CO₂ zou uitstoten?</span>
+                    </h1>
+                    <p class="tech-hero__lead">
+                        Traditionele kunstgrasproductie vereist enorme droogovens van 120 meter lang.
+                        ONE-DNA™ vervangt dit met een verhitte wals van 1 meter doorsnee.
+                        Het resultaat: een fundamenteel efficiënter proces.
+                    </p>
+                </div>
             </div>
         </section>
 
-        <!-- Video Section -->
-        <section class="tech-video-section">
+        <!-- Video Section - Multi vs Mono Context -->
+        <section class="tech-video-section" id="video">
             <div class="container">
                 <div class="tech-video__intro">
-                    <h2>Het ONE-DNA™ Productieproces</h2>
-                    <p>Bekijk hoe ONE-DNA™ mono-materiaal kunstgras wordt geproduceerd met thermofixatie technologie.</p>
+                    <span class="section-label">Bekijk het verschil</span>
+                    <h2>Multi-materiaal vs Mono-materiaal</h2>
+                    <p>
+                        Deze video laat zien waarom materiaalsamenstelling zo'n grote impact heeft
+                        op zowel het productieproces als de milieu-uitstoot.
+                    </p>
                 </div>
 
                 <div class="video-wrapper">
@@ -176,307 +189,286 @@
                         frameborder="0"
                         allow="autoplay; fullscreen; picture-in-picture"
                         allowfullscreen
-                        title="ONE-DNA Productieproces">
+                        title="Multi-materiaal vs Mono-materiaal kunstgras">
                     </iframe>
                 </div>
             </div>
         </section>
 
-        <!-- Process Comparison Section -->
-        <section class="process-comparison" id="proces">
+        <!-- The Problem - Traditional Production -->
+        <section class="tech-problem" id="probleem">
             <div class="container">
-                <h2 class="section-title">Traditioneel vs ONE-DNA™ Productieproces</h2>
-                <p class="section-subtitle">De fundamentele verschillen in kunstgras productie</p>
+                <div class="tech-problem__intro">
+                    <span class="section-label section-label--muted">Het huidige proces</span>
+                    <h2>Traditionele kunstgrasproductie:<br>een energie-intensief verhaal</h2>
+                </div>
 
-                <div class="process-grid">
-                    <!-- Traditional Process -->
-                    <div class="process-card process-card--traditional">
-                        <div class="process-card__header">
-                            <h3>Traditioneel Productieproces</h3>
-                            <span class="process-badge process-badge--traditional">Latex/PU Dispersie</span>
+                <div class="tech-problem__story">
+                    <div class="story-block">
+                        <div class="story-block__visual">
+                            <div class="dimension-visual dimension-visual--large">
+                                <span class="dimension-number">120m</span>
+                                <span class="dimension-label">lang</span>
+                            </div>
+                            <div class="dimension-visual dimension-visual--medium">
+                                <span class="dimension-number">5m</span>
+                                <span class="dimension-label">breed</span>
+                            </div>
                         </div>
-
-                        <div class="process-card__content">
-                            <div class="process-step">
-                                <span class="step-number">1</span>
-                                <div class="step-content">
-                                    <h4>Tufting op PP/PE Backing</h4>
-                                    <p>Polyethyleen vezels worden getuft in een polypropyleen (PP) of gemengde backing. Dit is al de eerste materiaalcombinatie.</p>
-                                </div>
-                            </div>
-
-                            <div class="process-step">
-                                <span class="step-number">2</span>
-                                <div class="step-content">
-                                    <h4>Latex Coating Applicatie</h4>
-                                    <p>Een watergedragen latex (natuurlijk rubber) of polyurethaan (PU) coating wordt aangebracht op de achterzijde. Dit voegt een derde materiaaltype toe.</p>
-                                </div>
-                            </div>
-
-                            <div class="process-step">
-                                <span class="step-number">3</span>
-                                <div class="step-content">
-                                    <h4>Secundaire Backing</h4>
-                                    <p>Een extra backing laag wordt toegevoegd voor stabiliteit. Vaak weer een ander materiaal (PP of textiel).</p>
-                                </div>
-                            </div>
-
-                            <div class="process-step">
-                                <span class="step-number">4</span>
-                                <div class="step-content">
-                                    <h4>Droogproces in Ovens</h4>
-                                    <p>De gecoate turf gaat door lange droogovens (30+ meter) bij 120-150°C om de latex te laten uitharden. Dit proces is energie-intensief.</p>
-                                </div>
-                            </div>
-
-                            <div class="process-issues">
-                                <h4>Gevolgen voor recycling:</h4>
-                                <ul>
-                                    <li><strong>3-5 verschillende materialen</strong> in eindproduct</li>
-                                    <li><strong>Scheiding noodzakelijk</strong> voor recycling</li>
-                                    <li><strong>Latex crosslinkt</strong> en is niet meer te smelten</li>
-                                    <li><strong>Hogere energieconsumptie</strong> door droogovens</li>
-                                </ul>
-                            </div>
+                        <div class="story-block__content">
+                            <h3>De droogoven: een fabriek op zich</h3>
+                            <p>
+                                Elk traditioneel kunstgrasveld begint op een <strong>polypropyleen (PP) backing</strong>.
+                                Op deze backing wordt een latex of polyurethaan coating aangebracht die het garen vasthoudt.
+                            </p>
+                            <p>
+                                Maar latex is watergedragen. Om het te laten uitharden moet al dat water verdampen.
+                                Dat gebeurt in droogovens die <strong>tot 120 meter lang en 5 meter breed</strong> kunnen zijn.
+                            </p>
                         </div>
                     </div>
 
-                    <!-- ONE-DNA Process -->
-                    <div class="process-card process-card--onedna">
-                        <div class="process-card__header">
-                            <h3>ONE-DNA™ Productieproces</h3>
-                            <span class="process-badge process-badge--onedna">Thermofixatie</span>
+                    <div class="story-block story-block--highlight">
+                        <div class="story-block__content">
+                            <h3>Indirecte warmteoverdracht</h3>
+                            <p>
+                                Deze ovens werken met <strong>indirecte warmteoverdracht</strong> -
+                                de lucht moet eerst worden opgewarmd voordat het de coating kan drogen.
+                                Stel je voor: een ruimte van 600m² constant op temperatuur houden om water te verdampen.
+                            </p>
+                            <p class="story-block__emphasis">
+                                Het resultaat? Een <strong>enorme energiebehoefte</strong> voor elke vierkante meter kunstgras die geproduceerd wordt.
+                            </p>
                         </div>
+                    </div>
 
-                        <div class="process-card__content">
-                            <div class="process-step">
-                                <span class="step-number">1</span>
-                                <div class="step-content">
-                                    <h4>Tufting op PE Backing</h4>
-                                    <p>Polyethyleen (PE) vezels worden getuft in een PE backing. Vanaf het begin bestaat het systeem uit één polymeertype.</p>
-                                </div>
-                            </div>
-
-                            <div class="process-step">
-                                <span class="step-number">2</span>
-                                <div class="step-content">
-                                    <h4>Verhitte Wals (Thermofixatie)</h4>
-                                    <p>In plaats van latex coating wordt een verhitte wals gebruikt. De PE backing wordt verwarmd en de vezels worden thermisch gefixeerd in de backing.</p>
-                                </div>
-                            </div>
-
-                            <div class="process-step">
-                                <span class="step-number">3</span>
-                                <div class="step-content">
-                                    <h4>PE Coating Laag</h4>
-                                    <p>Een PE-gebaseerde coating wordt toegevoegd voor extra tuftlock. Dit is hetzelfde polymeertype als de rest van het systeem.</p>
-                                </div>
-                            </div>
-
-                            <div class="process-step">
-                                <span class="step-number">4</span>
-                                <div class="step-content">
-                                    <h4>Geen Droogovens Nodig</h4>
-                                    <p>Omdat er geen watergedragen coating is, zijn er geen lange droogovens nodig. Het proces is compacter en energie-efficiënter.</p>
-                                </div>
-                            </div>
-
-                            <div class="process-benefits">
-                                <h4>Voordelen voor recycling:</h4>
-                                <ul>
-                                    <li><strong>100% PE</strong> - één materiaalstroom</li>
-                                    <li><strong>Geen scheiding nodig</strong> aan end-of-life</li>
-                                    <li><strong>PE is smeltbaar</strong> en herbruikbaar</li>
-                                    <li><strong>Lagere energieconsumptie</strong> in productie</li>
-                                </ul>
-                            </div>
+                    <div class="multi-material-note">
+                        <div class="multi-material-note__icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <div class="multi-material-note__content">
+                            <h4>Multi-materiaal constructie</h4>
+                            <p>
+                                PP backing + PE vezels + latex coating = meerdere materiaalstromen
+                                die aan het einde van de levensduur niet meer van elkaar te scheiden zijn.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Energy Comparison -->
-        <section class="energy-section">
+        <!-- The Solution - ONE-DNA Process -->
+        <section class="tech-solution" id="oplossing">
             <div class="container">
-                <h2 class="section-title">Energie en Productie</h2>
-                <p class="section-subtitle">Feiten over het traditionele coating proces</p>
-
-                <div class="energy-facts">
-                    <div class="energy-card">
-                        <div class="energy-card__icon">
-                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
-                            </svg>
-                        </div>
-                        <h3>Droogovens</h3>
-                        <p>Traditionele backing lijnen zijn <strong>30+ meter lang</strong>, grotendeels bestaand uit droogovens die de latex moeten uitharden.</p>
-                    </div>
-
-                    <div class="energy-card">
-                        <div class="energy-card__icon">
-                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <circle cx="12" cy="12" r="10"/>
-                                <path d="M12 6v6l4 2"/>
-                            </svg>
-                        </div>
-                        <h3>Temperatuur</h3>
-                        <p>Latex droogovens werken op <strong>120-150°C</strong>. Elke 10°C temperatuurstijging verhoogt energieverbruik met ~6%.</p>
-                    </div>
-
-                    <div class="energy-card">
-                        <div class="energy-card__icon">
-                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/>
-                                <path d="M8 12l2 2 4-4"/>
-                            </svg>
-                        </div>
-                        <h3>Thermofixatie</h3>
-                        <p>ONE-DNA™ gebruikt een <strong>verhitte wals</strong> - een compacter proces zonder lange droogtunnels.</p>
-                    </div>
+                <div class="tech-solution__intro">
+                    <span class="section-label">De ONE-DNA™ aanpak</span>
+                    <h2>Thermofixatie: lokale energie,<br>fundamenteel andere uitkomst</h2>
                 </div>
 
-                <div class="energy-note">
-                    <p>
-                        <strong>Bronnen:</strong> Informatie over traditionele productieprocessen is gebaseerd op
-                        <a href="https://www.ccgrass.com/how-is-grass-made-artificial-grass-manufacturing/" target="_blank" rel="noopener">industrie-documentatie</a>
-                        en <a href="https://www.madehow.com/Volume-7/Artificial-Turf.html" target="_blank" rel="noopener">productie-analyses</a>.
-                    </p>
+                <div class="tech-solution__story">
+                    <div class="solution-visual">
+                        <div class="roller-visual">
+                            <div class="roller-circle">
+                                <span class="roller-dimension">1m</span>
+                                <span class="roller-label">doorsnee</span>
+                            </div>
+                            <p class="roller-caption">Verhitte wals</p>
+                        </div>
+                        <div class="vs-indicator">vs</div>
+                        <div class="oven-visual">
+                            <div class="oven-bar">
+                                <span class="oven-dimension">120m</span>
+                            </div>
+                            <p class="oven-caption">Traditionele droogoven</p>
+                        </div>
+                    </div>
+
+                    <div class="solution-explanation">
+                        <div class="solution-card">
+                            <h3>Geen coating, geen droogoven</h3>
+                            <p>
+                                ONE-DNA™ kunstgras heeft <strong>geen latex of PU coating nodig</strong>.
+                                In plaats daarvan worden de PE vezels direct thermisch gefixeerd in de PE backing
+                                met een verhitte wals.
+                            </p>
+                        </div>
+
+                        <div class="solution-card solution-card--highlight">
+                            <h3>Directe warmteoverdracht</h3>
+                            <p>
+                                De wals van <strong>1 meter doorsnee</strong> brengt warmte direct over op het materiaal.
+                                Geen enorme ruimte die op temperatuur gehouden moet worden.
+                                Geen water dat verdampt moet worden.
+                            </p>
+                            <p class="solution-card__result">
+                                <strong>Lokale energiebehoefte</strong> in plaats van een industriële drooginstallatie.
+                            </p>
+                        </div>
+
+                        <div class="solution-card">
+                            <h3>Mono-materiaal: 100% PE</h3>
+                            <p>
+                                PE vezels + PE backing = één materiaalstroom.
+                                Geen scheiding nodig aan het einde van de levensduur.
+                                Ontworpen voor circulariteit vanaf het begin.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Example Products -->
-        <section class="example-products" id="voorbeelden">
+        <!-- The Impact - Environmental Results -->
+        <section class="tech-impact" id="impact">
             <div class="container">
-                <h2 class="section-title">Voorbeeld Toepassingen</h2>
-                <p class="section-subtitle">Twee producten die de ONE-DNA™ technologie demonstreren</p>
-
-                <div class="products-showcase">
-                    <!-- Play 24 -->
-                    <div class="product-showcase-card" id="play-24">
-                        <div class="product-showcase__header">
-                            <span class="badge">Speelplaatsen & Recreatie</span>
-                            <h3>ONE-DNA™ Play 24</h3>
-                        </div>
-                        <div class="product-showcase__content">
-                            <p>24mm speelgras voor schoolpleinen en recreatie. Dezelfde mono-materiaal technologie, geoptimaliseerd voor speeltoepassingen.</p>
-
-                            <div class="product-showcase__specs">
-                                <div class="spec-item">
-                                    <span class="spec-label">Fiberhoogte</span>
-                                    <span class="spec-value">24 mm</span>
-                                </div>
-                                <div class="spec-item">
-                                    <span class="spec-label">Materiaal</span>
-                                    <span class="spec-value">100% PE</span>
-                                </div>
-                                <div class="spec-item">
-                                    <span class="spec-label">Veiligheid</span>
-                                    <span class="spec-value">EN 71-3</span>
-                                </div>
-                            </div>
-
-                            <div class="product-showcase__certs">
-                                <span class="badge badge--small">EPD</span>
-                                <span class="badge badge--small">PFAS-vrij</span>
-                                <span class="badge badge--small">Take-back</span>
-                            </div>
-                        </div>
-                        <div class="product-showcase__cta">
-                            <a href="https://one-dna.com/wp-content/uploads/2023/12/Specsheet-ONE-DNA-Play-24-TF-ENG-vs2.pdf" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Download Specsheet</a>
-                        </div>
-                    </div>
-
-                    <!-- Pure PT Play 28 -->
-                    <div class="product-showcase-card" id="pure-pt-28">
-                        <div class="product-showcase__header">
-                            <span class="badge badge--primary">Sport & Multisport</span>
-                            <h3>ONE-DNA™ Pure PT Play 28</h3>
-                        </div>
-                        <div class="product-showcase__content">
-                            <p>28mm sportveld met PT-enhanced vezels. Dezelfde mono-materiaal technologie, geoptimaliseerd voor sportprestaties.</p>
-
-                            <div class="product-showcase__specs">
-                                <div class="spec-item">
-                                    <span class="spec-label">Fiberhoogte</span>
-                                    <span class="spec-value">28 mm</span>
-                                </div>
-                                <div class="spec-item">
-                                    <span class="spec-label">Materiaal</span>
-                                    <span class="spec-value">100% PE (PT)</span>
-                                </div>
-                                <div class="spec-item">
-                                    <span class="spec-label">UV-bestendig</span>
-                                    <span class="spec-value">>8.000 uur</span>
-                                </div>
-                            </div>
-
-                            <div class="product-showcase__certs">
-                                <span class="badge badge--small">EPD</span>
-                                <span class="badge badge--small">PFAS-vrij</span>
-                                <span class="badge badge--small">Take-back</span>
-                            </div>
-                        </div>
-                        <div class="product-showcase__cta">
-                            <a href="documentation.html#technical" class="btn btn-primary btn-sm">Technische Specs</a>
-                        </div>
-                    </div>
+                <div class="tech-impact__intro">
+                    <span class="section-label">Gecertificeerde resultaten</span>
+                    <h2>Tot 60% lagere CO₂-uitstoot</h2>
+                    <p class="tech-impact__subtitle">
+                        Gemeten volgens EPD-certificering, scope A1-A3
+                        (grondstofwinning tot en met productie)
+                    </p>
                 </div>
 
-                <div class="products-note">
-                    <p>
-                        Beide producten zijn gebaseerd op dezelfde ONE-DNA™ mono-materiaal technologie en zijn
-                        compatibel met het take-back programma. Voor commerciële vragen, prijzen of advies:
-                        <a href="https://www.one-dna.com" target="_blank" rel="noopener">www.one-dna.com</a>
-                    </p>
+                <div class="impact-explanation">
+                    <div class="impact-stat">
+                        <div class="impact-stat__number">
+                            <span class="number-highlight">60%</span>
+                        </div>
+                        <div class="impact-stat__context">
+                            <p>
+                                <strong>Tot 60% lagere productie-uitstoot</strong> ten opzichte van traditioneel
+                                geproduceerd kunstgras. Het exacte percentage verschilt per producttype
+                                en is gedocumenteerd in de EPD-certificeringen.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="impact-factors">
+                        <h3>Waarom dit verschil?</h3>
+                        <div class="factors-grid">
+                            <div class="factor-card">
+                                <div class="factor-card__icon">
+                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                        <circle cx="12" cy="12" r="3"/>
+                                        <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+                                    </svg>
+                                </div>
+                                <h4>Geen droogovens</h4>
+                                <p>Thermofixatie vervangt energie-intensieve droogprocessen</p>
+                            </div>
+                            <div class="factor-card">
+                                <div class="factor-card__icon">
+                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                        <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/>
+                                        <path d="M12 6v6l4 2"/>
+                                    </svg>
+                                </div>
+                                <h4>Directe warmte</h4>
+                                <p>Lokale energie-input versus indirecte warmteoverdracht</p>
+                            </div>
+                            <div class="factor-card">
+                                <div class="factor-card__icon">
+                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                        <path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/>
+                                    </svg>
+                                </div>
+                                <h4>Mono-materiaal</h4>
+                                <p>Minder verwerkingsstappen, efficiëntere productielijn</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="epd-reference">
+                        <div class="epd-reference__content">
+                            <h4>EPD-certificering (A1-A3)</h4>
+                            <p>
+                                De uitstootcijfers zijn onafhankelijk geverifieerd volgens de EPD-standaard.
+                                Scope A1-A3 omvat de volledige productieketen: van grondstofwinning
+                                tot het verlaten van de fabriek.
+                            </p>
+                            <a href="documentation.html#certifications" class="btn btn-primary">
+                                Bekijk EPD-certificaten
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Why This Matters -->
-        <section class="why-section">
+        <section class="tech-why" id="waarom">
             <div class="container">
-                <h2 class="section-title">Waarom materiaalsamenstelling belangrijk is</h2>
+                <div class="tech-why__intro">
+                    <h2>Waarom materiaalsamenstelling er toe doet</h2>
+                    <p class="tech-why__lead">
+                        Het gaat niet alleen om wat er aan het einde gebeurt.
+                        De keuze voor mono-materiaal beïnvloedt het hele productieproces.
+                    </p>
+                </div>
 
-                <div class="why-grid">
-                    <div class="why-card">
-                        <h3>Voor End-of-Life</h3>
-                        <p>Multi-materiaal systemen vereisen arbeidsintensieve scheiding voordat recycling mogelijk is. Mono-materiaal kan als één stroom verwerkt worden.</p>
+                <div class="why-cards">
+                    <div class="why-card-new">
+                        <div class="why-card-new__number">1</div>
+                        <div class="why-card-new__content">
+                            <h3>Efficiënter produceren</h3>
+                            <p>
+                                Geen coating betekent geen droogovens.
+                                Mono-materiaal maakt een fundamenteel ander productieproces mogelijk
+                                met significant lagere energie-input.
+                            </p>
+                        </div>
                     </div>
 
-                    <div class="why-card">
-                        <h3>Voor Recycling Infrastructuur</h3>
-                        <p>PE is een van de meest gerecyclede kunststoffen met gevestigde verwerkingsstromen. Latex en PU hebben geen vergelijkbare recycling-routes.</p>
+                    <div class="why-card-new">
+                        <div class="why-card-new__number">2</div>
+                        <div class="why-card-new__content">
+                            <h3>Lagere milieu-impact</h3>
+                            <p>
+                                Tot 60% lagere CO₂-uitstoot in de productie (A1-A3 scope).
+                                Elke vierkante meter ONE-DNA™ heeft een kleinere voetafdruk
+                                dan traditioneel geproduceerd kunstgras.
+                            </p>
+                        </div>
                     </div>
 
-                    <div class="why-card">
-                        <h3>Voor Traceerbaarheid</h3>
-                        <p>Eenvoudige materiaalsamenstelling maakt documentatie en rapportage (CSRD, ESG) eenvoudiger en betrouwbaarder.</p>
+                    <div class="why-card-new">
+                        <div class="why-card-new__number">3</div>
+                        <div class="why-card-new__content">
+                            <h3>Ontworpen voor circulariteit</h3>
+                            <p>
+                                100% PE maakt mechanische recycling mogelijk zonder complexe scheiding.
+                                Het materiaal kan opnieuw worden ingezet via het
+                                <a href="circularity.html">take-back programma</a>.
+                            </p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="why-note">
+                <div class="tech-why__note">
                     <p>
-                        <strong>Context:</strong> Mono-materiaal ontwerp is een voorwaarde voor mechanische recycling,
-                        maar geen garantie. Daadwerkelijke recycling hangt af van inzameling, logistiek en beschikbare
-                        verwerkingscapaciteit.
+                        <strong>Transparantie:</strong> De exacte uitstootcijfers variëren per producttype
+                        en zijn gedocumenteerd in de individuele EPD-certificaten.
+                        <a href="documentation.html#technical">Bekijk alle specificaties</a>.
                     </p>
                 </div>
             </div>
         </section>
 
         <!-- CTA Section -->
-        <section class="cta-section">
+        <section class="tech-cta">
             <div class="container">
-                <div class="cta-content">
-                    <h2>Meer informatie over ONE-DNA™ technologie?</h2>
+                <div class="tech-cta__content">
+                    <h2>Verdiep je in de data</h2>
                     <p>
-                        Bekijk onze technische documentatie of neem contact op voor projectspecifiek advies.
+                        Bekijk de technische specificaties, EPD-certificaten en onafhankelijke testresultaten.
                     </p>
-                    <div class="cta-buttons">
-                        <a href="documentation.html" class="btn btn-primary btn-lg">Technische Documentatie</a>
-                        <a href="https://www.one-dna.com" target="_blank" rel="noopener" class="btn btn-secondary btn-lg">Commerciële vragen ↗</a>
+                    <div class="tech-cta__buttons">
+                        <a href="documentation.html#certifications" class="btn btn-primary btn-lg">EPD-certificaten</a>
+                        <a href="documentation.html#technical" class="btn btn-secondary btn-lg">Technische specs</a>
                     </div>
                 </div>
             </div>
@@ -519,8 +511,8 @@
                     <div class="footer__col">
                         <h4>Technologie</h4>
                         <ul>
-                            <li><a href="products.html#proces">Productieproces</a></li>
-                            <li><a href="products.html#voorbeelden">Voorbeelden</a></li>
+                            <li><a href="products.html#video">Video</a></li>
+                            <li><a href="products.html#impact">Impact</a></li>
                         </ul>
                     </div>
                     <div class="footer__col">
