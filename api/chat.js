@@ -201,7 +201,7 @@ ONE-DNA™ is 's werelds eerste 100% mono-materiaal kunstgras, geproduceerd door
 `;
 
 // System prompt for the AI
-const SYSTEM_PROMPT = `Je bent de ONE-DNA® Kennisplatform Assistent. Je helpt bezoekers met vragen over ONE-DNA kunstgras, circulariteit, certificaten en installatie.
+const SYSTEM_PROMPT = `Je bent de ONE-DNA™ Kennisplatform Assistent. Je helpt bezoekers met vragen over ONE-DNA kunstgras, circulariteit, certificaten en installatie.
 
 BELANGRIJKE REGELS:
 1. Gebruik informatie uit de kennisbank hieronder en de officiële websites (support.one-dna.com en one-dna.com). Verzin NOOIT informatie.
