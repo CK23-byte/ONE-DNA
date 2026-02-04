@@ -290,12 +290,16 @@
     // ================================
     window.openArticle = function(articleId) {
         const blogList = document.querySelector('.blog-list');
+        const blogFeatured = document.getElementById('blog-featured');
+        const pageHeader = document.querySelector('.page-header--blog');
         const articleView = document.getElementById('article-view');
         const allArticles = document.querySelectorAll('.article-content');
         const targetArticle = document.getElementById('article-' + articleId);
 
         if (blogList && articleView && targetArticle) {
             blogList.style.display = 'none';
+            if (blogFeatured) blogFeatured.style.display = 'none';
+            if (pageHeader) pageHeader.style.display = 'none';
             articleView.style.display = 'block';
 
             allArticles.forEach(function(article) {
@@ -310,10 +314,14 @@
 
     window.closeArticle = function() {
         const blogList = document.querySelector('.blog-list');
+        const blogFeatured = document.getElementById('blog-featured');
+        const pageHeader = document.querySelector('.page-header--blog');
         const articleView = document.getElementById('article-view');
 
         if (blogList && articleView) {
             blogList.style.display = 'block';
+            if (blogFeatured) blogFeatured.style.display = 'block';
+            if (pageHeader) pageHeader.style.display = 'block';
             articleView.style.display = 'none';
             history.pushState(null, '', window.location.pathname);
 

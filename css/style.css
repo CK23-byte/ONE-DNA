@@ -3832,3 +3832,75 @@ h4 { font-size: var(--font-size-lg); }
     margin-top: var(--spacing-4);
     font-size: var(--font-size-sm);
 }
+
+/* Hero Badge (compact, inline) */
+.hero__badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-2);
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: var(--spacing-2) var(--spacing-4);
+    border-radius: var(--radius-full);
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    color: white;
+    margin-bottom: var(--spacing-4);
+}
+
+.hero__badge svg {
+    opacity: 0.9;
+}
+
+/* ================================
+   Video Container & Placeholder
+   ================================ */
+.video-container {
+    margin: var(--spacing-6) 0;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    background: var(--color-background-alt);
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.video-placeholder {
+    padding: var(--spacing-10) var(--spacing-6);
+    text-align: center;
+    background: linear-gradient(135deg, #f0f0f0 0%, #e0e0e0 100%);
+    border: 2px dashed var(--color-border);
+    border-radius: var(--radius-lg);
+}
+
+.video-placeholder p {
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    color: var(--color-text-light);
+    margin-bottom: var(--spacing-2);
+}
+
+.video-placeholder small {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+}
+
+/* Responsive video (16:9) */
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-wrapper video,
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
