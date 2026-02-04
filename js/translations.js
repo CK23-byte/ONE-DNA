@@ -59,7 +59,7 @@ const translations = {
         footer_tagline: "Het kenniscentrum voor duurzaam kunstgras",
         footer_explore: "Ontdek",
         footer_main_site: "Hoofdsite",
-        footer_seo: "ONE-DNA™ is een geregistreerd handelsmerk van LimeGreen®",
+        footer_seo: "ONE-DNA™ is an official trademark of Limegreen Holding B.V.",
 
         // Blog Page
         blog_title: "Inzichten",
@@ -122,7 +122,7 @@ const translations = {
 
         // About
         about_title: "Over ONE-DNA™",
-        about_p1: "ONE-DNA™ is ontwikkeld door <strong>LimeGreen®</strong>, pionier in duurzaam kunstgras. Onze missie is om de kunstgras-industrie te transformeren naar een volledig circulaire economie.",
+        about_p1: "ONE-DNA™ is pionier in duurzaam kunstgras. Onze missie is om de kunstgras-industrie te transformeren naar een volledig circulaire economie.",
         about_p2: "Door kunstgras te maken van één enkel materiaal - polyethyleen (PE) - maken we hoogwaardige recycling mogelijk. Geen gemengde materialen, geen compromissen.",
 
         // Contact
@@ -131,8 +131,8 @@ const translations = {
         contact_info: "Bezoek <a href=\"https://one-dna.com\" target=\"_blank\" rel=\"noopener\">one-dna.com</a> voor meer informatie.",
 
         // Footer
-        footer_developed: "Ontwikkeld door LimeGreen®",
-        footer_rights: "© 2025 LimeGreen® - Alle rechten voorbehouden",
+        footer_developed: "ONE-DNA™",
+        footer_rights: "© 2025 ONE-DNA™ - Alle rechten voorbehouden",
 
         // Countries
         country_belgium: "België",
@@ -288,7 +288,7 @@ const translations = {
         footer_tagline: "The knowledge centre for sustainable artificial grass",
         footer_explore: "Explore",
         footer_main_site: "Main Site",
-        footer_seo: "ONE-DNA™ is a registered trademark of LimeGreen®",
+        footer_seo: "ONE-DNA™ is an official trademark of Limegreen Holding B.V.",
 
         // Blog Page
         blog_title: "Insights",
@@ -346,15 +346,15 @@ const translations = {
         changemakers_btn: "View all Changemakers",
 
         about_title: "About ONE-DNA™",
-        about_p1: "ONE-DNA™ is developed by <strong>LimeGreen®</strong>, pioneer in sustainable artificial grass. Our mission is to transform the artificial grass industry into a fully circular economy.",
+        about_p1: "ONE-DNA™ is a pioneer in sustainable artificial grass. Our mission is to transform the artificial grass industry into a fully circular economy.",
         about_p2: "By making artificial grass from a single material - polyethylene (PE) - we enable high-quality recycling. No mixed materials, no compromises.",
 
         contact_title: "Contact",
         contact_subtitle: "Contact us for more information",
         contact_info: "Visit <a href=\"https://one-dna.com\" target=\"_blank\" rel=\"noopener\">one-dna.com</a> for more information.",
 
-        footer_developed: "Developed by LimeGreen®",
-        footer_rights: "© 2025 LimeGreen® - All rights reserved",
+        footer_developed: "ONE-DNA™",
+        footer_rights: "© 2025 ONE-DNA™ - All rights reserved",
 
         country_belgium: "Belgium",
         country_uk: "United Kingdom",
@@ -497,7 +497,7 @@ const translations = {
         footer_tagline: "Das Wissenszentrum für nachhaltigen Kunstrasen",
         footer_explore: "Entdecken",
         footer_main_site: "Hauptseite",
-        footer_seo: "ONE-DNA™ ist eine eingetragene Marke von LimeGreen®",
+        footer_seo: "ONE-DNA™ ist ein offizielles Warenzeichen der Limegreen Holding B.V.",
         blog_title: "Einblicke",
         blog_subtitle: "Wissen und Analysen über die Zukunft des nachhaltigen Kunstrasens",
         filter_all: "Alle",
@@ -551,15 +551,15 @@ const translations = {
         changemakers_btn: "Alle Changemakers Ansehen",
 
         about_title: "Über ONE-DNA™",
-        about_p1: "ONE-DNA™ wurde von <strong>LimeGreen®</strong> entwickelt, Pionier im Bereich nachhaltiger Kunstrasen. Unsere Mission ist es, die Kunstrasen-Industrie in eine vollständig zirkuläre Wirtschaft zu transformieren.",
+        about_p1: "ONE-DNA™ ist Pionier im Bereich nachhaltiger Kunstrasen. Unsere Mission ist es, die Kunstrasen-Industrie in eine vollständig zirkuläre Wirtschaft zu transformieren.",
         about_p2: "Durch die Herstellung von Kunstrasen aus einem einzigen Material - Polyethylen (PE) - ermöglichen wir hochwertiges Recycling. Keine gemischten Materialien, keine Kompromisse.",
 
         contact_title: "Kontakt",
         contact_subtitle: "Kontaktieren Sie uns für weitere Informationen",
         contact_info: "Besuchen Sie <a href=\"https://one-dna.com\" target=\"_blank\" rel=\"noopener\">one-dna.com</a> für weitere Informationen.",
 
-        footer_developed: "Entwickelt von LimeGreen®",
-        footer_rights: "© 2025 LimeGreen® - Alle Rechte vorbehalten",
+        footer_developed: "ONE-DNA™",
+        footer_rights: "© 2025 ONE-DNA™ - Alle Rechte vorbehalten",
 
         country_belgium: "Belgien",
         country_uk: "Vereinigtes Königreich",
@@ -702,7 +702,7 @@ const translations = {
         footer_tagline: "Kunskapscenter för hållbart konstgräs",
         footer_explore: "Utforska",
         footer_main_site: "Huvudsajt",
-        footer_seo: "ONE-DNA™ är ett registrerat varumärke tillhörande LimeGreen®",
+        footer_seo: "ONE-DNA™ är ett officiellt varumärke tillhörande Limegreen Holding B.V.",
         blog_title: "Insikter",
         blog_subtitle: "Kunskap och analyser om framtiden för hållbart konstgräs",
         filter_all: "Alla",
@@ -756,15 +756,15 @@ const translations = {
         changemakers_btn: "Se alla Changemakers",
 
         about_title: "Om ONE-DNA™",
-        about_p1: "ONE-DNA™ är utvecklat av <strong>LimeGreen®</strong>, pionjär inom hållbart konstgräs. Vårt uppdrag är att transformera konstgräsindustrin till en helt cirkulär ekonomi.",
+        about_p1: "ONE-DNA™ är pionjär inom hållbart konstgräs. Vårt uppdrag är att transformera konstgräsindustrin till en helt cirkulär ekonomi.",
         about_p2: "Genom att tillverka konstgräs av ett enda material - polyeten (PE) - möjliggör vi högkvalitativ återvinning. Inga blandade material, inga kompromisser.",
 
         contact_title: "Kontakt",
         contact_subtitle: "Kontakta oss för mer information",
         contact_info: "Besök <a href=\"https://one-dna.com\" target=\"_blank\" rel=\"noopener\">one-dna.com</a> för mer information.",
 
-        footer_developed: "Utvecklat av LimeGreen®",
-        footer_rights: "© 2025 LimeGreen® - Alla rättigheter förbehållna",
+        footer_developed: "ONE-DNA™",
+        footer_rights: "© 2025 ONE-DNA™ - Alla rättigheter förbehållna",
 
         country_belgium: "Belgien",
         country_uk: "Storbritannien",
@@ -907,7 +907,7 @@ const translations = {
         footer_tagline: "Kunnskapssenter for bærekraftig kunstgress",
         footer_explore: "Utforsk",
         footer_main_site: "Hovedside",
-        footer_seo: "ONE-DNA™ er et registrert varemerke tilhørende LimeGreen®",
+        footer_seo: "ONE-DNA™ er et offisielt varemerke tilhørende Limegreen Holding B.V.",
         blog_title: "Innsikt",
         blog_subtitle: "Kunnskap og analyser om fremtiden for bærekraftig kunstgress",
         filter_all: "Alle",
@@ -961,15 +961,15 @@ const translations = {
         changemakers_btn: "Se alle Changemakers",
 
         about_title: "Om ONE-DNA™",
-        about_p1: "ONE-DNA™ er utviklet av <strong>LimeGreen®</strong>, pioner innen bærekraftig kunstgress. Vårt oppdrag er å transformere kunstgressindustrien til en fullstendig sirkulær økonomi.",
+        about_p1: "ONE-DNA™ er pioner innen bærekraftig kunstgress. Vårt oppdrag er å transformere kunstgressindustrien til en fullstendig sirkulær økonomi.",
         about_p2: "Ved å lage kunstgress av ett enkelt materiale - polyetylen (PE) - muliggjør vi høykvalitets resirkulering. Ingen blandede materialer, ingen kompromisser.",
 
         contact_title: "Kontakt",
         contact_subtitle: "Kontakt oss for mer informasjon",
         contact_info: "Besøk <a href=\"https://one-dna.com\" target=\"_blank\" rel=\"noopener\">one-dna.com</a> for mer informasjon.",
 
-        footer_developed: "Utviklet av LimeGreen®",
-        footer_rights: "© 2025 LimeGreen® - Alle rettigheter forbeholdt",
+        footer_developed: "ONE-DNA™",
+        footer_rights: "© 2025 ONE-DNA™ - Alle rettigheter forbeholdt",
 
         country_belgium: "Belgia",
         country_uk: "Storbritannia",
@@ -1112,7 +1112,7 @@ const translations = {
         footer_tagline: "El centro de conocimiento para césped artificial sostenible",
         footer_explore: "Explorar",
         footer_main_site: "Sitio Principal",
-        footer_seo: "ONE-DNA™ es una marca registrada de LimeGreen®",
+        footer_seo: "ONE-DNA™ es una marca oficial de Limegreen Holding B.V.",
         blog_title: "Información",
         blog_subtitle: "Conocimiento y análisis sobre el futuro del césped artificial sostenible",
         filter_all: "Todo",
@@ -1166,15 +1166,15 @@ const translations = {
         changemakers_btn: "Ver todos los Changemakers",
 
         about_title: "Sobre ONE-DNA™",
-        about_p1: "ONE-DNA™ es desarrollado por <strong>LimeGreen®</strong>, pionero en césped artificial sostenible. Nuestra misión es transformar la industria del césped artificial en una economía completamente circular.",
+        about_p1: "ONE-DNA™ es pionero en césped artificial sostenible. Nuestra misión es transformar la industria del césped artificial en una economía completamente circular.",
         about_p2: "Al fabricar césped artificial con un solo material - polietileno (PE) - hacemos posible el reciclaje de alta calidad. Sin materiales mezclados, sin compromisos.",
 
         contact_title: "Contacto",
         contact_subtitle: "Contáctenos para más información",
         contact_info: "Visite <a href=\"https://one-dna.com\" target=\"_blank\" rel=\"noopener\">one-dna.com</a> para más información.",
 
-        footer_developed: "Desarrollado por LimeGreen®",
-        footer_rights: "© 2025 LimeGreen® - Todos los derechos reservados",
+        footer_developed: "ONE-DNA™",
+        footer_rights: "© 2025 ONE-DNA™ - Todos los derechos reservados",
 
         country_belgium: "Bélgica",
         country_uk: "Reino Unido",
@@ -1317,7 +1317,7 @@ const translations = {
         footer_tagline: "Il centro di conoscenza per l'erba artificiale sostenibile",
         footer_explore: "Esplora",
         footer_main_site: "Sito Principale",
-        footer_seo: "ONE-DNA™ è un marchio registrato di LimeGreen®",
+        footer_seo: "ONE-DNA™ è un marchio ufficiale di Limegreen Holding B.V.",
         blog_title: "Approfondimenti",
         blog_subtitle: "Conoscenza e analisi sul futuro dell'erba artificiale sostenibile",
         filter_all: "Tutto",
@@ -1371,15 +1371,15 @@ const translations = {
         changemakers_btn: "Vedi tutti i Changemakers",
 
         about_title: "Chi è ONE-DNA™",
-        about_p1: "ONE-DNA™ è sviluppato da <strong>LimeGreen®</strong>, pioniere nell'erba artificiale sostenibile. La nostra missione è trasformare l'industria dell'erba artificiale in un'economia completamente circolare.",
+        about_p1: "ONE-DNA™ è pioniere nell'erba artificiale sostenibile. La nostra missione è trasformare l'industria dell'erba artificiale in un'economia completamente circolare.",
         about_p2: "Producendo erba artificiale da un unico materiale - polietilene (PE) - rendiamo possibile il riciclo di alta qualità. Nessun materiale misto, nessun compromesso.",
 
         contact_title: "Contatto",
         contact_subtitle: "Contattateci per maggiori informazioni",
         contact_info: "Visitate <a href=\"https://one-dna.com\" target=\"_blank\" rel=\"noopener\">one-dna.com</a> per maggiori informazioni.",
 
-        footer_developed: "Sviluppato da LimeGreen®",
-        footer_rights: "© 2025 LimeGreen® - Tutti i diritti riservati",
+        footer_developed: "ONE-DNA™",
+        footer_rights: "© 2025 ONE-DNA™ - Tutti i diritti riservati",
 
         country_belgium: "Belgio",
         country_uk: "Regno Unito",
@@ -1522,7 +1522,7 @@ const translations = {
         footer_tagline: "O centro de conhecimento para relva artificial sustentável",
         footer_explore: "Explorar",
         footer_main_site: "Site Principal",
-        footer_seo: "ONE-DNA™ é uma marca registada da LimeGreen®",
+        footer_seo: "ONE-DNA™ é uma marca oficial da Limegreen Holding B.V.",
         blog_title: "Insights",
         blog_subtitle: "Conhecimento e análises sobre o futuro da relva artificial sustentável",
         filter_all: "Tudo",
@@ -1576,15 +1576,15 @@ const translations = {
         changemakers_btn: "Ver todos os Changemakers",
 
         about_title: "Sobre ONE-DNA™",
-        about_p1: "ONE-DNA™ é desenvolvido pela <strong>LimeGreen®</strong>, pioneira em relva artificial sustentável. A nossa missão é transformar a indústria da relva artificial numa economia totalmente circular.",
+        about_p1: "ONE-DNA™ é pioneira em relva artificial sustentável. A nossa missão é transformar a indústria da relva artificial numa economia totalmente circular.",
         about_p2: "Ao fabricar relva artificial com um único material - polietileno (PE) - tornamos possível a reciclagem de alta qualidade. Sem materiais mistos, sem compromissos.",
 
         contact_title: "Contacto",
         contact_subtitle: "Contacte-nos para mais informações",
         contact_info: "Visite <a href=\"https://one-dna.com\" target=\"_blank\" rel=\"noopener\">one-dna.com</a> para mais informações.",
 
-        footer_developed: "Desenvolvido por LimeGreen®",
-        footer_rights: "© 2025 LimeGreen® - Todos os direitos reservados",
+        footer_developed: "ONE-DNA™",
+        footer_rights: "© 2025 ONE-DNA™ - Todos os direitos reservados",
 
         country_belgium: "Bélgica",
         country_uk: "Reino Unido",
