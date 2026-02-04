@@ -11,7 +11,7 @@ const SITE_KNOWLEDGE = `
 # ONE-DNA™ Kennisplatform - Volledige Kennisbank
 
 ## Over ONE-DNA™
-ONE-DNA™ is 's werelds eerste 100% mono-materiaal kunstgras, geproduceerd door LimeGreen® B.V. in Oldenzaal, Nederland.
+ONE-DNA™ is 's werelds eerste 100% mono-materiaal kunstgras, geproduceerd in Oldenzaal, Nederland.
 
 ### Unieke Kenmerken:
 - 100% polyethyleen (PE) - zowel vezels als backing
@@ -182,7 +182,7 @@ ONE-DNA™ is 's werelds eerste 100% mono-materiaal kunstgras, geproduceerd door
 - Achtergrondniveaus kunnen niet volledig worden uitgesloten
 
 ## Contact & Bedrijfsinfo
-- Bedrijf: LimeGreen® B.V.
+- Bedrijf: ONE-DNA™ (Limegreen Holding B.V.)
 - Adres: Textielstraat 14, 7575 CA Oldenzaal, Nederland
 - E-mail: info@one-dna.com
 - Telefoon: +31 (0) 541 21 79 00

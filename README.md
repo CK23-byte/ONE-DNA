@@ -1,6 +1,6 @@
 # ONE-DNA™ Landing Page
 
-Website voor ONE-DNA™ - Het mono-materiaal kunstgras van LimeGreen® dat volledig recyclebaar is.
+Website voor ONE-DNA™ - Het mono-materiaal kunstgras dat volledig recyclebaar is.
 
 ## Over ONE-DNA™
 
@@ -49,8 +49,9 @@ Deze site kan worden gedeployed via:
 ## Links
 
 - Website: [one-dna.com](https://one-dna.com)
-- Ontwikkeld door: LimeGreen®
+- Website: [one-dna.com](https://one-dna.com)
 
 ## Licentie
 
-© 2024 LimeGreen® - Alle rechten voorbehouden
+© 2025 ONE-DNA™ - Alle rechten voorbehouden
+ONE-DNA™ is an official trademark of Limegreen Holding B.V.
