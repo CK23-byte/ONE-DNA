@@ -200,7 +200,6 @@ function formatMessage(content) {
         'circulariteit pagina': 'circularity.html',
         'take-back pagina': 'circularity.html#take-back',
         'certificaten pagina': 'documentation.html',
-        'praktijk pagina': 'praktijk.html',
         'inzichten pagina': 'blog.html'
     };
 

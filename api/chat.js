@@ -194,7 +194,6 @@ ONE-DNA™ is 's werelds eerste 100% mono-materiaal kunstgras, geproduceerd in O
 - Technologie: products.html - Productieproces en impact
 - Circulariteit: circularity.html - Take-back systeem en partners
 - Certificaten: documentation.html - Alle certificeringen
-- Praktijk: praktijk.html - Installatie video's en tips
 - Inzichten: blog.html - Artikelen over CMP, regelgeving
 
 ## Pagina Navigatie (one-dna.com)
