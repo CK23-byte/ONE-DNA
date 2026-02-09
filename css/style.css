@@ -188,14 +188,17 @@ h2 .highlight {
 
 .section-title {
     text-align: center;
-    margin-bottom: var(--spacing-4);
+    margin-bottom: var(--spacing-6);
 }
 
 .section-subtitle {
     text-align: center;
     color: var(--color-text-light);
-    margin-bottom: var(--spacing-12);
+    margin-bottom: var(--spacing-16);
     font-size: var(--font-size-lg);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* ================================
@@ -2429,7 +2432,7 @@ h2 .highlight {
    Evidence Section (Anti-Greenwashing)
    ================================ */
 .evidence-section {
-    padding: var(--spacing-16) 0;
+    padding: var(--spacing-20) 0;
     background-color: var(--color-background-alt);
 }
 
@@ -3335,8 +3338,38 @@ h2 .highlight {
 
 /* Complexity Section (replaces problem section) */
 .complexity-section {
-    padding: var(--spacing-16) 0;
+    padding: var(--spacing-20) 0;
     background: var(--color-background);
+}
+
+.complexity-section__intro {
+    max-width: 800px;
+    margin-bottom: var(--spacing-12);
+}
+
+.complexity-section__intro h2 {
+    font-size: var(--font-size-2xl);
+    color: var(--color-text);
+    line-height: 1.3;
+    margin-bottom: var(--spacing-6);
+}
+
+@media (min-width: 768px) {
+    .complexity-section__intro h2 {
+        font-size: var(--font-size-3xl);
+    }
+}
+
+@media (min-width: 1024px) {
+    .complexity-section__intro h2 {
+        font-size: var(--font-size-4xl);
+    }
+}
+
+.complexity-section__lead {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-light);
+    line-height: 1.7;
 }
 
 .complexity-section__grid {
@@ -3355,6 +3388,21 @@ h2 .highlight {
     border-radius: var(--radius-lg);
     background: white;
     box-shadow: var(--shadow-md);
+    border-left: 4px solid var(--color-border);
+}
+
+.complexity-card h3 {
+    font-size: var(--font-size-lg);
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-3);
+}
+
+.complexity-card p {
+    font-size: var(--font-size-base);
+    color: var(--color-text-light);
+    line-height: 1.6;
+    margin: 0;
 }
 
 .complexity-card--context {
@@ -3451,6 +3499,100 @@ h2 .highlight {
 .footer__platform-statement a {
     color: white;
     text-decoration: underline;
+}
+
+/* ================================
+   Solution Section (Homepage)
+   ================================ */
+.solution-section {
+    padding: var(--spacing-20) 0;
+    background: var(--color-background-alt);
+}
+
+.solution-section__intro {
+    max-width: 800px;
+    margin-bottom: var(--spacing-12);
+}
+
+.solution-section__intro h2 {
+    font-size: var(--font-size-2xl);
+    color: var(--color-text);
+    line-height: 1.3;
+    margin-bottom: var(--spacing-6);
+}
+
+@media (min-width: 768px) {
+    .solution-section__intro h2 {
+        font-size: var(--font-size-3xl);
+    }
+}
+
+@media (min-width: 1024px) {
+    .solution-section__intro h2 {
+        font-size: var(--font-size-4xl);
+    }
+}
+
+.solution-section__lead {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-light);
+    line-height: 1.7;
+}
+
+.solution-section__grid {
+    display: grid;
+    gap: var(--spacing-6);
+    margin-bottom: var(--spacing-10);
+}
+
+@media (min-width: 768px) {
+    .solution-section__grid {
+        grid-template-columns: 1fr 1fr;
+        gap: var(--spacing-8);
+    }
+}
+
+.solution-section .solution-card {
+    padding: var(--spacing-6);
+    background: white;
+    border-radius: var(--radius-lg);
+    border-left: 4px solid var(--color-primary);
+    box-shadow: var(--shadow-sm);
+}
+
+.solution-section .solution-card h3 {
+    font-size: var(--font-size-lg);
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-3);
+}
+
+.solution-section .solution-card p {
+    font-size: var(--font-size-base);
+    color: var(--color-text-light);
+    line-height: 1.6;
+    margin: 0;
+}
+
+.solution-section__note {
+    padding: var(--spacing-6);
+    background: white;
+    border-left: 4px solid var(--color-warning);
+    border-radius: var(--radius-md);
+    margin-bottom: var(--spacing-10);
+}
+
+.solution-section__note p {
+    margin: 0;
+    font-size: var(--font-size-base);
+    color: var(--color-text);
+    line-height: 1.6;
+}
+
+.solution-section__cta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-4);
 }
 
 /* ================================
