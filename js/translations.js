@@ -3,6 +3,9 @@ const translations = {
     nl: {
         // Navigation
         nav_home: "Home",
+        nav_technology: "Technologie",
+        nav_circularity: "Circulariteit",
+        nav_certificates: "Certificaten",
         nav_insights: "Inzichten",
         nav_products: "Producten",
         nav_sustainability: "Duurzaamheid",
@@ -10,6 +13,37 @@ const translations = {
         nav_about: "Over Ons",
         nav_contact: "Contact",
         nav_norway: "Norge / Sverige",
+
+        // Navigation Dropdowns
+        nav_background: "Achtergrond",
+        nav_takeback: "Take-back Systeem",
+        nav_partners: "Partners",
+        nav_general_certs: "Algemene Certificaten",
+        nav_product_certs: "Productcertificaten",
+
+        // Top Bar
+        topbar_statement: "ONE-DNA™ is geen belofte, maar een ontwerpprincipe",
+
+        // Page Titles
+        page_technology_overtitle: "De productie maakt het verschil",
+        page_technology_title: "Wat als kunstgras produceren",
+        page_technology_highlight: "50% minder CO₂ zou uitstoten?",
+        page_technology_lead: "Traditionele kunstgrasproductie vereist enorme droogovens van 120 meter lang. ONE-DNA™ vervangt dit met een verhitte wals van 1 meter doorsnee. Het resultaat: een fundamenteel efficiënter proces.",
+
+        page_circularity_overtitle: "Circulariteit begint bij ontwerp",
+        page_circularity_title: "Waarom belandt 95% van kunstgras",
+        page_circularity_highlight: "nog steeds in de verbrandingsoven?",
+        page_circularity_lead: "Circulariteit bij kunstgras is complexer dan bij veel andere producten. Deze pagina biedt context over wat circulariteit inhoudt, welke factoren een rol spelen, en hoe mono-materiaal ontwerp hierin past.",
+
+        page_certificates_overtitle: "De waarde van documentatie",
+        page_certificates_title: "Wat als elk kunstgrasbedrijf",
+        page_certificates_highlight: "dezelfde certificaten toont?",
+        page_certificates_lead: "\"EPD gecertificeerd.\" \"Recyclebaar.\" \"Getest.\" Klinkt goed, maar wat betekent het? Een certificaat is een momentopname. Het vertelt niet het hele verhaal.",
+
+        page_insights_overtitle: "Kennis voor geïnformeerde beslissingen",
+        page_insights_title: "Wat verandert er écht",
+        page_insights_highlight: "door het CMP en EU-regelgeving?",
+        page_insights_lead: "Achtergronden over kunstgras recycling, EU-regelgeving en circulariteit. Feiten en analyse om weloverwogen keuzes te maken.",
 
         // Hero - Homepage
         hero_badge: "Kenniscentrum",
@@ -232,6 +266,9 @@ const translations = {
     en: {
         // Navigation
         nav_home: "Home",
+        nav_technology: "Technology",
+        nav_circularity: "Circularity",
+        nav_certificates: "Certificates",
         nav_insights: "Insights",
         nav_products: "Products",
         nav_sustainability: "Sustainability",
@@ -239,6 +276,37 @@ const translations = {
         nav_about: "About Us",
         nav_contact: "Contact",
         nav_norway: "Norway / Sweden",
+
+        // Navigation Dropdowns
+        nav_background: "Background",
+        nav_takeback: "Take-back System",
+        nav_partners: "Partners",
+        nav_general_certs: "General Certificates",
+        nav_product_certs: "Product Certificates",
+
+        // Top Bar
+        topbar_statement: "ONE-DNA™ is not a promise, but a design principle",
+
+        // Page Titles
+        page_technology_overtitle: "Production makes the difference",
+        page_technology_title: "What if producing artificial grass",
+        page_technology_highlight: "emitted 50% less CO₂?",
+        page_technology_lead: "Traditional artificial grass production requires huge drying ovens of 120 meters long. ONE-DNA™ replaces this with a heated roller of 1 meter diameter. The result: a fundamentally more efficient process.",
+
+        page_circularity_overtitle: "Circularity starts with design",
+        page_circularity_title: "Why does 95% of artificial grass",
+        page_circularity_highlight: "still end up in the incinerator?",
+        page_circularity_lead: "Circularity in artificial grass is more complex than in many other products. This page provides context about what circularity entails, which factors play a role, and how mono-material design fits in.",
+
+        page_certificates_overtitle: "The value of documentation",
+        page_certificates_title: "What if every artificial grass company",
+        page_certificates_highlight: "shows the same certificates?",
+        page_certificates_lead: "\"EPD certified.\" \"Recyclable.\" \"Tested.\" Sounds good, but what does it mean? A certificate is a snapshot. It doesn't tell the whole story.",
+
+        page_insights_overtitle: "Knowledge for informed decisions",
+        page_insights_title: "What really changes",
+        page_insights_highlight: "due to the CMP and EU regulations?",
+        page_insights_lead: "Background on artificial grass recycling, EU regulations and circularity. Facts and analysis to make well-informed choices.",
 
         // Hero - Homepage
         hero_badge: "Knowledge Centre",
@@ -452,6 +520,9 @@ const translations = {
 
     de: {
         nav_home: "Home",
+        nav_technology: "Technologie",
+        nav_circularity: "Kreislaufwirtschaft",
+        nav_certificates: "Zertifikate",
         nav_insights: "Einblicke",
         nav_products: "Produkte",
         nav_sustainability: "Nachhaltigkeit",
@@ -459,6 +530,37 @@ const translations = {
         nav_about: "Über Uns",
         nav_contact: "Kontakt",
         nav_norway: "Norwegen / Schweden",
+
+        // Navigation Dropdowns
+        nav_background: "Hintergrund",
+        nav_takeback: "Rücknahmesystem",
+        nav_partners: "Partner",
+        nav_general_certs: "Allgemeine Zertifikate",
+        nav_product_certs: "Produktzertifikate",
+
+        // Top Bar
+        topbar_statement: "ONE-DNA™ ist kein Versprechen, sondern ein Designprinzip",
+
+        // Page Titles
+        page_technology_overtitle: "Die Produktion macht den Unterschied",
+        page_technology_title: "Was wäre, wenn die Herstellung von Kunstrasen",
+        page_technology_highlight: "50% weniger CO₂ ausstoßen würde?",
+        page_technology_lead: "Die traditionelle Kunstrasenproduktion erfordert riesige Trockenöfen von 120 Metern Länge. ONE-DNA™ ersetzt dies durch eine beheizte Walze von 1 Meter Durchmesser. Das Ergebnis: ein grundlegend effizienterer Prozess.",
+
+        page_circularity_overtitle: "Kreislaufwirtschaft beginnt beim Design",
+        page_circularity_title: "Warum landet 95% des Kunstrasens",
+        page_circularity_highlight: "immer noch in der Verbrennungsanlage?",
+        page_circularity_lead: "Kreislaufwirtschaft bei Kunstrasen ist komplexer als bei vielen anderen Produkten. Diese Seite bietet Kontext darüber, was Kreislaufwirtschaft bedeutet, welche Faktoren eine Rolle spielen und wie Mono-Material-Design hineinpasst.",
+
+        page_certificates_overtitle: "Der Wert der Dokumentation",
+        page_certificates_title: "Was wäre, wenn jedes Kunstrasenunternehmen",
+        page_certificates_highlight: "die gleichen Zertifikate zeigt?",
+        page_certificates_lead: "\"EPD-zertifiziert.\" \"Recycelbar.\" \"Getestet.\" Klingt gut, aber was bedeutet es? Ein Zertifikat ist eine Momentaufnahme. Es erzählt nicht die ganze Geschichte.",
+
+        page_insights_overtitle: "Wissen für fundierte Entscheidungen",
+        page_insights_title: "Was ändert sich wirklich",
+        page_insights_highlight: "durch das CMP und EU-Vorschriften?",
+        page_insights_lead: "Hintergründe zu Kunstrasen-Recycling, EU-Vorschriften und Kreislaufwirtschaft. Fakten und Analysen für fundierte Entscheidungen.",
 
         hero_badge: "Wissenszentrum",
         hero_title_home: "Die Zukunft des Kunstrasens <span class=\"highlight\">beginnt hier</span>",

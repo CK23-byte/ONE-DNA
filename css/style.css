@@ -7128,6 +7128,12 @@ h2 .highlight {
     }
 }
 
+@media (min-width: 1024px) {
+    .cert-hero__title {
+        font-size: 3.5rem;
+    }
+}
+
 .cert-hero__title .highlight {
     color: var(--color-secondary);
 }

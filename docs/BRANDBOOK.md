@@ -178,6 +178,13 @@ Secties gebruiken `padding: var(--spacing-20) 0` voor voldoende ademruimte tusse
 - Bullet points voor opsommingen
 - **Transparant over beperkingen** → anti-greenwashing
 
+### Interpunctie
+
+- **NOOIT em dashes (—) gebruiken** in teksten
+- Gebruik in plaats daarvan: dubbele punt (:), komma (,), of punt (.) gevolgd door nieuwe zin
+- Voorbeeld fout: "Vezels, backing én coating — alles is hetzelfde materiaal"
+- Voorbeeld goed: "Vezels, backing én coating: alles is hetzelfde materiaal"
+
 ### Card Copy Structuur
 
 ```
