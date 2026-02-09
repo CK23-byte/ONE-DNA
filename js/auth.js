@@ -5,7 +5,7 @@
 (function() {
     'use strict';
 
-    const CORRECT_PASSWORD = 'claudecode2026';
+    const CORRECT_PASSWORD = '1234';
     const SESSION_KEY = 'onedna_site_auth';
 
     // Check if already authenticated
