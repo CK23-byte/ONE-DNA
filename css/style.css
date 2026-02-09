@@ -3135,6 +3135,271 @@ h2 .highlight {
     margin-bottom: var(--spacing-6);
 }
 
+/* Comparison Columns (Waste Classification Article) */
+.comparison-table {
+    display: grid;
+    gap: var(--spacing-6);
+    margin: var(--spacing-8) 0;
+}
+
+@media (min-width: 768px) {
+    .comparison-table {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.comparison-column {
+    padding: var(--spacing-6);
+    border-radius: var(--radius-lg);
+}
+
+.comparison-column--warning {
+    background: rgba(239, 68, 68, 0.05);
+    border-left: 4px solid var(--color-error);
+}
+
+.comparison-column--success {
+    background: rgba(38, 81, 73, 0.05);
+    border-left: 4px solid var(--color-primary);
+}
+
+.comparison-column h3 {
+    font-size: var(--font-size-lg);
+    margin-bottom: var(--spacing-4);
+}
+
+.comparison-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.comparison-column li {
+    padding: var(--spacing-2) 0;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    font-size: var(--font-size-sm);
+    line-height: 1.6;
+}
+
+.comparison-column li:last-child {
+    border-bottom: none;
+}
+
+/* Data Table */
+.data-table {
+    overflow-x: auto;
+    margin: var(--spacing-8) 0;
+}
+
+.data-table table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: var(--font-size-sm);
+}
+
+.data-table th,
+.data-table td {
+    padding: var(--spacing-4);
+    text-align: left;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.data-table th {
+    background: var(--color-background-alt);
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.data-table td:first-child {
+    font-weight: 500;
+}
+
+/* Stakeholder Grid */
+.stakeholder-grid {
+    display: grid;
+    gap: var(--spacing-6);
+    margin: var(--spacing-8) 0;
+}
+
+@media (min-width: 768px) {
+    .stakeholder-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.stakeholder-card {
+    padding: var(--spacing-6);
+    background: white;
+    border-radius: var(--radius-lg);
+    border-left: 4px solid var(--color-primary);
+    box-shadow: var(--shadow-sm);
+}
+
+.stakeholder-icon {
+    font-size: 2rem;
+    margin-bottom: var(--spacing-3);
+}
+
+.stakeholder-card h3 {
+    font-size: var(--font-size-lg);
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-3);
+}
+
+.stakeholder-card p {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-light);
+    margin-bottom: var(--spacing-2);
+    line-height: 1.6;
+}
+
+/* Checklist */
+.checklist {
+    margin: var(--spacing-6) 0;
+}
+
+.checklist-item {
+    display: flex;
+    gap: var(--spacing-3);
+    padding: var(--spacing-4);
+    margin-bottom: var(--spacing-2);
+    border-radius: var(--radius-md);
+}
+
+.checklist-item--do {
+    background: rgba(16, 185, 129, 0.1);
+}
+
+.checklist-item--dont {
+    background: rgba(239, 68, 68, 0.1);
+}
+
+.checklist-icon {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: 700;
+}
+
+.checklist-item--do .checklist-icon {
+    background: var(--color-success);
+    color: white;
+}
+
+.checklist-item--dont .checklist-icon {
+    background: var(--color-error);
+    color: white;
+}
+
+.checklist-item p {
+    margin: 0;
+    font-size: var(--font-size-sm);
+    line-height: 1.6;
+}
+
+/* Process Flow */
+.process-flow {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-4);
+    margin: var(--spacing-8) 0;
+}
+
+@media (min-width: 768px) {
+    .process-flow {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+.process-step {
+    display: flex;
+    gap: var(--spacing-3);
+    padding: var(--spacing-4);
+    background: var(--color-background-alt);
+    border-radius: var(--radius-md);
+    flex: 1;
+}
+
+.process-step__number {
+    width: 32px;
+    height: 32px;
+    background: var(--color-primary);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.process-step__content h4 {
+    font-size: var(--font-size-sm);
+    margin-bottom: var(--spacing-1);
+}
+
+.process-step__content p {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-light);
+    margin: 0;
+}
+
+.process-arrow {
+    display: none;
+    font-size: var(--font-size-2xl);
+    color: var(--color-text-muted);
+}
+
+@media (min-width: 768px) {
+    .process-arrow {
+        display: block;
+    }
+}
+
+/* Sources and Disclaimer */
+.sources-box {
+    padding: var(--spacing-6);
+    background: var(--color-background-alt);
+    border-radius: var(--radius-lg);
+    margin: var(--spacing-6) 0;
+}
+
+.sources-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sources-box li {
+    padding: var(--spacing-2) 0;
+    font-size: var(--font-size-sm);
+    border-bottom: 1px solid var(--color-border-light);
+}
+
+.sources-box li:last-child {
+    border-bottom: none;
+}
+
+.disclaimer-box {
+    padding: var(--spacing-6);
+    background: rgba(245, 158, 11, 0.1);
+    border-left: 4px solid var(--color-warning);
+    border-radius: var(--radius-md);
+    margin: var(--spacing-6) 0;
+}
+
+.disclaimer-box p {
+    margin: 0;
+    font-size: var(--font-size-sm);
+    color: var(--color-text);
+    line-height: 1.6;
+}
+
 /* Problem/Solution Highlights in Articles */
 .problem-highlight,
 .solution-highlight {
@@ -5161,7 +5426,7 @@ h2 .highlight {
 }
 
 .tech-problem__story {
-    max-width: 900px;
+    max-width: 100%;
 }
 
 .story-block {
@@ -5304,7 +5569,7 @@ h2 .highlight {
 }
 
 .tech-solution__story {
-    max-width: 1000px;
+    max-width: 100%;
 }
 
 /* Solution Visual - Roller vs Oven */
@@ -5485,8 +5750,7 @@ h2 .highlight {
 }
 
 .impact-explanation {
-    max-width: 900px;
-    margin: 0 auto;
+    max-width: 100%;
 }
 
 .impact-stat {
@@ -5647,8 +5911,8 @@ h2 .highlight {
 .why-cards {
     display: grid;
     gap: var(--spacing-4);
-    max-width: 900px;
-    margin: 0 auto var(--spacing-8);
+    max-width: 100%;
+    margin-bottom: var(--spacing-8);
 }
 
 @media (min-width: 768px) {
