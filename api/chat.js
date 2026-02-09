@@ -17,7 +17,7 @@ ONE-DNA™ is 's werelds eerste 100% mono-materiaal kunstgras, geproduceerd in O
 - 100% polyethyleen (PE) - zowel vezels als backing
 - Geen latex of polyurethaan coating nodig
 - Thermofixatie in plaats van droogovens
-- Tot 60% lagere CO₂-uitstoot in productie (EPD-gecertificeerd, scope A1-A3)
+- Tot 50% lagere CO₂-uitstoot in productie (EPD-gecertificeerd, scope A1-A3)
 - Ontworpen voor recycleerbaarheid
 
 ## Productlijnen
@@ -98,7 +98,7 @@ ONE-DNA™ is 's werelds eerste 100% mono-materiaal kunstgras, geproduceerd in O
 - Mechanische recycling mogelijk zonder scheiding
 
 ### Impact:
-- Tot 60% lagere productie-uitstoot (A1-A3 scope)
+- Tot 50% lagere productie-uitstoot (A1-A3 scope)
 - Percentage varieert per producttype
 - Geverifieerd via EPD-certificering
 
