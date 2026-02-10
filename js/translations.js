@@ -500,7 +500,150 @@ const translations = {
         footer_nav_company: "Bedrijf",
         footer_platform_title: "Over Dit Kennisplatform",
         footer_platform_desc: "Dit platform biedt feitelijke, technische en beleidsmatige context ter ondersteuning van geïnformeerde besluitvorming rondom ONE-DNA™.",
-        footer_platform_commercial: "<strong>Commerciële vragen?</strong> Zie <a href=\"https://www.one-dna.com\" target=\"_blank\" rel=\"noopener\">www.one-dna.com</a>"
+        footer_platform_commercial: "<strong>Commerciële vragen?</strong> Zie <a href=\"https://www.one-dna.com\" target=\"_blank\" rel=\"noopener\">www.one-dna.com</a>",
+
+        // Documentation Page - Problem Section
+        cert_problem_label: "De realiteit",
+        cert_problem_title: "Certificaten zonder context<br>zijn marketingmateriaal",
+        cert_problem_recyc_title: "Iedereen is \"recyclebaar\"",
+        cert_problem_recyc_p1: "Vrijwel elk kunstgras noemt zichzelf recyclebaar. Technisch klopt dat: plastic kán worden verwerkt. Maar de vraag is niet óf het kan, maar <strong>of het daadwerkelijk gebeurt</strong>.",
+        cert_problem_recyc_p2: "Zonder take-back systeem, zonder registratie, zonder verwerkingspartners is \"recyclebaar\" een lege belofte.",
+        cert_problem_epd_title: "EPD's vergelijken is complex",
+        cert_problem_epd_p1: "Een Environmental Product Declaration toont milieu-impact data. Maar <strong>verschillende producenten gebruiken verschillende systeemgrenzen</strong>. Scope A1-A3 bij de één is niet hetzelfde als bij de ander.",
+        cert_problem_epd_p2: "Een EPD is waardevol voor transparantie, maar pas op met directe vergelijkingen.",
+        cert_problem_approach_title: "Onze aanpak: context bij elk document",
+        cert_problem_approach_desc: "Hieronder vindt u onze certificaten met uitleg over wat ze wel én niet betekenen. Geen marketing, maar informatie.",
+
+        // Documentation Page - General Certificates Section
+        cert_general_label: "Op aanvraag beschikbaar",
+        cert_general_title: "Algemene Certificaten",
+        cert_general_lead: "Deze documenten bevatten bedrijfs- of processpecifieke informatie en worden op aanvraag verstrekt aan relevante partijen.",
+        cert_badge_request: "Op aanvraag",
+        cert_badge_available: "Beschikbaar",
+
+        // Circularity Report Card
+        cert_circ_title: "Circulariteitsrapport",
+        cert_circ_desc: "Onafhankelijke analyse van materiaalstromen, take-back data en end-of-life verwerkingsresultaten.",
+        cert_circ_what: "Wat dit rapport bevat",
+        cert_circ_li1: "Geregistreerde installaties en volumes",
+        cert_circ_li2: "Take-back aanvragen en verwerkingsdata",
+        cert_circ_li3: "Materiaalbestemming na inzameling",
+        cert_circ_note: "<strong>Let op:</strong> Dit rapport toont historische data. Het garandeert geen specifieke uitkomst voor toekomstige projecten.",
+        cert_btn_request_report: "Rapport aanvragen",
+
+        // Leaching Test Card
+        cert_leach_title: "Leaching Test Rapport",
+        cert_leach_desc: "Laboratoriumanalyse van uitloging: welke stoffen komen vrij bij contact met water?",
+        cert_leach_what: "Wat dit rapport bevat",
+        cert_leach_li1: "Uitlogingswaarden zware metalen",
+        cert_leach_li2: "Organische verbindingen analyse",
+        cert_leach_li3: "Vergelijking met grenswaarden",
+        cert_leach_note: "<strong>Context:</strong> Testcondities in lab wijken af van praktijk. Resultaten zijn indicatief, niet absoluut.",
+
+        // REACH Declaration Card
+        cert_reach_title: "REACH Verklaring",
+        cert_reach_desc: "Compliance verklaring conform EU REACH-verordening (EC 1907/2006) voor chemische stoffen.",
+        cert_reach_what: "Wat dit document bevat",
+        cert_reach_li1: "SVHC-status (Substances of Very High Concern)",
+        cert_reach_li2: "Candidate list screening",
+        cert_reach_li3: "Compliance verklaring per component",
+        cert_reach_note: "<strong>Actueel:</strong> REACH candidate list wordt regelmatig bijgewerkt. Verklaringen gelden per uitgiftedatum.",
+        cert_btn_request_declaration: "Verklaring aanvragen",
+
+        // Product Certificates Section
+        cert_product_label: "Direct beschikbaar",
+        cert_product_title: "Productcertificaten",
+        cert_product_lead: "Productspecifieke testresultaten en certificeringen. Deze documenten zijn direct beschikbaar voor download of op aanvraag.",
+
+        // Fall Height Card
+        cert_fall_title: "Valhoogte Testrapport",
+        cert_fall_desc: "Kritische valhoogte (HIC) testresultaten conform NEN-EN 1177:2018 voor de ONE-DNA™ Play productlijn.",
+        cert_fall_what: "Testparameters",
+        cert_fall_li1: "Kritische valhoogte per configuratie",
+        cert_fall_li2: "Shockpad en infill combinaties",
+        cert_fall_li3: "Temperatuurinvloed op demping",
+        cert_fall_note: "<strong>Belangrijk:</strong> Valhoogtes gelden alleen voor geteste configuraties. Afwijkingen in infill of ondergrond beïnvloeden resultaten.",
+        cert_fall_btn: "Download Play 24 rapporten (ZIP)",
+
+        // EPD Card
+        cert_epd_title: "EPD Certificaten",
+        cert_epd_desc: "Environmental Product Declaration conform ISO 14025 en EN 15804. Transparante milieu-impactdata per product.",
+        cert_epd_what: "Scope en methodiek",
+        cert_epd_li1: "Cradle-to-gate (A1-A3): grondstof tot fabriekspoort",
+        cert_epd_li2: "End-of-life scenario's (C1-C4)",
+        cert_epd_li3: "Recycling potentieel (Module D)",
+        cert_epd_note: "<strong>Context:</strong> EPD's tonen data, geen oordeel. Vergelijking met andere producten vereist identieke systeemgrenzen.",
+        cert_download_per_product: "Download per product",
+        cert_download: "Download",
+
+        // Fire Safety Card
+        cert_fire_title: "Brandveiligheid Certificaten",
+        cert_fire_desc: "Brandklassificatie conform ISO 9239-1. BFL-S1 en CFL-S1 classificaties per product.",
+        cert_fire_what: "Testresultaten",
+        cert_fire_li1: "BFL-S1: Vloerbedekking met laagste brandklasse",
+        cert_fire_li2: "CFL-S1: Vloerbedekking met goede brandprestatie",
+        cert_fire_li3: "Getest met en zonder infill",
+        cert_fire_note: "<strong>Toepassing:</strong> Brandklasse is relevant voor binnenruimtes en overdekte installaties.",
+
+        // Specification Texts Card
+        cert_spec_title: "Bestekteksten",
+        cert_spec_desc: "Standaard bestekteksten voor aanbestedingen en specificaties. RAW en STABU compatible.",
+        cert_spec_what: "Beschikbare formaten",
+        cert_spec_li1: "RAW systematiek teksten",
+        cert_spec_li2: "STABU bestekposten",
+        cert_spec_li3: "Generieke specificatieteksten",
+        cert_spec_note: "<strong>Aanpassing:</strong> Bestekteksten kunnen worden aangepast aan projectspecifieke eisen.",
+
+        // Technical Datasheets Card
+        cert_tech_title: "Technische Datasheets",
+        cert_tech_desc: "Productspecificaties per systeem: afmetingen, gewichten, materiaalsamenstelling en prestatie-eigenschappen.",
+        cert_tech_what: "Specificaties",
+        cert_tech_li1: "Fiberhoogte, dichtheid, Dtex",
+        cert_tech_li2: "Backing en coating specificaties",
+        cert_tech_li3: "UV-bestendigheid en kleurechtheid",
+        cert_tech_note: "<strong>Toleranties:</strong> Productiespecificaties zijn inclusief standaard toleranties (±5% tenzij anders vermeld).",
+
+        // Product Passports Card
+        cert_passport_title: "Product Passports",
+        cert_passport_desc: "Circulaire productpaspoorten met materiaalsamenstelling, herkomst en end-of-life informatie.",
+        cert_passport_what: "Bevat informatie over",
+        cert_passport_li1: "Materiaalsamenstelling en herkomst",
+        cert_passport_li2: "Circulariteit en recycleerbaarheid",
+        cert_passport_li3: "Take-back programma informatie",
+        cert_passport_note: "<strong>Digitaal:</strong> Product Passports zijn onderdeel van het ONE-DNA™ registratiesysteem voor tracking.",
+
+        // Transparency Section
+        cert_transp_title: "Wat certificaten niet vertellen",
+        cert_transp1_title: "Certificaat ≠ Garantie",
+        cert_transp1_desc: "Een certificaat bevestigt dat een product op een bepaald moment aan specifieke testeisen voldoet. Het garandeert niet dat dit in elke praktijksituatie zo blijft.",
+        cert_transp2_title: "Context is cruciaal",
+        cert_transp2_desc: "Testomstandigheden in laboratoria wijken af van de praktijk. Temperatuur, gebruik en onderhoud beïnvloeden prestaties.",
+        cert_transp3_title: "Vergelijken is complex",
+        cert_transp3_desc: "EPD's en testrapporten van verschillende producenten gebruiken soms verschillende systeemgrenzen. Directe vergelijking is niet altijd mogelijk.",
+
+        // CTA Section
+        cert_cta_title: "Specifieke documentatie nodig?",
+        cert_cta_desc: "Voor aanbestedingen, CSRD-rapportage of technische due diligence kunnen wij documentatie op maat leveren.",
+        cert_cta_btn: "Neem contact op",
+
+        // Footer additional keys
+        footer_tagline_short: "100% Mono-Materiaal Kunstgras.<br>Ontworpen voor Circulariteit.",
+        footer_production: "Productieproces",
+        footer_impact: "Impact",
+        footer_documentation: "Documentatie",
+        footer_company: "Bedrijf",
+        footer_privacy: "Privacy",
+        footer_terms: "Voorwaarden",
+        footer_copyright: "© 2025 ONE-DNA™ - Alle rechten voorbehouden",
+
+        // Blog Page
+        blog_featured_badge: "Uitgelicht",
+        blog_featured_date: "December 2025",
+        blog_featured_title: "Circulair Materialen Plan officieel: een nieuw tijdperk voor kunstgras",
+        blog_featured_excerpt: "Het Circulair Materialen Plan is officieel vastgesteld door de staatssecretaris en treedt in werking per 30 december 2025. Dit markeert een significante verschuiving voor de kunstgrasindustrie richting transparantie en circulariteit.",
+        blog_read_article: "Lees artikel",
+        filter_projects: "Projecten",
+        blog_more_note: "Alle artikelen zijn beschikbaar op dit kennisplatform. Klik op een artikel om te lezen."
     },
 
     en: {
@@ -995,7 +1138,150 @@ const translations = {
         footer_nav_company: "Company",
         footer_platform_title: "About This Knowledge Platform",
         footer_platform_desc: "This platform provides factual, technical and policy context to support informed decision-making around ONE-DNA™.",
-        footer_platform_commercial: "<strong>Commercial questions?</strong> See <a href=\"https://www.one-dna.com\" target=\"_blank\" rel=\"noopener\">www.one-dna.com</a>"
+        footer_platform_commercial: "<strong>Commercial questions?</strong> See <a href=\"https://www.one-dna.com\" target=\"_blank\" rel=\"noopener\">www.one-dna.com</a>",
+
+        // Documentation Page - Problem Section
+        cert_problem_label: "The reality",
+        cert_problem_title: "Certificates without context<br>are marketing material",
+        cert_problem_recyc_title: "Everyone is \"recyclable\"",
+        cert_problem_recyc_p1: "Almost every artificial grass calls itself recyclable. Technically that's correct: plastic can be processed. But the question is not whether it's possible, but <strong>whether it actually happens</strong>.",
+        cert_problem_recyc_p2: "Without a take-back system, without registration, without processing partners, \"recyclable\" is an empty promise.",
+        cert_problem_epd_title: "Comparing EPDs is complex",
+        cert_problem_epd_p1: "An Environmental Product Declaration shows environmental impact data. But <strong>different producers use different system boundaries</strong>. Scope A1-A3 at one is not the same as at another.",
+        cert_problem_epd_p2: "An EPD is valuable for transparency, but be careful with direct comparisons.",
+        cert_problem_approach_title: "Our approach: context with every document",
+        cert_problem_approach_desc: "Below you will find our certificates with explanations of what they do and don't mean. No marketing, but information.",
+
+        // Documentation Page - General Certificates Section
+        cert_general_label: "Available on request",
+        cert_general_title: "General Certificates",
+        cert_general_lead: "These documents contain company or process-specific information and are provided on request to relevant parties.",
+        cert_badge_request: "On request",
+        cert_badge_available: "Available",
+
+        // Circularity Report Card
+        cert_circ_title: "Circularity Report",
+        cert_circ_desc: "Independent analysis of material flows, take-back data, and end-of-life processing results.",
+        cert_circ_what: "What this report contains",
+        cert_circ_li1: "Registered installations and volumes",
+        cert_circ_li2: "Take-back requests and processing data",
+        cert_circ_li3: "Material destination after collection",
+        cert_circ_note: "<strong>Note:</strong> This report shows historical data. It does not guarantee a specific outcome for future projects.",
+        cert_btn_request_report: "Request report",
+
+        // Leaching Test Card
+        cert_leach_title: "Leaching Test Report",
+        cert_leach_desc: "Laboratory analysis of leaching: which substances are released in contact with water?",
+        cert_leach_what: "What this report contains",
+        cert_leach_li1: "Heavy metal leaching values",
+        cert_leach_li2: "Organic compounds analysis",
+        cert_leach_li3: "Comparison with limit values",
+        cert_leach_note: "<strong>Context:</strong> Lab test conditions differ from practice. Results are indicative, not absolute.",
+
+        // REACH Declaration Card
+        cert_reach_title: "REACH Declaration",
+        cert_reach_desc: "Compliance declaration according to EU REACH regulation (EC 1907/2006) for chemical substances.",
+        cert_reach_what: "What this document contains",
+        cert_reach_li1: "SVHC status (Substances of Very High Concern)",
+        cert_reach_li2: "Candidate list screening",
+        cert_reach_li3: "Compliance declaration per component",
+        cert_reach_note: "<strong>Current:</strong> REACH candidate list is regularly updated. Declarations apply per issue date.",
+        cert_btn_request_declaration: "Request declaration",
+
+        // Product Certificates Section
+        cert_product_label: "Directly available",
+        cert_product_title: "Product Certificates",
+        cert_product_lead: "Product-specific test results and certifications. These documents are directly available for download or on request.",
+
+        // Fall Height Card
+        cert_fall_title: "Fall Height Test Report",
+        cert_fall_desc: "Critical fall height (HIC) test results according to NEN-EN 1177:2018 for the ONE-DNA™ Play product line.",
+        cert_fall_what: "Test parameters",
+        cert_fall_li1: "Critical fall height per configuration",
+        cert_fall_li2: "Shockpad and infill combinations",
+        cert_fall_li3: "Temperature influence on cushioning",
+        cert_fall_note: "<strong>Important:</strong> Fall heights only apply to tested configurations. Variations in infill or substrate affect results.",
+        cert_fall_btn: "Download Play 24 reports (ZIP)",
+
+        // EPD Card
+        cert_epd_title: "EPD Certificates",
+        cert_epd_desc: "Environmental Product Declaration according to ISO 14025 and EN 15804. Transparent environmental impact data per product.",
+        cert_epd_what: "Scope and methodology",
+        cert_epd_li1: "Cradle-to-gate (A1-A3): raw material to factory gate",
+        cert_epd_li2: "End-of-life scenarios (C1-C4)",
+        cert_epd_li3: "Recycling potential (Module D)",
+        cert_epd_note: "<strong>Context:</strong> EPDs show data, not judgment. Comparison with other products requires identical system boundaries.",
+        cert_download_per_product: "Download per product",
+        cert_download: "Download",
+
+        // Fire Safety Card
+        cert_fire_title: "Fire Safety Certificates",
+        cert_fire_desc: "Fire classification according to ISO 9239-1. BFL-S1 and CFL-S1 classifications per product.",
+        cert_fire_what: "Test results",
+        cert_fire_li1: "BFL-S1: Floor covering with lowest fire class",
+        cert_fire_li2: "CFL-S1: Floor covering with good fire performance",
+        cert_fire_li3: "Tested with and without infill",
+        cert_fire_note: "<strong>Application:</strong> Fire class is relevant for indoor spaces and covered installations.",
+
+        // Specification Texts Card
+        cert_spec_title: "Specification Texts",
+        cert_spec_desc: "Standard specification texts for tenders and specifications. RAW and STABU compatible.",
+        cert_spec_what: "Available formats",
+        cert_spec_li1: "RAW systematic texts",
+        cert_spec_li2: "STABU specification items",
+        cert_spec_li3: "Generic specification texts",
+        cert_spec_note: "<strong>Customization:</strong> Specification texts can be adapted to project-specific requirements.",
+
+        // Technical Datasheets Card
+        cert_tech_title: "Technical Datasheets",
+        cert_tech_desc: "Product specifications per system: dimensions, weights, material composition and performance properties.",
+        cert_tech_what: "Specifications",
+        cert_tech_li1: "Fiber height, density, Dtex",
+        cert_tech_li2: "Backing and coating specifications",
+        cert_tech_li3: "UV resistance and color fastness",
+        cert_tech_note: "<strong>Tolerances:</strong> Production specifications include standard tolerances (±5% unless otherwise stated).",
+
+        // Product Passports Card
+        cert_passport_title: "Product Passports",
+        cert_passport_desc: "Circular product passports with material composition, origin and end-of-life information.",
+        cert_passport_what: "Contains information about",
+        cert_passport_li1: "Material composition and origin",
+        cert_passport_li2: "Circularity and recyclability",
+        cert_passport_li3: "Take-back program information",
+        cert_passport_note: "<strong>Digital:</strong> Product Passports are part of the ONE-DNA™ registration system for tracking.",
+
+        // Transparency Section
+        cert_transp_title: "What certificates don't tell",
+        cert_transp1_title: "Certificate ≠ Guarantee",
+        cert_transp1_desc: "A certificate confirms that a product meets specific test requirements at a given moment. It does not guarantee that this remains the case in every practical situation.",
+        cert_transp2_title: "Context is crucial",
+        cert_transp2_desc: "Test conditions in laboratories differ from practice. Temperature, use and maintenance affect performance.",
+        cert_transp3_title: "Comparing is complex",
+        cert_transp3_desc: "EPDs and test reports from different producers sometimes use different system boundaries. Direct comparison is not always possible.",
+
+        // CTA Section
+        cert_cta_title: "Need specific documentation?",
+        cert_cta_desc: "For tenders, CSRD reporting or technical due diligence, we can provide tailored documentation.",
+        cert_cta_btn: "Contact us",
+
+        // Footer additional keys
+        footer_tagline_short: "100% Mono-Material Artificial Grass.<br>Designed for Circularity.",
+        footer_production: "Production process",
+        footer_impact: "Impact",
+        footer_documentation: "Documentation",
+        footer_company: "Company",
+        footer_privacy: "Privacy",
+        footer_terms: "Terms",
+        footer_copyright: "© 2025 ONE-DNA™ - All rights reserved",
+
+        // Blog Page
+        blog_featured_badge: "Featured",
+        blog_featured_date: "December 2025",
+        blog_featured_title: "Circular Materials Plan official: a new era for artificial grass",
+        blog_featured_excerpt: "The Circular Materials Plan has been officially adopted by the State Secretary and enters into force on December 30, 2025. This marks a significant shift for the artificial grass industry towards transparency and circularity.",
+        blog_read_article: "Read article",
+        filter_projects: "Projects",
+        blog_more_note: "All articles are available on this knowledge platform. Click on an article to read."
     },
 
     de: {
