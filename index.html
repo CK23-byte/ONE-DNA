@@ -530,22 +530,22 @@
                         <div class="chat-messages" id="chatMessages">
                             <div class="chat-message chat-message--bot">
                                 <div class="chat-message__content">
-                                    <p>Hoi! Ik help je graag met vragen over:</p>
+                                    <p data-i18n="chat_greeting">Hoi! Ik help je graag met vragen over:</p>
                                     <ul>
-                                        <li>Mono-materiaal technologie & productie</li>
-                                        <li>Take-back systeem & circulariteit</li>
-                                        <li>Certificaten & documentatie</li>
-                                        <li>Installatie & praktische tips</li>
+                                        <li data-i18n="chat_topic1">Mono-materiaal technologie & productie</li>
+                                        <li data-i18n="chat_topic2">Take-back systeem & circulariteit</li>
+                                        <li data-i18n="chat_topic3">Certificaten & documentatie</li>
+                                        <li data-i18n="chat_topic4">Installatie & praktische tips</li>
                                     </ul>
-                                    <p>Waar kan ik je mee helpen?</p>
+                                    <p data-i18n="chat_help_question">Waar kan ik je mee helpen?</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="chat-suggestions" id="chatSuggestions">
-                            <button class="chat-suggestion" onclick="sendSuggestion('Wat maakt ONE-DNA anders dan traditioneel kunstgras?')">Wat maakt ONE-DNA anders?</button>
-                            <button class="chat-suggestion" onclick="sendSuggestion('Hoe werkt het take-back systeem?')">Hoe werkt take-back?</button>
-                            <button class="chat-suggestion" onclick="sendSuggestion('Welke certificaten zijn beschikbaar?')">Welke certificaten?</button>
+                            <button class="chat-suggestion" data-i18n="chat_suggest1" data-suggestion-key="chat_suggest1_full">Wat maakt ONE-DNA anders?</button>
+                            <button class="chat-suggestion" data-i18n="chat_suggest2" data-suggestion-key="chat_suggest2_full">Hoe werkt take-back?</button>
+                            <button class="chat-suggestion" data-i18n="chat_suggest3" data-suggestion-key="chat_suggest3_full">Welke certificaten?</button>
                         </div>
 
                         <form class="chat-input" id="chatForm">
@@ -553,6 +553,7 @@
                                 type="text"
                                 id="chatInput"
                                 placeholder="Stel je vraag..."
+                                data-i18n-placeholder="chat_placeholder"
                                 autocomplete="off"
                                 aria-label="Chat bericht"
                             >
