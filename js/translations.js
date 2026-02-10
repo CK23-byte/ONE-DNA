@@ -57,6 +57,60 @@ const translations = {
         tech_impact_title: "Tot 50% lagere CO₂-uitstoot",
         tech_impact_subtitle: "Gemeten volgens EPD-certificering, scope A1-A3 (grondstofwinning tot en met productie)",
 
+        // Technology Page - Problem Section
+        tech_dim_long: "lang",
+        tech_dim_wide: "breed",
+        tech_dim_diameter: "doorsnee",
+        tech_problem_oven_title: "De droogoven: een fabriek op zich",
+        tech_problem_oven_p1: "Elk traditioneel kunstgrasveld begint op een <strong>polypropyleen (PP) backing</strong>. Op deze backing wordt een latex of polyurethaan coating aangebracht die het garen vasthoudt.",
+        tech_problem_oven_p2: "Maar latex is watergedragen. Om het te laten uitharden moet al dat water verdampen. Dat gebeurt in droogovens die <strong>tot 120 meter lang en 5 meter breed</strong> kunnen zijn.",
+        tech_problem_heat_title: "Indirecte warmteoverdracht",
+        tech_problem_heat_p1: "Deze ovens werken met <strong>indirecte warmteoverdracht</strong> - de lucht moet eerst worden opgewarmd voordat het de coating kan drogen. Stel je voor: een ruimte van 600m² constant op temperatuur houden om water te verdampen.",
+        tech_problem_heat_p2: "Het resultaat? Een <strong>enorme energiebehoefte</strong> voor elke vierkante meter kunstgras die geproduceerd wordt.",
+        tech_problem_multi_title: "Multi-materiaal constructie",
+        tech_problem_multi_desc: "PP backing + PE vezels + latex coating = meerdere materiaalstromen die aan het einde van de levensduur niet meer van elkaar te scheiden zijn.",
+
+        // Technology Page - Solution Section
+        tech_solution_roller: "Verhitte wals",
+        tech_solution_oven: "Traditionele droogoven",
+        tech_solution_card1_title: "Geen coating, geen droogoven",
+        tech_solution_card1_desc: "ONE-DNA™ kunstgras heeft <strong>geen latex of PU coating nodig</strong>. In plaats daarvan worden de PE vezels direct thermisch gefixeerd in de PE backing met een verhitte wals.",
+        tech_solution_card2_title: "Directe warmteoverdracht",
+        tech_solution_card2_desc: "De wals van <strong>1 meter doorsnee</strong> brengt warmte direct over op het materiaal. Geen enorme ruimte die op temperatuur gehouden moet worden. Geen water dat verdampt moet worden.",
+        tech_solution_card2_result: "<strong>Lokale energiebehoefte</strong> in plaats van een industriële drooginstallatie.",
+        tech_solution_card3_title: "Mono-materiaal: 100% PE",
+        tech_solution_card3_desc: "PE vezels + PE backing = één materiaalstroom. Geen scheiding nodig aan het einde van de levensduur. Ontworpen voor circulariteit vanaf het begin.",
+
+        // Technology Page - Impact Section
+        tech_impact_stat_desc: "<strong>Tot 50% lagere productie-uitstoot</strong> ten opzichte van traditioneel geproduceerd kunstgras. Het exacte percentage verschilt per producttype en is gedocumenteerd in de EPD-certificeringen.",
+        tech_impact_why: "Waarom dit verschil?",
+        tech_factor1_title: "Geen droogovens",
+        tech_factor1_desc: "Thermofixatie vervangt energie-intensieve droogprocessen",
+        tech_factor2_title: "Directe warmte",
+        tech_factor2_desc: "Lokale energie-input versus indirecte warmteoverdracht",
+        tech_factor3_title: "Mono-materiaal",
+        tech_factor3_desc: "Minder verwerkingsstappen, efficiëntere productielijn",
+        tech_epd_title: "EPD-certificering (A1-A3)",
+        tech_epd_desc: "De uitstootcijfers zijn onafhankelijk geverifieerd volgens de EPD-standaard. Scope A1-A3 omvat de volledige productieketen: van grondstofwinning tot het verlaten van de fabriek.",
+        tech_epd_btn: "Bekijk EPD-certificaten",
+
+        // Technology Page - Why Section
+        tech_why_title: "Waarom materiaalsamenstelling er toe doet",
+        tech_why_lead: "Het gaat niet alleen om wat er aan het einde gebeurt. De keuze voor mono-materiaal beïnvloedt het hele productieproces.",
+        tech_why1_title: "Efficiënter produceren",
+        tech_why1_desc: "Geen coating betekent geen droogovens. Mono-materiaal maakt een fundamenteel ander productieproces mogelijk met significant lagere energie-input.",
+        tech_why2_title: "Lagere milieu-impact",
+        tech_why2_desc: "Tot 50% lagere CO₂-uitstoot in de productie (A1-A3 scope). Elke vierkante meter ONE-DNA™ heeft een kleinere voetafdruk dan traditioneel geproduceerd kunstgras.",
+        tech_why3_title: "Ontworpen voor circulariteit",
+        tech_why3_desc: "100% PE maakt mechanische recycling mogelijk zonder complexe scheiding. Het materiaal kan opnieuw worden ingezet via het <a href=\"circularity.html\">take-back programma</a>.",
+        tech_why_note: "<strong>Transparantie:</strong> De exacte uitstootcijfers variëren per producttype en zijn gedocumenteerd in de individuele EPD-certificaten. <a href=\"documentation.html#product\">Bekijk alle specificaties</a>.",
+
+        // Technology Page - CTA Section
+        tech_cta_title: "Verdiep je in de data",
+        tech_cta_desc: "Bekijk de technische specificaties, EPD-certificaten en onafhankelijke testresultaten.",
+        tech_cta_btn1: "EPD-certificaten",
+        tech_cta_btn2: "Technische specs",
+
         // Circularity Page
         circ_context_label: "Achtergrond",
         circ_context_title: "Waarom circulariteit bij kunstgras complex is",
@@ -457,6 +511,60 @@ const translations = {
         tech_impact_label: "Certified results",
         tech_impact_title: "Up to 50% lower CO₂ emissions",
         tech_impact_subtitle: "Measured according to EPD certification, scope A1-A3 (raw material extraction through production)",
+
+        // Technology Page - Problem Section
+        tech_dim_long: "long",
+        tech_dim_wide: "wide",
+        tech_dim_diameter: "diameter",
+        tech_problem_oven_title: "The drying oven: a factory in itself",
+        tech_problem_oven_p1: "Every traditional artificial grass field starts on a <strong>polypropylene (PP) backing</strong>. A latex or polyurethane coating is applied to this backing to hold the yarn.",
+        tech_problem_oven_p2: "But latex is water-based. To cure it, all that water must evaporate. This happens in drying ovens that can be <strong>up to 120 meters long and 5 meters wide</strong>.",
+        tech_problem_heat_title: "Indirect heat transfer",
+        tech_problem_heat_p1: "These ovens work with <strong>indirect heat transfer</strong> - the air must first be heated before it can dry the coating. Imagine: keeping a space of 600m² constantly at temperature to evaporate water.",
+        tech_problem_heat_p2: "The result? A <strong>huge energy requirement</strong> for every square meter of artificial grass produced.",
+        tech_problem_multi_title: "Multi-material construction",
+        tech_problem_multi_desc: "PP backing + PE fibers + latex coating = multiple material streams that can no longer be separated at the end of their lifespan.",
+
+        // Technology Page - Solution Section
+        tech_solution_roller: "Heated roller",
+        tech_solution_oven: "Traditional drying oven",
+        tech_solution_card1_title: "No coating, no drying oven",
+        tech_solution_card1_desc: "ONE-DNA™ artificial grass <strong>needs no latex or PU coating</strong>. Instead, the PE fibers are thermally fixed directly into the PE backing with a heated roller.",
+        tech_solution_card2_title: "Direct heat transfer",
+        tech_solution_card2_desc: "The roller with <strong>1 meter diameter</strong> transfers heat directly to the material. No huge space that needs to be kept at temperature. No water that needs to evaporate.",
+        tech_solution_card2_result: "<strong>Local energy requirement</strong> instead of an industrial drying installation.",
+        tech_solution_card3_title: "Mono-material: 100% PE",
+        tech_solution_card3_desc: "PE fibers + PE backing = one material stream. No separation needed at the end of life. Designed for circularity from the start.",
+
+        // Technology Page - Impact Section
+        tech_impact_stat_desc: "<strong>Up to 50% lower production emissions</strong> compared to traditionally produced artificial grass. The exact percentage varies by product type and is documented in the EPD certifications.",
+        tech_impact_why: "Why this difference?",
+        tech_factor1_title: "No drying ovens",
+        tech_factor1_desc: "Thermofixation replaces energy-intensive drying processes",
+        tech_factor2_title: "Direct heat",
+        tech_factor2_desc: "Local energy input versus indirect heat transfer",
+        tech_factor3_title: "Mono-material",
+        tech_factor3_desc: "Fewer processing steps, more efficient production line",
+        tech_epd_title: "EPD certification (A1-A3)",
+        tech_epd_desc: "The emission figures are independently verified according to the EPD standard. Scope A1-A3 covers the complete production chain: from raw material extraction to leaving the factory.",
+        tech_epd_btn: "View EPD certificates",
+
+        // Technology Page - Why Section
+        tech_why_title: "Why material composition matters",
+        tech_why_lead: "It's not just about what happens at the end. The choice for mono-material influences the entire production process.",
+        tech_why1_title: "More efficient production",
+        tech_why1_desc: "No coating means no drying ovens. Mono-material enables a fundamentally different production process with significantly lower energy input.",
+        tech_why2_title: "Lower environmental impact",
+        tech_why2_desc: "Up to 50% lower CO₂ emissions in production (A1-A3 scope). Every square meter of ONE-DNA™ has a smaller footprint than traditionally produced artificial grass.",
+        tech_why3_title: "Designed for circularity",
+        tech_why3_desc: "100% PE enables mechanical recycling without complex separation. The material can be reused via the <a href=\"circularity.html\">take-back program</a>.",
+        tech_why_note: "<strong>Transparency:</strong> The exact emission figures vary by product type and are documented in the individual EPD certificates. <a href=\"documentation.html#product\">View all specifications</a>.",
+
+        // Technology Page - CTA Section
+        tech_cta_title: "Dive into the data",
+        tech_cta_desc: "View the technical specifications, EPD certificates and independent test results.",
+        tech_cta_btn1: "EPD certificates",
+        tech_cta_btn2: "Technical specs",
 
         // Circularity Page
         circ_context_label: "Background",
