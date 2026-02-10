@@ -61,7 +61,7 @@
     <div class="top-bar">
         <div class="container">
             <div class="top-bar__items">
-                <span class="top-bar__item top-bar__item--statement">ONE-DNA™ is geen belofte, maar een ontwerpprincipe</span>
+                <span class="top-bar__item top-bar__item--statement" data-i18n="topbar_statement">ONE-DNA™ is geen belofte, maar een ontwerpprincipe</span>
             </div>
             <div class="top-bar__contact">
                 <a href="https://www.one-dna.com" target="_blank" rel="noopener">one-dna.com ↗</a>
@@ -184,19 +184,19 @@
         <section class="blog-featured" id="blog-featured">
             <div class="container">
                 <article class="featured-article">
-                    <div class="featured-article__badge">Uitgelicht</div>
+                    <div class="featured-article__badge" data-i18n="blog_featured_badge">Uitgelicht</div>
                     <div class="featured-article__content">
                         <div class="article-meta">
-                            <span class="article-category article-category--regulation">Regelgeving</span>
-                            <time datetime="2025-12-30">December 2025</time>
+                            <span class="article-category article-category--regulation" data-i18n="cat_regulation">Regelgeving</span>
+                            <time datetime="2025-12-30" data-i18n="blog_featured_date">December 2025</time>
                         </div>
                         <h2 class="featured-article__title">
-                            <a href="#cmp" onclick="openArticle('cmp'); return false;">Circulair Materialen Plan officieel: een nieuw tijdperk voor kunstgras</a>
+                            <a href="#cmp" onclick="openArticle('cmp'); return false;" data-i18n="blog_featured_title">Circulair Materialen Plan officieel: een nieuw tijdperk voor kunstgras</a>
                         </h2>
-                        <p class="featured-article__excerpt">
+                        <p class="featured-article__excerpt" data-i18n="blog_featured_excerpt">
                             Het Circulair Materialen Plan is officieel vastgesteld door de staatssecretaris en treedt in werking per 30 december 2025. Dit markeert een significante verschuiving voor de kunstgrasindustrie richting transparantie en circulariteit.
                         </p>
-                        <a href="#cmp" onclick="openArticle('cmp'); return false;" class="btn btn-primary">Lees artikel</a>
+                        <a href="#cmp" onclick="openArticle('cmp'); return false;" class="btn btn-primary" data-i18n="blog_read_article">Lees artikel</a>
                     </div>
                 </article>
             </div>
@@ -207,11 +207,11 @@
             <div class="container">
                 <!-- Article Filter/Categories -->
                 <div class="blog-filters">
-                    <button class="filter-btn active" data-filter="all">Alles</button>
-                    <button class="filter-btn" data-filter="regulation">Regelgeving</button>
-                    <button class="filter-btn" data-filter="sustainability">Duurzaamheid</button>
-                    <button class="filter-btn" data-filter="projects">Projecten</button>
-                    <button class="filter-btn" data-filter="innovation">Innovatie</button>
+                    <button class="filter-btn active" data-filter="all" data-i18n="filter_all">Alles</button>
+                    <button class="filter-btn" data-filter="regulation" data-i18n="filter_regulation">Regelgeving</button>
+                    <button class="filter-btn" data-filter="sustainability" data-i18n="filter_sustainability">Duurzaamheid</button>
+                    <button class="filter-btn" data-filter="projects" data-i18n="filter_projects">Projecten</button>
+                    <button class="filter-btn" data-filter="innovation" data-i18n="filter_innovation">Innovatie</button>
                 </div>
 
                 <!-- Articles Grid -->
@@ -371,7 +371,7 @@
 
                 <!-- More Articles Note -->
                 <div class="blog-more">
-                    <p>Alle artikelen zijn beschikbaar op dit kennisplatform. Klik op een artikel om te lezen.</p>
+                    <p data-i18n="blog_more_note">Alle artikelen zijn beschikbaar op dit kennisplatform. Klik op een artikel om te lezen.</p>
                 </div>
             </div>
         </section>
@@ -379,7 +379,7 @@
         <!-- Full Article View (Initially Hidden) -->
         <section class="article-full" id="article-view" style="display: none;">
             <div class="container">
-                <button class="back-to-list" onclick="closeArticle()">&larr; Terug naar overzicht</button>
+                <button class="back-to-list" onclick="closeArticle()" data-i18n="back_to_list">&larr; Terug naar overzicht</button>
 
                 <!-- CMP ARTICLE CONTENT -->
                 <article class="article-content" id="article-cmp">
@@ -1222,7 +1222,7 @@
                 <!-- Brand -->
                 <div class="footer__brand">
                     <img src="assets/images/Logo-ONE-DNA-2023-registeredTM.png" alt="ONE-DNA™" class="footer__logo" width="140" height="32">
-                    <p class="footer__tagline">100% Mono-Materiaal Kunstgras.<br>Ontworpen voor Circulariteit.</p>
+                    <p class="footer__tagline" data-i18n="footer_tagline_short">100% Mono-Materiaal Kunstgras.<br>Ontworpen voor Circulariteit.</p>
 
                     <!-- Contact -->
                     <div class="footer__contact">
@@ -1247,32 +1247,32 @@
                 <!-- Navigation Columns -->
                 <div class="footer__nav">
                     <div class="footer__col">
-                        <h4>Technologie</h4>
+                        <h4 data-i18n="nav_technology">Technologie</h4>
                         <ul>
-                            <li><a href="products.html#video">Video</a></li>
-                            <li><a href="products.html#impact">Impact</a></li>
+                            <li><a href="products.html#video" data-i18n="footer_nav_video">Video</a></li>
+                            <li><a href="products.html#impact" data-i18n="footer_impact">Impact</a></li>
                         </ul>
                     </div>
                     <div class="footer__col">
-                        <h4>Circulariteit</h4>
+                        <h4 data-i18n="nav_circularity">Circulariteit</h4>
                         <ul>
-                            <li><a href="circularity.html#context">Achtergrond</a></li>
-                            <li><a href="circularity.html#take-back">Take-back Systeem</a></li>
-                            <li><a href="circularity.html#partners">Partners</a></li>
+                            <li><a href="circularity.html#context" data-i18n="nav_background">Achtergrond</a></li>
+                            <li><a href="circularity.html#take-back" data-i18n="nav_takeback">Take-back Systeem</a></li>
+                            <li><a href="circularity.html#partners" data-i18n="nav_partners">Partners</a></li>
                         </ul>
                     </div>
                     <div class="footer__col">
-                        <h4>Documentatie</h4>
+                        <h4 data-i18n="footer_documentation">Documentatie</h4>
                         <ul>
-                            <li><a href="documentation.html#algemeen">Algemene Certificaten</a></li>
-                            <li><a href="documentation.html#product">Productcertificaten</a></li>
+                            <li><a href="documentation.html#algemeen" data-i18n="nav_general_certs">Algemene Certificaten</a></li>
+                            <li><a href="documentation.html#product" data-i18n="nav_product_certs">Productcertificaten</a></li>
                         </ul>
                     </div>
                     <div class="footer__col">
-                        <h4>Bedrijf</h4>
+                        <h4 data-i18n="footer_company">Bedrijf</h4>
                         <ul>
                             <li><a href="https://www.one-dna.com" target="_blank" rel="noopener">one-dna.com</a></li>
-                            <li><a href="blog.html">Inzichten</a></li>
+                            <li><a href="blog.html" data-i18n="nav_insights">Inzichten</a></li>
                             <li><a href="https://www.one-dna.com/changemakers" target="_blank" rel="noopener">Changemakers</a></li>
                         </ul>
                     </div>
@@ -1281,12 +1281,12 @@
 
             <!-- Knowledge Platform Statement -->
             <div class="footer__platform-statement">
-                <h3>Over Dit Kennisplatform</h3>
-                <p>
+                <h3 data-i18n="footer_platform_title">Over Dit Kennisplatform</h3>
+                <p data-i18n="footer_platform_desc">
                     Dit platform biedt feitelijke, technische en beleidsmatige context
                     ter ondersteuning van geïnformeerde besluitvorming rondom ONE-DNA™.
                 </p>
-                <p>
+                <p data-i18n="footer_platform_commercial">
                     <strong>Commerciële vragen?</strong> Zie
                     <a href="https://www.one-dna.com" target="_blank" rel="noopener">www.one-dna.com</a>
                 </p>
@@ -1295,14 +1295,14 @@
             <!-- Footer Legal -->
             <div class="footer__legal">
                 <div class="footer__legal-links">
-                    <a href="privacy.html">Privacy</a>
+                    <a href="privacy.html" data-i18n="footer_privacy">Privacy</a>
                     <a href="cookies.html">Cookies</a>
-                    <a href="terms.html">Voorwaarden</a>
+                    <a href="terms.html" data-i18n="footer_terms">Voorwaarden</a>
                     <a href="disclaimer.html">Disclaimer</a>
                 </div>
 
                 <div class="footer__copyright">
-                    <p>&copy; 2025 ONE-DNA™ - Alle rechten voorbehouden</p>
+                    <p data-i18n="footer_copyright">&copy; 2025 ONE-DNA™ - Alle rechten voorbehouden</p>
                     <p class="footer__tm">ONE-DNA™ is an official trademark of Limegreen Holding B.V.</p>
                 </div>
             </div>
